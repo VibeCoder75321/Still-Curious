@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#141c19">
+  <meta name="description" content="Thoughtful conversations for curious minds. Listen to the library or make an episode of your own.">
+  <title>Still Curious — Your listening library</title>
+  <link rel="stylesheet" href="/styles.css"><script src="/library.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to library</a>
+  <header class="topbar"><a class="wordmark" href="#library"><span class="mark" aria-hidden="true">✳</span> still curious</a><a class="header-create" href="#create">Make your own <span aria-hidden="true">↗</span></a></header>
+  <main class="layout" id="home">
+    <section id="library" aria-labelledby="library-title">
+      <div class="library-heading"><div><p class="eyebrow">A little room for curiosity</p><h1 id="library-title">Your listening library.</h1><p class="lead">Thoughtful conversations, ready when you are.</p></div></div>
+      <div class="library-nav"><div class="library-tabs" role="group" aria-label="Choose library"><button id="free-tab" type="button" aria-pressed="true" aria-controls="free-panel">Free episodes</button><button id="yours-tab" type="button" aria-pressed="false" aria-controls="saved-panel">Your episodes</button></div><button id="archive-tab" type="button" class="text-button" aria-pressed="false" aria-controls="archive-panel" hidden>Archived</button></div>
+      <div id="free-panel"><div id="library-grid" class="episode-grid"><p class="status">Loading episodes…</p></div></div>
+      <div id="saved-panel" hidden><div id="saved-list" class="episode-grid"><p class="status">Loading your episodes…</p></div></div>
+      <div id="archive-panel" hidden><p class="archive-note">Saved work stays here. Restoring an episode does not restart creation.</p><div id="archive-list" class="episode-grid"></div></div>
+      <p id="library-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+    <section id="create" class="create" aria-labelledby="create-title">
+      <div class="create-intro"><span class="section-number" aria-hidden="true">＋</span><h2 id="create-title">Make your own.</h2><p class="description">What would you like to understand?</p></div>
+      <div class="create-body"><form id="create-form"><label class="sr-only" for="topic">Topic or question</label><textarea id="topic" name="topic" maxlength="500" rows="2" required placeholder="A topic, a question, a passing curiosity…"></textarea>
+        <div class="create-actions"><fieldset><legend class="sr-only">Episode length</legend><div class="length-options"><label><input id="length-5" type="radio" name="length" value="5" checked><span>5 min</span></label><label><input id="length-15" type="radio" name="length" value="15" disabled><span>15 min</span></label></div></fieldset><button id="create-button" class="primary" type="submit" disabled aria-describedby="create-status">Checking availability…</button></div>
+        <details id="creation-options" class="creation-options" hidden><summary>Advanced options</summary><label class="check-option"><input id="text-only" type="checkbox"> Create a script only</label><label class="check-option"><input id="preview-first" type="checkbox"> Preview voices before recording the full episode</label><button id="voice-preview-button" class="text-button" type="button">Hear a voice sample ↗</button></details>
+      </form><p id="create-status" class="status" role="status" aria-live="polite">Checking availability…</p>
+      <section id="custom-result" class="result" hidden aria-labelledby="result-title"><div class="result-top"><span id="result-state" class="quiet-tag"></span><button id="close-result" class="text-button" type="button" aria-label="Close episode details">Close</button></div><h3 id="result-title"></h3><p id="progress-label" class="progress-label"></p><progress id="progress" aria-label="Creating episode" hidden></progress><p id="result-status" class="status" role="status" aria-live="polite"></p>
+        <div class="job-controls"><button id="job-listen-button" class="primary" type="button" hidden>Play episode</button><button id="resume-button" class="primary" type="button" hidden>Continue creating</button><button id="pause-button" class="text-button" type="button" hidden>Pause</button><button id="cancel-button" class="text-button" type="button" hidden>Stop and archive</button><button id="archive-button" class="text-button" type="button" hidden>Archive</button><button id="start-episode-button" class="primary" type="button" hidden>Start episode</button><button id="generate-audio-button" class="primary" type="button" hidden>Record episode</button><button id="accept-preview-button" class="primary" type="button" hidden>Keep these voices and finish</button></div>
+        <div class="episode-exports"><a id="result-transcript" href="#" hidden>Transcript</a><a id="result-reading-list" href="#" hidden>Reading List</a></div>
+      </section></div>
+    </section>
+  </main>
+  <section id="now-playing" class="player-dock" hidden aria-label="Now playing">
+    <div id="now-content" hidden>
+      <div id="player-details" class="player-details" hidden>
+        <div class="details-heading"><h2 id="now-title" tabindex="-1">Now playing</h2><button id="collapse-player" class="text-button" type="button">Close details ↓</button></div>
+        <p id="now-kind" class="eyebrow" hidden></p><h3 id="now-episode-title"></h3><p id="now-overview" class="description"></p><p id="now-length" class="episode-length"></p>
+        <div class="player-tools"><label for="playback-speed">Speed<select id="playback-speed"><option value="1.2">1.2×</option><option value="1" selected>1×</option><option value="0.9">0.9×</option><option value="0.8">0.8×</option><option value="0.7">0.7×</option><option value="0.6">0.6×</option></select></label><label for="sleep-timer">Sleep timer<select id="sleep-timer"><option value="0">Off</option><option value="15">15 min</option><option value="30">30 min</option><option value="45">45 min</option></select></label></div>
+        <p id="now-status" class="status" role="status" aria-live="polite">Ready to play.</p>
+        <details id="reading-list" class="reading-list"><summary>Reading List</summary><p id="reading-note" class="status"></p><ol id="reading-links"></ol><a id="reading-export" href="#" hidden>Download Reading List</a><a id="transcript-link" href="#" hidden>Download transcript</a></details>
+      </div>
+      <div class="player-bar"><button id="expand-player" class="player-identity" type="button" aria-expanded="false" aria-controls="player-details"><span class="mini-cover" aria-hidden="true">✳</span><span class="mini-copy"><span class="mini-label">Now playing</span><strong id="mini-title"></strong><span id="mini-settings">1× · Timer off</span></span><span class="expand-arrow" aria-hidden="true">⌃</span></button>
+        <div class="transport"><button id="skip-back" class="skip-button" type="button" aria-label="Back 15 seconds">↶<span>15</span></button><button id="play-toggle" class="play-toggle" type="button" aria-label="Play">▶</button><button id="skip-forward" class="skip-button" type="button" aria-label="Forward 15 seconds">↷<span>15</span></button></div>
+        <div class="timeline"><span id="elapsed">0:00</span><label class="sr-only" for="seek">Playback position</label><input id="seek" type="range" min="0" max="1000" value="0" disabled><span id="total-time">0:00</span></div>
+      </div><audio id="now-audio" preload="metadata" aria-label="Selected episode"></audio>
+    </div>
+  </section>
+</body>
+</html>

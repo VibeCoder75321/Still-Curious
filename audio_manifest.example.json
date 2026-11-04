@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "episode_id": "wayfinding-audition",
+  "clips": [
+    {
+      "turn_id": "t01",
+      "path": "audio/t01.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t02",
+      "path": "audio/t02.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t03",
+      "path": "audio/t03.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t04",
+      "path": "audio/t04.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t05",
+      "path": "audio/t05.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t06",
+      "path": "audio/t06.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t07",
+      "path": "audio/t07.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t08",
+      "path": "audio/t08.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t09",
+      "path": "audio/t09.wav",
+      "pause_after_ms": 350
+    },
+    {
+      "turn_id": "t10",
+      "path": "audio/t10.wav",
+      "pause_after_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,1622 @@
+{
+  "id": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "userId": "local-measured-pilot",
+  "topic": "pharmaceutical process development and chemistry",
+  "title": "From Flask to Factory",
+  "lengthMinutes": 15,
+  "createdAt": 1792108438825,
+  "updatedAt": 1792108979820,
+  "schemaVersion": 2,
+  "pipelineVersion": 2,
+  "textOnly": true,
+  "status": "paused",
+  "stage": "research",
+  "substep": "read",
+  "config": {
+    "schemaVersion": 2,
+    "pipelineVersion": 2,
+    "introductionTargetSeconds": {
+      "min": 45,
+      "max": 60
+    },
+    "spokenWordTarget": {
+      "min": 1650,
+      "max": 2100
+    },
+    "audioDurationSeconds": {
+      "min": 720,
+      "max": 1170
+    },
+    "audio": {
+      "maxCharacters": 15000,
+      "chunkMaxCharacters": 1800
+    },
+    "limits": {
+      "maxProviderOperations": 128,
+      "maxSearchCalls": 4,
+      "maxSourceReads": 8,
+      "maxConversationTurns": 64,
+      "maxContributionRequestRounds": 9,
+      "maxEditPasses": 1,
+      "maxReviewPasses": 2,
+      "maxLocalRepairPasses": 1,
+      "maxSectionRevisionPasses": 1,
+      "maxPostConversationSourceReads": 1,
+      "spendCeilingUsd": 5
+    },
+    "profileVersion": "fifteen-minute-pilot-v1",
+    "lengthMinutes": 15,
+    "targetDurationSeconds": 900
+  },
+  "progress": {
+    "message": "Source access and relevant passages saved",
+    "readSourceCount": 2
+  },
+  "state": {
+    "artifacts": {
+      "episode-brief:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "episode-brief:1",
+        "kind": "episode_brief",
+        "version": 1,
+        "createdAt": "2026-10-15T23:55:56.885Z",
+        "provenance": {
+          "inputVersions": [],
+          "editorialVersion": "framework-2.1/producer-excerpts-1/original-unavailable",
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.1.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh"
+          },
+          "usageRecordIds": [
+            "attempt_8faf8826-ddfe-4dbc-aaa9-b4e71ad299d6"
+          ]
+        },
+        "data": {
+          "originalRequest": "pharmaceutical process development and chemistry",
+          "mainCuriosity": "How chemists assess and develop the practical chemistry needed to make a medicine's active ingredient reliably beyond the laboratory.",
+          "interpretation": "inferred",
+          "interpretationNote": "The listener explicitly named 'pharmaceutical process development and chemistry' but supplied no particular question, product type or technical level. Focusing on the transition from a laboratory synthesis to small-molecule active-ingredient manufacture is a modest editorial choice, not a stated preference. Confidence in that specific focus is limited; nothing in the request establishes the listener's occupation, expertise or personal reasons for asking.",
+          "centralQuestion": "How do chemists decide whether a laboratory synthesis is suitable for reliably manufacturing a medicine's active ingredient?",
+          "listenerPromise": "By the end, the listener should be able to follow one real process-development decision: what was measured, which options were considered, and why laboratory success alone was not the whole question.",
+          "startingKnowledge": "Assume no specialist chemistry or pharmaceutical-industry knowledge. Introduce terms when needed and use a single concrete process to keep the discussion intelligible without diagrams.",
+          "essentialFoundations": [
+            "Distinguish a medicine's active ingredient from its finished formulation, and locate this episode within active-ingredient process development.",
+            "Introduce a synthetic route as a sequence of chemical steps, with only the necessary distinctions among yield, selectivity and purity.",
+            "Give the listener a simple distinction between carrying out a reaction and isolating the desired material from the resulting mixture.",
+            "Introduce the particular meaning of scale and reliability needed for the documented case, rather than offering a general manufacturing glossary."
+          ],
+          "deeperFocus": "Follow one documented small-molecule process through a reaction and subsequent isolation, concentrating on how observations about scale and impurities informed a development decision. Let the evidence determine whether changing the chemistry, adjusting its operation or retaining the approach is the instructive outcome.",
+          "exclusions": [
+            "A general history of the pharmaceutical industry, drug discovery, clinical trials or drug pricing.",
+            "A parallel account of biologics, vaccines, formulation or tablet manufacture.",
+            "An exhaustive treatment of process validation, regulation, supply chains, sustainability metrics or every scale-up technology.",
+            "Operational manufacturing instructions or an assumption that the listener wants professional training."
+          ],
+          "secondaryQuestions": [
+            "What must be measured to judge whether a process remains reproducible when its scale changes?",
+            "How can the way a product is separated from a mixture influence decisions about the preceding chemistry?"
+          ],
+          "premisesToCheck": [
+            "Do not assume that laboratory success predicts manufacturing suitability, or that larger scale necessarily requires a new synthetic route; establish what happened in the selected case.",
+            "Check whether a higher reported yield actually indicates an improved overall process once purity, isolation, reproducibility and safety are considered.",
+            "Check the limits of using one published small-molecule example to illustrate a field that also includes very different products and production methods. These are editorial premises to investigate, not beliefs attributed to the listener."
+          ],
+          "lengthMinutes": 15,
+          "atmosphere": "Composed, personable and quietly absorbing: a prepared academic conversation with clear explanations, restrained warmth and room for genuine uncertainty. Avoid promotional language, manufactured disagreement and decorative factory drama.",
+          "durationAdaptation": {
+            "profileVersion": "fifteen-minute-pilot-v1",
+            "targetDurationSeconds": 900,
+            "introductionTargetSeconds": {
+              "min": 45,
+              "max": 60
+            },
+            "scopeDecision": "narrowed",
+            "scopeRationale": "The broad request could support route selection, reaction engineering, impurity removal, solid-form development, formulation or biologic production. Select small-molecule active-ingredient process development because one documented case can connect chemistry with manufacturing decisions within the supplied 15-minute, 1,650–2,100-word profile. This short-duration adaptation preserves depth by excluding parallel surveys rather than compressing an entire field. The verified verbatim original programme brief is unavailable; the supplied framework excerpts are guidance, not a reconstructed original.",
+            "introductionPurpose": "Within the supplied 45–60 seconds, establish the difference between discovering a useful molecule and developing a way to manufacture its active ingredient, introduce the central question and the three fictional specialists economically, and reach the first substantive question. Avoid a long pharmaceutical-industry overview.",
+            "discussionFocus": "Use most of the remaining 15-minute episode for one sustained, evidence-led case rather than several abbreviated examples. Provide only the foundations needed to follow a reaction, its subsequent isolation and a development decision. One host and three fictional specialists can contribute complementary process-chemistry, reaction-engineering and analytical or isolation perspectives. Their contributions need not be equal in length, and guest-to-guest questioning is optional. These are provisional priorities, not a script or fixed running order.",
+            "endingAim": "Reserve roughly 30–45 seconds to gather what the case made clearer about evaluating a pharmaceutical process, identify one meaningful limit or uncertainty, and offer brief thanks. Do not introduce another manufacturing topic or imply that one case settles how every medicine should be made."
+          },
+          "editorialInputs": {
+            "frameworkVersion": "2.1",
+            "frameworkSourceSha256": "f2dadf2b43e69fe78fdc498a3cee8bf1b1c600853427aec836cdb8d2f5c26d42",
+            "guidanceVersion": "producer-excerpts-1",
+            "programmeBrief": null
+          }
+        }
+      },
+      "research-commission:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "research-commission:1",
+        "kind": "research_commission",
+        "version": 1,
+        "createdAt": "2026-10-15T23:55:56.885Z",
+        "provenance": {
+          "inputVersions": [],
+          "editorialVersion": "framework-2.1/producer-excerpts-1/original-unavailable",
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.1.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh"
+          },
+          "usageRecordIds": [
+            "attempt_8faf8826-ddfe-4dbc-aaa9-b4e71ad299d6"
+          ]
+        },
+        "data": {
+          "episodeBrief": {
+            "id": "episode-brief:1",
+            "kind": "episode_brief",
+            "version": 1
+          },
+          "originalRequest": "pharmaceutical process development and chemistry",
+          "lengthMinutes": 15,
+          "questions": [
+            "For the selected case, what did a successful laboratory synthesis establish, and what still needed to be demonstrated before larger-scale manufacture could be considered reliable?",
+            "Which observations showed whether changing scale affected the reaction or subsequent isolation? What evidence distinguishes effects of scale from changes in equipment, ingredients or operating conditions?",
+            "How were impurities detected and followed through reaction and isolation, and which measurements actually informed a process-development decision?",
+            "What options did the developers compare, including retaining the chemistry with different operating conditions, changing the route, or changing the isolation? What advantages, disadvantages and unresolved uncertainties were documented?",
+            "What does this example allow a listener to understand about process development, and which aspects would differ for other compounds or types of pharmaceutical production?"
+          ],
+          "evidenceRequirements": [
+            "Obtain relevant primary process-development literature and its supporting information for the central case. Establish the compound, development stage, actual production scale and limits of public disclosure; use patent experimental sections cautiously where they add necessary detail.",
+            "Extract the observations that informed the development decision: relevant operating conditions, scale, reaction performance, impurity measurements and isolation results. Identify what was measured directly, what was inferred and whether meaningful comparisons controlled other changing conditions.",
+            "Distinguish yield, purity, reproducibility and process safety rather than treating them as interchangeable evidence of success. Select only a few measurements for the eventual spoken explanation.",
+            "Find an independent technical source supporting the physical or chemical explanation used in the case, and check any necessary regulatory or quality terminology against authoritative guidance. Background guidance must not substitute for evidence about the particular process.",
+            "Seek limitations, unsuccessful trials and plausible competing explanations where available. Record missing information, especially where proprietary reporting prevents a complete comparison."
+          ],
+          "alternativesToExamine": [
+            "Consider whether an apparent scale effect could instead reflect different equipment, raw-material quality, sampling or measurement, rather than assuming batch size itself caused the result.",
+            "Compare route redesign with less extensive changes to operating conditions or isolation, including the possibility that the original approach remained suitable.",
+            "Examine whether a reported improvement in one measure involved a relevant compromise elsewhere, without presuming that every decision is a forced trade-off.",
+            "Distinguish a compelling chemical explanation from practical constraints such as available equipment or material handling when the documented record supports that distinction."
+          ],
+          "storiesToSeek": [
+            "Find one publicly documented small-molecule development case that follows a reaction into product isolation and records the evidence behind retaining or changing part of the process. Prefer an account with enough experimental detail to distinguish measurements from retrospective explanation.",
+            "Look for a documented experiment involving reaction heat, mixing, impurity formation or crystallization whose setup and observation can be described clearly in sound. Use it only if it illuminates the central case rather than creating a second storyline.",
+            "If a useful development history exists, investigate how successive publications, supporting information or patent examples reveal a changing decision. Do not assume that the most dramatic version of the history is the best supported."
+          ],
+          "avoid": [
+            "Do not portray scale-up as simple multiplication, or assume that every laboratory route must be replaced. Investigate what actually changes in the selected case.",
+            "Avoid an encyclopedic tour of pharmaceutical manufacturing, unexplained technical vocabulary, detailed synthesis instructions, or numerical examples that require a screen.",
+            "Do not equate a patent example with commercial practice, a successful pilot batch with validated routine manufacture, or an author's proposed explanation with a demonstrated mechanism.",
+            "Avoid invented factory incidents, quotations, firsthand experiences or credentials for the fictional specialists. Do not generalize one company's published experience to the entire industry.",
+            "Do not treat agreement among fictional specialists as independent verification. Complete research before the exchange rather than staging live research interruptions. Review the finished episode proportionately afterward; a local error calls for a local correction or affected-section revision, not an accuracy percentage or automatic whole-episode regeneration."
+          ],
+          "evidenceSufficiency": "Enough preparation means one well-supported case, a clearly evidenced link between observations and a development decision, an independently supported explanation of its central chemical or physical issue, and at least one relevant alternative or limitation. The evidence must support a modest account of this process, not a universal recipe for manufacturing medicines. If the public record cannot support both reaction and isolation in one case, simplify the account to the better-supported bottleneck rather than inventing a complete development history."
+        }
+      },
+      "source-records:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "source-records:1",
+        "kind": "source_records",
+        "version": 1,
+        "createdAt": "2026-10-15T23:56:47.437Z",
+        "provenance": {
+          "inputVersions": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            }
+          ],
+          "editorialVersion": "framework-2.1/research-1",
+          "prompt": {
+            "id": "source-discovery",
+            "version": "1.1.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high"
+          },
+          "usageRecordIds": [
+            "attempt_ef56e688-7fa6-4363-92d8-7cee9b369186"
+          ]
+        },
+        "data": {
+          "sources": [
+            {
+              "id": "source-1",
+              "title": "Presidential Green Chemistry Challenge: 2010 Greener Reaction Conditions Award",
+              "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+              "authors": [],
+              "publishedOn": "2010 (award year; webpage publication date unclear)",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "institutional",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "reports_on",
+                  "note": "A later Merck-authored historical account also describes the sitagliptin process-development history."
+                }
+              ],
+              "qualifications": [
+                "Institutional award account; useful for identifying the documented alternative to the hydrogenation route and reported comparative outcomes.",
+                "The snippet reports pilot-scale work in 2009, but does not provide experimental methods or establish which variables were held constant."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Institutional award webpage; search snippet provides a summary, not experimental detail.",
+              "passages": [
+                {
+                  "id": "source-1-snippet",
+                  "text": "The evolved transaminase process was reported to eliminate high-pressure hydrogenation, rhodium and iron, and a chiral purification step; the award account reports improvements in productivity, yield, and waste generation.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-2",
+              "title": "Efficient and Convenient Synthetic Routes for Sitagliptin Impurities",
+              "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.201702552",
+              "doi": "10.1002/slct.201702552",
+              "authors": [
+                "Metil et al."
+              ],
+              "publishedOn": "2018",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_impurity_profile_study_2018",
+              "relationships": [],
+              "qualifications": [
+                "Primary study relevant to analytical detection and impurity control in sitagliptin manufacture.",
+                "The snippet describes HPLC and LC–MS identification and reports impurity behavior during workup and isolation; verify the full paper before attributing these findings to the selected route or a particular commercial process."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Publisher page; discovery snippet only. Full author list and experimental details remain to be checked.",
+              "passages": [
+                {
+                  "id": "source-2-snippet",
+                  "text": "The authors report using HPLC and LC–MS to identify process-related impurities and discuss their formation and control, including removal during isolation from a toluene–water mixture.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-3",
+              "title": "Application of On-Line NIR for Process Control during the Manufacture of Sitagliptin",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+              "doi": "10.1021/acs.oprd.5b00409",
+              "authors": [
+                "George Zhou",
+                "Shane Grosser",
+                "Lei Sun",
+                "Gabriel Graffius et al."
+              ],
+              "publishedOn": "2016-03-18",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_online_nir_process_control_2016",
+              "relationships": [],
+              "qualifications": [
+                "Primary process-control study on sitagliptin manufacture; potentially useful for explaining what process measurements can establish.",
+                "The snippet describes calibration using simulated process samples and does not by itself establish scale effects or reproducibility."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "ACS publisher page; discovery snippet only.",
+              "passages": [
+                {
+                  "id": "source-3-snippet",
+                  "text": "The authors developed near-infrared methods with partial least-squares regression using simulated process samples containing sitagliptin free base, water, and process solvents.",
+                  "locator": "Search-result snippet; article abstract/details",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-4",
+              "title": "From Cortisone to Enlicitide: A Journey of Synthetic Chemistry Innovations at Merck",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+              "authors": [],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-1",
+                  "relation": "reports_on",
+                  "note": "Retrospective account of the sitagliptin process-development history also summarized by the EPA award page."
+                }
+              ],
+              "qualifications": [
+                "Retrospective account by Merck-affiliated authors; the snippet connects process development to a later isolation and particle-size optimization problem.",
+                "Secondary account, not a substitute for the underlying experimental report or supporting information."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Open-access retrospective article; verify author list, exact experimental attribution, and cited primary sources during source reading.",
+              "passages": [
+                {
+                  "id": "source-4-snippet",
+                  "text": "The article describes direct crystallization from reaction components and reports that crystallization and particle-size development required careful attention for scale-up, including design-of-experiments work using near-infrared methods.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-5",
+              "title": "Medicinal chemistry and process development of the type 2 diabetes drug sitagliptin",
+              "url": "https://www.sciencedirect.com/science/article/pii/B978044327402200019X",
+              "doi": "10.1016/B978-0-443-27402-2.00019-X",
+              "authors": [
+                "Jinyou Xu",
+                "Guibai Liang"
+              ],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_process_development_history",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "related",
+                  "note": "Provides broader process-development context for the sitagliptin case."
+                }
+              ],
+              "qualifications": [
+                "Secondary chapter focused on sitagliptin medicinal chemistry and process research; may help orient the case and trace its development history.",
+                "Search result does not expose experimental detail sufficient to resolve the commissioned comparisons."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Book chapter; publisher page offers an abstract preview, while full text may require access.",
+              "passages": [
+                {
+                  "id": "source-5-snippet",
+                  "text": "The chapter introduces Merck's process research on the sustainable chemical synthesis of sitagliptin alongside the drug's discovery and medicinal-chemistry history.",
+                  "locator": "Search-result snippet; abstract",
+                  "coverage": "snippet"
+                }
+              ]
+            }
+          ],
+          "research": {
+            "commission": {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            "discoveryRounds": 1,
+            "readSourceIds": [],
+            "pendingSourceIds": [
+              "source-1",
+              "source-2",
+              "source-3",
+              "source-4",
+              "source-5"
+            ],
+            "coverageRationale": "The search prioritized sitagliptin as a candidate single-molecule case because the returned institutional and retrospective sources describe a documented route change, while separate primary studies may supply concrete evidence about impurity control, isolation, and process monitoring. The results offer a promising path to the listener’s reaction-to-isolation story, but they do not yet establish that the measurement and isolation studies document the same route or that the reported improvements isolate scale as the cause. The next discovery step should target the original Merck/Codexis process-development article and its supporting information, then verify its publication notices and compare its stated conditions with the retrospective accounts.",
+            "gaps": [
+              "This focused search surfaced useful accounts of the sitagliptin manufacturing-process change, but not the key original process-development paper with its supporting information. The reported process comparisons, actual production scale, batch-to-batch reproducibility, and controls for changes in equipment, ingredients, or operating conditions still need verification.",
+              "The search found evidence about impurity detection and isolation, and separate evidence about online process monitoring, but did not establish that these observations belong to the same process-development study or connect them to the route-change decision.",
+              "No directly relevant correction, retraction, or expression-of-concern notice for the selected process-development sources was established. A correction surfaced for a separate sitagliptin synthesis paper; its relevance to this manufacturing case is unclear.",
+              "No authoritative regulatory guidance or independent technical source specifically supporting the physical explanation for the selected case was established in this search round."
+            ],
+            "stopReason": "continue"
+          }
+        }
+      },
+      "source-records:2": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "source-records:2",
+        "kind": "source_records",
+        "version": 2,
+        "createdAt": "2026-10-15T23:57:08.644Z",
+        "provenance": {
+          "inputVersions": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:1",
+              "kind": "source_records",
+              "version": 1
+            }
+          ],
+          "editorialVersion": "framework-2.1/research-1",
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.1.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high"
+          },
+          "usageRecordIds": [
+            "attempt_8ce41d75-6175-47ca-ba6e-06cff3bd9c9d"
+          ]
+        },
+        "data": {
+          "sources": [
+            {
+              "id": "source-1",
+              "title": "Presidential Green Chemistry Challenge: 2010 Greener Reaction Conditions Award",
+              "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+              "authors": [],
+              "publishedOn": "2010 (award year; original webpage publication date unclear; page last updated July 27, 2026)",
+              "accessedAt": "2026-10-15T23:57:08.644Z",
+              "sourceType": "institutional",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "reports_on",
+                  "note": "A later Merck-authored historical account also describes the sitagliptin process-development history."
+                }
+              ],
+              "qualifications": [
+                "Institutional award account; useful for identifying the documented alternative to the hydrogenation route and reported comparative outcomes.",
+                "The snippet reports pilot-scale work in 2009, but does not provide experimental methods or establish which variables were held constant.",
+                "The EPA award page is an institutional summary, not the underlying experimental report or supporting information.",
+                "It reports that Merck scaled the process to pilot scale in 2009, but gives no batch size, experimental methods, batch-to-batch data, or detailed comparison conditions.",
+                "The page reports improved productivity using existing equipment, but does not establish which operating conditions or other variables were held constant.",
+                "Its performance figures and process descriptions should be attributed to the EPA account; the page alone does not independently verify the measurements."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "full",
+              "accessNote": "The full EPA webpage body was available and read. It is an institutional award summary, not a primary experimental report.",
+              "passages": [
+                {
+                  "id": "source-1-read-2-1",
+                  "text": "The process has some inherent liabilities however: inadequate stereoselectivity requires a crystallization step, and high-pressure hydrogenation (at 250 psi) requires expensive, specialized manufacturing equipment, and a rhodium catalyst.",
+                  "locator": "“Summary of Technology,” lines 14–16",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-2",
+                  "text": "The evolved transaminase had a compounded improvement in biocatalytic activity of over 25,000-fold, with no detectable amounts of the undesired, S-enantiomer of sitagliptin being formed.",
+                  "locator": "“Summary of Technology,” line 18",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-3",
+                  "text": "The benefits of the new process include a 56 percent improvement in productivity with the existing equipment, a 10–13 percent overall increase in yield, and a 19 percent reduction in overall waste generation.",
+                  "locator": "“Summary of Technology,” line 19",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-4",
+                  "text": "During 2009, Merck scaled up the new process to pilot scale. Plans to commercialize this technology are moving forward.",
+                  "locator": "Lines 21–21",
+                  "coverage": "body"
+                }
+              ]
+            },
+            {
+              "id": "source-2",
+              "title": "Efficient and Convenient Synthetic Routes for Sitagliptin Impurities",
+              "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.201702552",
+              "doi": "10.1002/slct.201702552",
+              "authors": [
+                "Metil et al."
+              ],
+              "publishedOn": "2018",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_impurity_profile_study_2018",
+              "relationships": [],
+              "qualifications": [
+                "Primary study relevant to analytical detection and impurity control in sitagliptin manufacture.",
+                "The snippet describes HPLC and LC–MS identification and reports impurity behavior during workup and isolation; verify the full paper before attributing these findings to the selected route or a particular commercial process."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Publisher page; discovery snippet only. Full author list and experimental details remain to be checked.",
+              "passages": [
+                {
+                  "id": "source-2-snippet",
+                  "text": "The authors report using HPLC and LC–MS to identify process-related impurities and discuss their formation and control, including removal during isolation from a toluene–water mixture.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-3",
+              "title": "Application of On-Line NIR for Process Control during the Manufacture of Sitagliptin",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+              "doi": "10.1021/acs.oprd.5b00409",
+              "authors": [
+                "George Zhou",
+                "Shane Grosser",
+                "Lei Sun",
+                "Gabriel Graffius et al."
+              ],
+              "publishedOn": "2016-03-18",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_online_nir_process_control_2016",
+              "relationships": [],
+              "qualifications": [
+                "Primary process-control study on sitagliptin manufacture; potentially useful for explaining what process measurements can establish.",
+                "The snippet describes calibration using simulated process samples and does not by itself establish scale effects or reproducibility."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "ACS publisher page; discovery snippet only.",
+              "passages": [
+                {
+                  "id": "source-3-snippet",
+                  "text": "The authors developed near-infrared methods with partial least-squares regression using simulated process samples containing sitagliptin free base, water, and process solvents.",
+                  "locator": "Search-result snippet; article abstract/details",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-4",
+              "title": "From Cortisone to Enlicitide: A Journey of Synthetic Chemistry Innovations at Merck",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+              "authors": [],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-1",
+                  "relation": "reports_on",
+                  "note": "Retrospective account of the sitagliptin process-development history also summarized by the EPA award page."
+                }
+              ],
+              "qualifications": [
+                "Retrospective account by Merck-affiliated authors; the snippet connects process development to a later isolation and particle-size optimization problem.",
+                "Secondary account, not a substitute for the underlying experimental report or supporting information."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Open-access retrospective article; verify author list, exact experimental attribution, and cited primary sources during source reading.",
+              "passages": [
+                {
+                  "id": "source-4-snippet",
+                  "text": "The article describes direct crystallization from reaction components and reports that crystallization and particle-size development required careful attention for scale-up, including design-of-experiments work using near-infrared methods.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-5",
+              "title": "Medicinal chemistry and process development of the type 2 diabetes drug sitagliptin",
+              "url": "https://www.sciencedirect.com/science/article/pii/B978044327402200019X",
+              "doi": "10.1016/B978-0-443-27402-2.00019-X",
+              "authors": [
+                "Jinyou Xu",
+                "Guibai Liang"
+              ],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_process_development_history",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "related",
+                  "note": "Provides broader process-development context for the sitagliptin case."
+                }
+              ],
+              "qualifications": [
+                "Secondary chapter focused on sitagliptin medicinal chemistry and process research; may help orient the case and trace its development history.",
+                "Search result does not expose experimental detail sufficient to resolve the commissioned comparisons."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Book chapter; publisher page offers an abstract preview, while full text may require access.",
+              "passages": [
+                {
+                  "id": "source-5-snippet",
+                  "text": "The chapter introduces Merck's process research on the sustainable chemical synthesis of sitagliptin alongside the drug's discovery and medicinal-chemistry history.",
+                  "locator": "Search-result snippet; abstract",
+                  "coverage": "snippet"
+                }
+              ]
+            }
+          ],
+          "research": {
+            "commission": {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            "discoveryRounds": 1,
+            "readSourceIds": [
+              "source-1"
+            ],
+            "pendingSourceIds": [
+              "source-2",
+              "source-3",
+              "source-4",
+              "source-5"
+            ],
+            "coverageRationale": "This reading adds a concrete account of the route change: the prior hydrogenation route’s reported liabilities, the evolved transaminase approach, headline productivity/yield/waste figures, and the reported 2009 pilot-scale step. It supports a limited description of the development decision, but not a detailed reconstruction of the experiments or a claim that scale alone caused the reported outcomes. The central gaps remain the underlying primary study and supporting information, reproducibility evidence, detailed impurity and isolation data, and the status and performance of later routine manufacture.",
+            "gaps": [
+              "The page does not provide the primary experimental report or supporting information needed to verify methods, actual batch scale, operating conditions, or the reported performance comparisons.",
+              "It does not report repeat batches or other evidence of reproducibility, nor enough detail to distinguish scale effects from changes in equipment, ingredients, or operating conditions.",
+              "It gives no impurity measurements beyond reporting no detectable S-enantiomer, and does not describe analytical methods, detection limits, or product isolation results for the new route.",
+              "It reports pilot-scale work in 2009 and then-current plans to commercialize, but does not establish subsequent commercial status or routine manufacturing performance.",
+              "The page does not document the alternatives considered in detail or the evidence behind selecting the evolved transaminase over other development options."
+            ],
+            "stopReason": "continue"
+          }
+        }
+      },
+      "source-records:3": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "source-records:3",
+        "kind": "source_records",
+        "version": 3,
+        "createdAt": "2026-10-15T23:57:35.139Z",
+        "provenance": {
+          "inputVersions": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:2",
+              "kind": "source_records",
+              "version": 2
+            }
+          ],
+          "editorialVersion": "framework-2.1/research-1",
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.1.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high"
+          },
+          "usageRecordIds": [
+            "attempt_64f7ef29-3a5c-401a-8a9f-83f1c98e1a64"
+          ]
+        },
+        "data": {
+          "sources": [
+            {
+              "id": "source-1",
+              "title": "Presidential Green Chemistry Challenge: 2010 Greener Reaction Conditions Award",
+              "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+              "authors": [],
+              "publishedOn": "2010 (award year; original webpage publication date unclear; page last updated July 27, 2026)",
+              "accessedAt": "2026-10-15T23:57:08.644Z",
+              "sourceType": "institutional",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "reports_on",
+                  "note": "A later Merck-authored historical account also describes the sitagliptin process-development history."
+                }
+              ],
+              "qualifications": [
+                "Institutional award account; useful for identifying the documented alternative to the hydrogenation route and reported comparative outcomes.",
+                "The snippet reports pilot-scale work in 2009, but does not provide experimental methods or establish which variables were held constant.",
+                "The EPA award page is an institutional summary, not the underlying experimental report or supporting information.",
+                "It reports that Merck scaled the process to pilot scale in 2009, but gives no batch size, experimental methods, batch-to-batch data, or detailed comparison conditions.",
+                "The page reports improved productivity using existing equipment, but does not establish which operating conditions or other variables were held constant.",
+                "Its performance figures and process descriptions should be attributed to the EPA account; the page alone does not independently verify the measurements."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "full",
+              "accessNote": "The full EPA webpage body was available and read. It is an institutional award summary, not a primary experimental report.",
+              "passages": [
+                {
+                  "id": "source-1-read-2-1",
+                  "text": "The process has some inherent liabilities however: inadequate stereoselectivity requires a crystallization step, and high-pressure hydrogenation (at 250 psi) requires expensive, specialized manufacturing equipment, and a rhodium catalyst.",
+                  "locator": "“Summary of Technology,” lines 14–16",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-2",
+                  "text": "The evolved transaminase had a compounded improvement in biocatalytic activity of over 25,000-fold, with no detectable amounts of the undesired, S-enantiomer of sitagliptin being formed.",
+                  "locator": "“Summary of Technology,” line 18",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-3",
+                  "text": "The benefits of the new process include a 56 percent improvement in productivity with the existing equipment, a 10–13 percent overall increase in yield, and a 19 percent reduction in overall waste generation.",
+                  "locator": "“Summary of Technology,” line 19",
+                  "coverage": "body"
+                },
+                {
+                  "id": "source-1-read-2-4",
+                  "text": "During 2009, Merck scaled up the new process to pilot scale. Plans to commercialize this technology are moving forward.",
+                  "locator": "Lines 21–21",
+                  "coverage": "body"
+                }
+              ]
+            },
+            {
+              "id": "source-2",
+              "title": "Efficient and Convenient Synthetic Routes for Sitagliptin Impurities",
+              "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.201702552",
+              "doi": "10.1002/slct.201702552",
+              "authors": [
+                "Dattatray S. Metil",
+                "Aalla Sampath",
+                "Jinna Rajender Reddy",
+                "Elati Ravi Ram Chandrashekar",
+                "Vilas H. Dahanukar",
+                "Chittireddy Venkata Ramana Reddy",
+                "Rakeshwar Bandichhor"
+              ],
+              "publishedOn": "2018-03-12",
+              "accessedAt": "2026-10-15T23:57:35.139Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_impurity_profile_study_2018",
+              "relationships": [],
+              "qualifications": [
+                "Primary study relevant to analytical detection and impurity control in sitagliptin manufacture.",
+                "The snippet describes HPLC and LC–MS identification and reports impurity behavior during workup and isolation; verify the full paper before attributing these findings to the selected route or a particular commercial process.",
+                "The abstract reports HPLC and LC–MS detection of six process-related sitagliptin impurities and says their presence was confirmed by co-injection and retention-time matching against spiked impurities.",
+                "The abstract says impurity formation and control are discussed, but does not provide the detailed experimental results, specific impurity identities, scale, or process-performance comparisons needed to assess them.",
+                "This impurity-profile study does not establish that the reported impurities or controls relate to Merck’s transaminase route. The earlier snippet’s toluene–water isolation detail is not confirmed in the accessible abstract.",
+                "The publisher page identifies the paper as published on March 12, 2018. No independent correction or retraction check was performed."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "abstract",
+              "accessNote": "The exact Wiley publisher page was opened. Its rendered content provided the abstract, citation metadata, and a supporting-information listing, but not the full article body or supporting-information contents.",
+              "passages": [
+                {
+                  "id": "source-2-read-3-1",
+                  "text": "Six process-related sitagliptin impurities were detected by HPLC and LC–MS.",
+                  "locator": "Abstract, paragraph 1",
+                  "coverage": "abstract"
+                },
+                {
+                  "id": "source-2-read-3-2",
+                  "text": "Their presence was confirmed by co-injection and retention-time matching against spiked impurities.",
+                  "locator": "Abstract, paragraph 1",
+                  "coverage": "abstract"
+                },
+                {
+                  "id": "source-2-read-3-3",
+                  "text": "The authors say the paper discusses impurity formation and control during sitagliptin manufacture.",
+                  "locator": "Abstract, paragraph 1",
+                  "coverage": "abstract"
+                }
+              ]
+            },
+            {
+              "id": "source-3",
+              "title": "Application of On-Line NIR for Process Control during the Manufacture of Sitagliptin",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+              "doi": "10.1021/acs.oprd.5b00409",
+              "authors": [
+                "George Zhou",
+                "Shane Grosser",
+                "Lei Sun",
+                "Gabriel Graffius et al."
+              ],
+              "publishedOn": "2016-03-18",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "sitagliptin_online_nir_process_control_2016",
+              "relationships": [],
+              "qualifications": [
+                "Primary process-control study on sitagliptin manufacture; potentially useful for explaining what process measurements can establish.",
+                "The snippet describes calibration using simulated process samples and does not by itself establish scale effects or reproducibility."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "ACS publisher page; discovery snippet only.",
+              "passages": [
+                {
+                  "id": "source-3-snippet",
+                  "text": "The authors developed near-infrared methods with partial least-squares regression using simulated process samples containing sitagliptin free base, water, and process solvents.",
+                  "locator": "Search-result snippet; article abstract/details",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-4",
+              "title": "From Cortisone to Enlicitide: A Journey of Synthetic Chemistry Innovations at Merck",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+              "authors": [],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+              "relationships": [
+                {
+                  "sourceId": "source-1",
+                  "relation": "reports_on",
+                  "note": "Retrospective account of the sitagliptin process-development history also summarized by the EPA award page."
+                }
+              ],
+              "qualifications": [
+                "Retrospective account by Merck-affiliated authors; the snippet connects process development to a later isolation and particle-size optimization problem.",
+                "Secondary account, not a substitute for the underlying experimental report or supporting information."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Open-access retrospective article; verify author list, exact experimental attribution, and cited primary sources during source reading.",
+              "passages": [
+                {
+                  "id": "source-4-snippet",
+                  "text": "The article describes direct crystallization from reaction components and reports that crystallization and particle-size development required careful attention for scale-up, including design-of-experiments work using near-infrared methods.",
+                  "locator": "Search-result snippet; section locator unavailable",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-5",
+              "title": "Medicinal chemistry and process development of the type 2 diabetes drug sitagliptin",
+              "url": "https://www.sciencedirect.com/science/article/pii/B978044327402200019X",
+              "doi": "10.1016/B978-0-443-27402-2.00019-X",
+              "authors": [
+                "Jinyou Xu",
+                "Guibai Liang"
+              ],
+              "publishedOn": "2025",
+              "accessedAt": "2026-10-15T23:56:47.437Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "sitagliptin_process_development_history",
+              "relationships": [
+                {
+                  "sourceId": "source-4",
+                  "relation": "related",
+                  "note": "Provides broader process-development context for the sitagliptin case."
+                }
+              ],
+              "qualifications": [
+                "Secondary chapter focused on sitagliptin medicinal chemistry and process research; may help orient the case and trace its development history.",
+                "Search result does not expose experimental detail sufficient to resolve the commissioned comparisons."
+              ],
+              "publicationStatus": "published",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Book chapter; publisher page offers an abstract preview, while full text may require access.",
+              "passages": [
+                {
+                  "id": "source-5-snippet",
+                  "text": "The chapter introduces Merck's process research on the sustainable chemical synthesis of sitagliptin alongside the drug's discovery and medicinal-chemistry history.",
+                  "locator": "Search-result snippet; abstract",
+                  "coverage": "snippet"
+                }
+              ]
+            }
+          ],
+          "research": {
+            "commission": {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            "discoveryRounds": 1,
+            "readSourceIds": [
+              "source-1",
+              "source-2"
+            ],
+            "pendingSourceIds": [
+              "source-3",
+              "source-4",
+              "source-5"
+            ],
+            "coverageRationale": "This reading upgrades the earlier discovery snippet to abstract-level evidence and supplies the full author list and exact publication date. It supports a limited account of impurity detection and identity confirmation, but does not provide the detailed impurity-control or isolation evidence needed for the commissioned process-development case. The main gaps remain the primary evidence for the transaminase route, scale and reproducibility comparisons, and verifiable reaction and isolation results.",
+            "gaps": [
+              "The accessible abstract does not provide the article’s detailed experimental body or supporting-information contents, so the impurity identities, formation conditions, control results, and isolation details remain unresolved.",
+              "The relationship, if any, between this study’s impurities and the Merck transaminase process is not established.",
+              "The central sitagliptin route-development evidence remains missing: underlying experimental details, actual scale, repeat-batch evidence, operating conditions, and controlled comparisons.",
+              "The abstract gives no impurity thresholds or analytical detection limits and no scale or reproducibility data.",
+              "The earlier snippet’s claim about removal during isolation from a toluene–water mixture was not verifiable from the abstract available on the opened page."
+            ],
+            "stopReason": "continue"
+          }
+        }
+      }
+    },
+    "sources": [],
+    "modelPolicy": {
+      "version": 1,
+      "verifiedAt": "2026-10-15",
+      "roles": {
+        "producer": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "research": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 1,
+          "timeoutMs": 90000
+        },
+        "source": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 1,
+          "timeoutMs": 90000
+        },
+        "synthesis": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "casting": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "guest_preparation": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "host_preparation": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "host": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "medium",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 4096,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "guest": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "contribution_request": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "low",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 2048,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "editing": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "review": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "local_repair": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        }
+      }
+    },
+    "usageLedger": {
+      "version": 1,
+      "spendCeilingUsd": 5,
+      "allocations": {
+        "research": 1.75,
+        "text": 2.25,
+        "review": 1,
+        "audio": 0
+      },
+      "maxOperations": 128,
+      "maxSearchCalls": 4,
+      "maxSourceReads": 8,
+      "records": [
+        {
+          "id": "attempt_8faf8826-ddfe-4dbc-aaa9-b4e71ad299d6",
+          "role": "producer",
+          "bucket": "text",
+          "provider": "openai",
+          "requestedModel": "gpt-6.1-sol",
+          "actualModel": "gpt-6.1-sol",
+          "responseId": "resp_0b927c9e904721c8006ad1679b0e7887d0b1e7f36b7d7682b0",
+          "requestId": "req_67d981d612e4489e9a75f46e69e43241",
+          "settings": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 16384,
+            "maxToolCalls": 0,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 96000,
+            "outputTokens": 16384,
+            "toolCalls": 0,
+            "searchCalls": 0,
+            "sourceReads": 0
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 2,
+              "cached": 0.1,
+              "cacheWrite": 2.5,
+              "output": 10
+            },
+            "longContext": {
+              "input": 4,
+              "cached": 0.2,
+              "cacheWrite": 5,
+              "output": 15
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.40384,
+          "allowanceUsd": 0.054875,
+          "estimatedUsd": 0.0548735,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T23:53:59.038Z",
+          "finishedAt": "2026-10-15T23:55:56.885Z",
+          "latencyMs": 117847,
+          "outcome": "completed",
+          "ignoredWebAttempts": 0,
+          "reported": {
+            "inputTokens": 2802,
+            "outputTokens": 4787,
+            "totalTokens": 7589,
+            "reasoningTokens": 2820,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 2799,
+            "webSearchCalls": 0,
+            "searchCalls": 0,
+            "sourceReads": 0
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_ef56e688-7fa6-4363-92d8-7cee9b369186",
+          "role": "research",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": "gpt-6-luna",
+          "responseId": "resp_09792aa02432012b006ad1680f77c487d0b230983314f8c9c3",
+          "requestId": "req_3da8c0624a4a4a38b0b6c458f11e852f",
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.014373125,
+          "estimatedUsd": 0.014151425,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T23:55:58.914Z",
+          "finishedAt": "2026-10-15T23:56:47.437Z",
+          "latencyMs": 48523,
+          "outcome": "completed",
+          "ignoredWebAttempts": 0,
+          "reported": {
+            "inputTokens": 15917,
+            "outputTokens": 4767,
+            "totalTokens": 20684,
+            "reasoningTokens": 3145,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 7049,
+            "webSearchCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 0
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_8ce41d75-6175-47ca-ba6e-06cff3bd9c9d",
+          "role": "source",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": "gpt-6-luna",
+          "responseId": "resp_0e2bc6c6ff740e4f006ad16841a20c87d097df94a0f3ca8ade",
+          "requestId": "req_465aa805687d454e9c28d7e6aa75ffe5",
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.012326,
+          "estimatedUsd": 0.0022885,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T23:56:49.518Z",
+          "finishedAt": "2026-10-15T23:57:08.644Z",
+          "latencyMs": 19126,
+          "outcome": "completed",
+          "ignoredWebAttempts": 0,
+          "reported": {
+            "inputTokens": 10788,
+            "outputTokens": 1955,
+            "totalTokens": 12743,
+            "reasoningTokens": 993,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 9288,
+            "webSearchCalls": 1,
+            "searchCalls": 0,
+            "sourceReads": 1
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_64f7ef29-3a5c-401a-8a9f-83f1c98e1a64",
+          "role": "source",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": "gpt-6-luna",
+          "responseId": "resp_08bd39e38a738b7d006ad16856d51887d09f77fe17af30de3f",
+          "requestId": "req_9bd87f0bd3084bdf9af6e5fc91a5b4f2",
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.013450750000000001,
+          "estimatedUsd": 0.0026669700000000003,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T23:57:10.713Z",
+          "finishedAt": "2026-10-15T23:57:35.139Z",
+          "latencyMs": 24426,
+          "outcome": "completed",
+          "ignoredWebAttempts": 0,
+          "reported": {
+            "inputTokens": 17378,
+            "outputTokens": 2557,
+            "totalTokens": 19935,
+            "reasoningTokens": 1723,
+            "cachedInputTokens": 5112,
+            "cacheWriteInputTokens": 4430,
+            "webSearchCalls": 1,
+            "searchCalls": 0,
+            "sourceReads": 1
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+          "role": "source",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": null,
+          "responseId": null,
+          "requestId": null,
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.5411440000000001,
+          "estimatedUsd": null,
+          "billedUsd": null,
+          "unknownCosts": [
+            "Operation not yet completed"
+          ],
+          "startedAt": "2026-10-15T23:57:37.184Z",
+          "finishedAt": null,
+          "latencyMs": null,
+          "outcome": "reserved",
+          "reported": {
+            "inputTokens": null,
+            "outputTokens": null,
+            "totalTokens": null,
+            "reasoningTokens": null,
+            "cachedInputTokens": null,
+            "cacheWriteInputTokens": null,
+            "webSearchCalls": null,
+            "searchCalls": null,
+            "sourceReads": null
+          },
+          "error": null,
+          "boundExceeded": false
+        }
+      ]
+    },
+    "execution": {
+      "revision": 100,
+      "steps": {
+        "commission.produce:1": {
+          "id": "attempt_8faf8826-ddfe-4dbc-aaa9-b4e71ad299d6",
+          "key": "commission.produce:1",
+          "step": {
+            "stage": "commission",
+            "substep": "produce"
+          },
+          "inputHash": "b37ce019da2e4f15ab5ef456747bea2f972ab0150c632537d7b0362779fa3753",
+          "inputs": [],
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.1.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_8faf8826-ddfe-4dbc-aaa9-b4e71ad299d6",
+          "resultRefs": [
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            }
+          ],
+          "createdAt": 1792108439033,
+          "updatedAt": 1792108556886
+        },
+        "research.discover:1:1": {
+          "id": "attempt_ef56e688-7fa6-4363-92d8-7cee9b369186",
+          "key": "research.discover:1:1",
+          "step": {
+            "stage": "research",
+            "substep": "discover"
+          },
+          "inputHash": "49509c0810602d2b6eda61c7b53fd7abf4f746bb0877ae3204dd51e3729e09e7",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            }
+          ],
+          "prompt": {
+            "id": "source-discovery",
+            "version": "1.1.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_ef56e688-7fa6-4363-92d8-7cee9b369186",
+          "resultRefs": [
+            {
+              "id": "source-records:1",
+              "kind": "source_records",
+              "version": 1
+            }
+          ],
+          "createdAt": 1792108558913,
+          "updatedAt": 1792108607437
+        },
+        "research.read:2:source-1": {
+          "id": "attempt_8ce41d75-6175-47ca-ba6e-06cff3bd9c9d",
+          "key": "research.read:2:source-1",
+          "step": {
+            "stage": "research",
+            "substep": "read"
+          },
+          "inputHash": "fcee9b36da3c405258e7e591e4963fb6824963e3f9e6ba4862a81a2dcbbba99e",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:1",
+              "kind": "source_records",
+              "version": 1
+            }
+          ],
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.1.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_8ce41d75-6175-47ca-ba6e-06cff3bd9c9d",
+          "resultRefs": [
+            {
+              "id": "source-records:2",
+              "kind": "source_records",
+              "version": 2
+            }
+          ],
+          "createdAt": 1792108609516,
+          "updatedAt": 1792108628644
+        },
+        "research.read:3:source-2": {
+          "id": "attempt_64f7ef29-3a5c-401a-8a9f-83f1c98e1a64",
+          "key": "research.read:3:source-2",
+          "step": {
+            "stage": "research",
+            "substep": "read"
+          },
+          "inputHash": "5d824de95e8ba87aca277de1fb49048304b1368acfb261a30d1d7736939b99a8",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:2",
+              "kind": "source_records",
+              "version": 2
+            }
+          ],
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.1.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_64f7ef29-3a5c-401a-8a9f-83f1c98e1a64",
+          "resultRefs": [
+            {
+              "id": "source-records:3",
+              "kind": "source_records",
+              "version": 3
+            }
+          ],
+          "createdAt": 1792108630712,
+          "updatedAt": 1792108655139
+        },
+        "research.read:4:source-3": {
+          "id": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+          "key": "research.read:4:source-3",
+          "step": {
+            "stage": "research",
+            "substep": "read"
+          },
+          "inputHash": "ce3471a1e7d9f382c921d7df64b84090f23958fc1392513f362904116268d0ab",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:3",
+              "kind": "source_records",
+              "version": 3
+            }
+          ],
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.1.0"
+          },
+          "phase": "uncertain",
+          "usageRecordId": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+          "resultRefs": [],
+          "createdAt": 1792108657184,
+          "updatedAt": 1792108979820
+        }
+      }
+    }
+  },
+  "pause": {
+    "code": "ambiguous_provider_result",
+    "reason": "The interrupted request has no saved response ID. It cannot safely be repeated automatically."
+  }
+}

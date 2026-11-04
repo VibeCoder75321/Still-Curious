@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "episodeId": "61a8b4b4-638e-4792-a90d-80fb35881e62",
+  "title": "Making the Same Drug a Different Way",
+  "sourceFinalScript": {
+    "id": "final-script:1",
+    "kind": "final_script",
+    "version": 1
+  },
+  "scriptHash": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "voicesHash": "0036aeb26b402efe94b55d440283bb5fa9cf8cae21f120de615740f83568404e",
+  "exactSpeechPreserved": true,
+  "characters": 13724,
+  "characterAllowance": 15000,
+  "chunkCount": 10,
+  "auditionChunkCount": 3,
+  "auditionCharacters": 4683,
+  "sections": [
+    {
+      "id": "section-01",
+      "turnIds": [
+        "turn-1",
+        "turn-2"
+      ],
+      "speakers": [
+        "host",
+        "expert2"
+      ],
+      "characters": 1768,
+      "maxReservedCharacters": 1868,
+      "hypotheticalBaseCostUsd": 0.14944
+    },
+    {
+      "id": "section-02",
+      "turnIds": [
+        "turn-3",
+        "turn-4",
+        "turn-5"
+      ],
+      "speakers": [
+        "host",
+        "expert1"
+      ],
+      "characters": 1599,
+      "maxReservedCharacters": 1799,
+      "hypotheticalBaseCostUsd": 0.14392000000000002
+    },
+    {
+      "id": "section-03",
+      "turnIds": [
+        "turn-6",
+        "turn-7"
+      ],
+      "speakers": [
+        "expert3",
+        "host"
+      ],
+      "characters": 1316,
+      "maxReservedCharacters": 1516,
+      "hypotheticalBaseCostUsd": 0.12128
+    },
+    {
+      "id": "section-04",
+      "turnIds": [
+        "turn-8",
+        "turn-9"
+      ],
+      "speakers": [
+        "expert2",
+        "host"
+      ],
+      "characters": 1214,
+      "maxReservedCharacters": 1414,
+      "hypotheticalBaseCostUsd": 0.11312
+    },
+    {
+      "id": "section-05",
+      "turnIds": [
+        "turn-10",
+        "turn-11"
+      ],
+      "speakers": [
+        "expert1",
+        "host"
+      ],
+      "characters": 1441,
+      "maxReservedCharacters": 1641,
+      "hypotheticalBaseCostUsd": 0.13128
+    },
+    {
+      "id": "section-06",
+      "turnIds": [
+        "turn-12",
+        "turn-13"
+      ],
+      "speakers": [
+        "expert3",
+        "host"
+      ],
+      "characters": 1384,
+      "maxReservedCharacters": 1584,
+      "hypotheticalBaseCostUsd": 0.12672
+    },
+    {
+      "id": "section-07",
+      "turnIds": [
+        "turn-14",
+        "turn-15"
+      ],
+      "speakers": [
+        "expert3",
+        "host"
+      ],
+      "characters": 1442,
+      "maxReservedCharacters": 1642,
+      "hypotheticalBaseCostUsd": 0.13136
+    },
+    {
+      "id": "section-08",
+      "turnIds": [
+        "turn-16",
+        "turn-17"
+      ],
+      "speakers": [
+        "expert2",
+        "host"
+      ],
+      "characters": 1456,
+      "maxReservedCharacters": 1656,
+      "hypotheticalBaseCostUsd": 0.13248
+    },
+    {
+      "id": "section-09",
+      "turnIds": [
+        "turn-18",
+        "turn-19"
+      ],
+      "speakers": [
+        "expert1",
+        "expert2"
+      ],
+      "characters": 1585,
+      "maxReservedCharacters": 1785,
+      "hypotheticalBaseCostUsd": 0.1428
+    },
+    {
+      "id": "section-10",
+      "turnIds": [
+        "turn-20",
+        "turn-21"
+      ],
+      "speakers": [
+        "expert1",
+        "host"
+      ],
+      "characters": 519,
+      "maxReservedCharacters": 619,
+      "hypotheticalBaseCostUsd": 0.04952
+    }
+  ],
+  "durationRangeSeconds": {
+    "min": 720,
+    "max": 1170
+  },
+  "pricing": {
+    "source": "https://elevenlabs.io/pricing/api",
+    "retrievedOn": "2026-10-16",
+    "model": "eleven_v4",
+    "publishedBaseUsdPer1kCharacters": 0.08,
+    "accountAndVoiceRateVerified": false,
+    "warning": "Illustration only; not an authorized price snapshot. Account allowance and voice premiums remain unverified."
+  },
+  "hypotheticalFullAudioBaseCostUsd": 1.2419200000000001,
+  "hypotheticalAuditionBaseCostUsd": 0.41464,
+  "currentEpisodeConservativeTextAllowanceUsd": 1.69399,
+  "currentEpisodeCeilingUsd": 3.19,
+  "priorTextAllowanceUsd": 1.806268125,
+  "proposedAudioAllowanceUsd": 1.49,
+  "combinedPriorAndCurrentTextAllowanceUsd": 3.500258125,
+  "totalPriorTextPlusProposedAudioAllowanceUsd": 4.990258125,
+  "combinedSpendingCeilingUsd": 5,
+  "providerPreflight": {
+    "endpoint": "GET /v1/user/subscription",
+    "httpStatus": 401,
+    "errorCode": "missing_permissions",
+    "observedOn": "2026-10-16",
+    "status": "blocked"
+  },
+  "paidAudioRequests": 0,
+  "audioSpendUsd": 0,
+  "liveAuthorized": false,
+  "next": "Resolve metadata access, verify the configured voices/model/account rate, then create and listen to the four-voice audition before accepting full synthesis."
+}

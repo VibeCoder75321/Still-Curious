@@ -1,0 +1,82 @@
+{
+  "observedOn": "2026-10-16",
+  "userUpdate": "ok i bought $10 of credits",
+  "fundingPurchasedBy": "user",
+  "userReportedPurchaseUsd": 10,
+  "observedCreditLimitBefore": 10000,
+  "observedCreditLimitAfter": 37472,
+  "observedCreditsAdded": 27472,
+  "observedCreditsUsed": 9053,
+  "observedCreditsRemaining": 28419,
+  "tier": "payg",
+  "metadataEndpoint": "GET /v1/user/subscription",
+  "metadataHttpStatus": 200,
+  "accountMetadataPermissionFixed": true,
+  "modelsScope": "enabled_with_explicit_user_consent",
+  "voicesReadScope": "enabled_with_explicit_user_consent",
+  "historyReadScope": "enabled_with_explicit_user_consent",
+  "existingApiKeyCreditLimit": 10000,
+  "modelAndVoiceBillingFactorsVerified": true,
+  "newPaidSynthesisRequests": 3,
+  "newAudioSpendUsd": null,
+  "existingAudioAllowanceUsd": 1.49,
+  "originalCombinedEpisodeCapUsd": 5,
+  "purchaseAndUsageAreSeparate": true,
+  "note": "The user purchased the credits directly; this is observed funding and user-reported purchase value, not an invoice. Funding does not silently increase the episode's $1.49 remaining audio allowance.",
+  "approvalReview": {
+    "action": "Enable Models Access on the existing Still Curious TTS v2 key",
+    "status": "rejected",
+    "reason": "The Models permission was not explicitly named in the user authorization; no retry or alternate credential was used."
+  },
+  "preparedRunner": "scripts/run-audio-audition.ts",
+  "pendingAuthorization": [],
+  "next": "Listen to the saved five-minute audition, then explicitly accept before the remaining seven sections are synthesized.",
+  "previousHold": {
+    "modelsScope": "not_enabled",
+    "voicesReadScope": "not_enabled",
+    "historyReadScope": "not_enabled",
+    "modelAndVoiceBillingFactorsVerified": false,
+    "newPaidSynthesisRequests": 0,
+    "newAudioSpendUsd": 0,
+    "pendingAuthorization": [
+      "Models Access: verify the configured model's credit-cost factor",
+      "Voices Read: verify the four existing default voices and any rate premium",
+      "History Read: retrieve known generated clips safely after an interrupted download"
+    ],
+    "next": "Obtain explicit consent for the metadata/recovery scopes, then verify the full plan fits the existing cap before any paid request. Generate the audition only; final synthesis still waits for listener acceptance."
+  },
+  "observedCreditDelta": 1029,
+  "observedCreditsRemainingAfterAudition": 27390,
+  "creditFaceValueEquivalentUsd": 0.374563191613279,
+  "apiUsdPer1kCharacters": 0.08,
+  "fullPlanReservedUsd": 1.241920002,
+  "auditionReservedUsd": 0.414640001,
+  "auditionStatus": "awaiting_listener_acceptance",
+  "resolution": {
+    "userConsent": "sure",
+    "consentDate": "2026-10-16",
+    "uiResult": "API key updated successfully; reopened saved settings confirm Models Access, Voices Read and History Read. Key limit remains 10000.",
+    "metadataHttpStatuses": {
+      "subscription": 200,
+      "models": 200,
+      "fourConfiguredVoices": [
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "voiceCategories": [
+      "premade",
+      "premade",
+      "premade",
+      "premade"
+    ],
+    "rateSources": [
+      "https://elevenlabs.io/pricing/api",
+      "https://elevenlabs.io/app/subscription/api"
+    ],
+    "pricingCorrection": "API bills per character in USD. Do not multiply purchased display-credit conversion by the catalog token_cost_factor to infer API USD pricing.",
+    "priorApprovalRejectionResolvedByExplicitConsent": true
+  }
+}

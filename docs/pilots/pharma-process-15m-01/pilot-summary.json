@@ -1,0 +1,202 @@
+{
+  "episodeId": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "title": "From Flask to Factory",
+  "topic": "pharmaceutical process development and chemistry",
+  "lengthMinutes": 15,
+  "profileVersion": "fifteen-minute-pilot-v1",
+  "status": "accepted_text_checkpoint",
+  "stage": "ready_for_audio.wait",
+  "textAccepted": true,
+  "audioGenerated": false,
+  "finalScript": {
+    "id": "final-script:1",
+    "kind": "final_script",
+    "version": 1
+  },
+  "review": {
+    "version": 1,
+    "outcome": "acceptable",
+    "summary": "The episode can proceed. It gives a clear, broadly sound account of the reported sitagliptin comparison, distinguishing reaction selectivity, product recovery, overall performance and manufacturing consistency. The numerical and historical details match the saved evidence, and the hypothetical examples are clearly identified.",
+    "notes": [
+      "The narrowed, report-level comparison is handled honestly: the discussion does not invent an isolation sequence, a documented decision chronology or completed commercial adoption.",
+      "The performance figures are consistently attributed to the EPA account, without implying independent corroboration. The shared evidence family does not require an additional spoken disclaimer here.",
+      "The episode preserves useful uncertainties about detection limits, accounting boundaries and repeated-batch performance while making clear that missing evidence is not evidence of failure."
+    ],
+    "issues": []
+  },
+  "scriptVersions": {
+    "accepted": 15,
+    "edit": 1,
+    "review": 1,
+    "final": 1
+  },
+  "length": {
+    "finalWords": 1908,
+    "acceptedWords": 2093,
+    "removedWords": 185,
+    "finalCharacters": 12632,
+    "turns": 15,
+    "openingWords": 119,
+    "openingSecondsAt135": 52.88888888888889,
+    "estimatedMinutesAt135": 14.133333333333333,
+    "estimatedMinutesAt120": 15.9,
+    "actualAudioDurationSeconds": null
+  },
+  "speakers": [
+    {
+      "id": "host",
+      "name": "Nell Arden",
+      "turns": 8,
+      "words": 548
+    },
+    {
+      "id": "expert1",
+      "name": "Mira Calder",
+      "turns": 3,
+      "words": 596
+    },
+    {
+      "id": "expert2",
+      "name": "Arun Selby",
+      "turns": 1,
+      "words": 190
+    },
+    {
+      "id": "expert3",
+      "name": "Tessa Venn",
+      "turns": 3,
+      "words": 574
+    }
+  ],
+  "operations": 33,
+  "completedOperations": 32,
+  "roleOperations": {
+    "producer": 1,
+    "research": 3,
+    "source": 6,
+    "synthesis": 1,
+    "casting": 1,
+    "guest_preparation": 3,
+    "host_preparation": 1,
+    "host": 8,
+    "guest": 7,
+    "editing": 1,
+    "review": 1
+  },
+  "http": {
+    "generationSubmissions": 33,
+    "runnerRetrievals": 522,
+    "additionalDiagnosticRetrievals": 1,
+    "entriesWithoutCompletion": 2
+  },
+  "spendingCeilingUsd": 5,
+  "cost": {
+    "estimatedReportedSubtotalUsd": 1.173107135,
+    "missingEstimates": [
+      "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+    ],
+    "heldAllowanceUsd": 1.8062681250000001,
+    "billedUsd": null,
+    "gaps": [
+      {
+        "operationId": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+        "reason": "Operation not yet completed"
+      },
+      {
+        "operationId": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+        "reason": "Abandoned result: actual usage and charges remain unknown; full allowance retained."
+      }
+    ],
+    "priceVersions": [
+      "openai-standard-global-2026-10-15"
+    ]
+  },
+  "observedUsage": {
+    "inputTokens": {
+      "reportedSubtotal": 407593,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "outputTokens": {
+      "reportedSubtotal": 65775,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "totalTokens": {
+      "reportedSubtotal": 473368,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "reasoningTokens": {
+      "reportedSubtotal": 38983,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "cachedInputTokens": {
+      "reportedSubtotal": 36453,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "cacheWriteInputTokens": {
+      "reportedSubtotal": 328036,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "webSearchCalls": {
+      "reportedSubtotal": 8,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "searchCalls": {
+      "reportedSubtotal": 3,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    },
+    "sourceReads": {
+      "reportedSubtotal": 5,
+      "missingOperations": [
+        "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b"
+      ]
+    }
+  },
+  "abandonedOperations": [
+    {
+      "operationId": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+      "at": "2026-10-16T00:49:06.651Z",
+      "sourceId": "source-3",
+      "reason": "User-approved abandonment of the missing response; retain full reservation and use other queued sources.",
+      "authorization": "Whatever you think best. Keep $5 cap (2026-10-15T20:42:08-04:00)",
+      "retainedAllowanceUsd": 0.5411440000000001
+    }
+  ],
+  "elapsed": {
+    "firstStartedAt": "2026-10-15T23:53:58.825000+00:00",
+    "acceptedAt": "2026-10-16T01:11:00.253000+00:00",
+    "totalWallSeconds": 4621.428,
+    "sinceApprovedAbandonmentSeconds": 1313.602,
+    "interpretation": "Includes the approval pause, diagnosis and manual recovery; not provider-only latency or a production benchmark."
+  },
+  "assessment": {
+    "voice": "Distinct disciplinary priorities, with a shared measured register. Arun has only one turn; repeated-turn consistency is demonstrated only for Mira and Tessa.",
+    "interaction": "Host-led: eight host turns and seven guest turns. Host questions build on preceding answers. No guest bids, silent yields, direct guest-to-guest turns or manufactured disagreement.",
+    "evidence": "Narrowed to reported sitagliptin process advantages and their limits. One full EPA account, two abstracts, two inaccessible readings, one abandoned source and three unread candidates.",
+    "comparison": "Different topic and longer duration than the earlier pilot; this is not a controlled prompt comparison."
+  },
+  "verification": {
+    "artifactsVerified": 35,
+    "testsPassed": 175,
+    "typescript": "passed",
+    "productionBuild": "passed all five phases",
+    "noDuplicateGenerationSubmissions": true,
+    "spokenTurnsSha256": "f90477f8de82a3b2aec86e1f79ac4ebfa043ee4a2591d7e8142dcd8e31370fac",
+    "frozenEvidenceVerified": true
+  }
+}

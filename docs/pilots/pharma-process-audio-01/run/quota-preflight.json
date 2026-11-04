@@ -1,0 +1,8 @@
+{
+  "existingKeyLimit": 10000,
+  "keyLimitChanged": false,
+  "maximumFullCatalogUnits": 15524,
+  "maximumAuditionCatalogUnits": 5183,
+  "fullKeyQuotaVerified": false,
+  "note": "Catalog units are a conservative quota check, not API dollars. Provider enforces the unchanged key cap. Full rendering needs listener acceptance and a remaining-quota check."
+}

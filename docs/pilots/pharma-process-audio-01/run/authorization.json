@@ -1,0 +1,20 @@
+{
+  "userDirection": "Verify the user-funded credits and continue the four-voice audition using the approved pharmaceutical script and existing research.",
+  "existingCredentialReuseAuthorized": true,
+  "target": "audition_only",
+  "audioAllowanceUsd": 1.49,
+  "originalCombinedCapUsd": 5,
+  "priorConservativeTextAllowanceUsd": 3.500258125,
+  "conservativeMaximumIncludingAudioUsd": 4.990258125,
+  "finalScript": {
+    "id": "final-script:1",
+    "kind": "final_script",
+    "version": 1
+  },
+  "scriptHash": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "planHash": "43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a",
+  "expectedFullAudioUsd": 1.241920002,
+  "fullAudioAcceptanceAuthorized": false,
+  "paidSubmissionEnabled": true,
+  "researchCallsAuthorized": false
+}

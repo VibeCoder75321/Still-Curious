@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-16T14:16:44.040Z",
+  "reason": "Raw character-cost headers are provider billing units, not spoken character counts or dollars. Earlier derived reportedCostUsd values are superseded; conservative reservations are unchanged.",
+  "changes": [
+    {
+      "chunkId": "section-01",
+      "rawHeader": "character-cost",
+      "providerCharacterCost": 389,
+      "supersededReportedCostUsd": 0.031120000000000002
+    },
+    {
+      "chunkId": "section-02",
+      "rawHeader": "character-cost",
+      "providerCharacterCost": 351,
+      "supersededReportedCostUsd": 0.02808
+    },
+    {
+      "chunkId": "section-03",
+      "rawHeader": "character-cost",
+      "providerCharacterCost": 289,
+      "supersededReportedCostUsd": 0.02312
+    }
+  ],
+  "scriptHash": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "planHash": "43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a",
+  "audioSha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c",
+  "paidCalls": 0,
+  "reservationsChanged": false
+}

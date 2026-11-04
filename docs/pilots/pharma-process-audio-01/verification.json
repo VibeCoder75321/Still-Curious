@@ -1,0 +1,28 @@
+{
+  "task": 15,
+  "verifiedOn": "2026-10-16",
+  "sourceBaselineCommit": "5e8dc4140fed29fdd7afc695b08e6919d7940eb7",
+  "implementationStatus": "implemented_offline_verified",
+  "taskAcceptance": "blocked_pending_live_audition_and_listening_acceptance",
+  "checks": [
+    { "command": "node --test tests/*.test.ts", "status": "passed", "tests": 197, "failures": 0, "newAudioAndUiTests": 18 },
+    { "command": "node node_modules/typescript/bin/tsc --noEmit --pretty false", "status": "passed" },
+    { "command": "node --check public/app.js", "status": "passed" },
+    { "command": "bash scripts/build-verified.sh", "status": "passed", "warning": "Existing proxy-environment notice" },
+    { "command": "git diff --check", "status": "passed" },
+    { "check": "Accepted pharmaceutical speech, exact edit and review, all four speakers, section reconstruction and $1.49 allowance within the unchanged episode ceiling", "status": "passed" }
+  ],
+  "providerMetadataPreflight": { "status": "blocked", "endpoint": "GET /v1/user/subscription", "httpStatus": 401, "errorCode": "missing_permissions" },
+  "paidAudioRequests": 0,
+  "audioSpendUsd": 0,
+  "newResearchCalls": 0,
+  "newTextGenerationCalls": 0,
+  "existingResearchAndSpeechChanged": false,
+  "providerCredentialsOrPermissionsChanged": false,
+  "productionAudioEnabled": false,
+  "browserQa": "not_performed_control_browser_skill_unavailable",
+  "liveAudition": "not_generated",
+  "actualVoiceIntelligibilityAndSpeechCorrespondence": "not_verified",
+  "deviceBackgroundPlayback": "not_verified",
+  "nextAction": "Resolve configured-key metadata-read permission, verify the existing model/voices/account-specific rate, create the four-voice audition within $1.49, and listen before accepting full audio. Task 16 follows live Task 15 acceptance."
+}

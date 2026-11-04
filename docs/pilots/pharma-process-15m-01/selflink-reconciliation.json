@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-16T00:54:47.786Z",
+  "key": "research.discover:1:7",
+  "responseId": "resp_0d63018ceb3bb2b2006ad174fd292887d198e113382f3e7985",
+  "inputHash": "72c870b52a91d21c3b53c0ebedcbfe66cb5003c9f2561a1f2025fe7163b6b7cd",
+  "fingerprintUnchanged": true,
+  "method": "GET only",
+  "reason": "Reaccept the saved response after excluding redundant self relationships; retrieve only."
+}

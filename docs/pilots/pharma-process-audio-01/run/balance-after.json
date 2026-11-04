@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-16T14:15:00.534Z",
+  "creditsUsed": 9793,
+  "creditLimit": 37472,
+  "creditsRemaining": 27679,
+  "observedCreditDelta": 740,
+  "creditFaceValueEquivalentUsd": 0.26936517181129876,
+  "attribution": "Account-level display-credit delta; concurrent usage would also be included. Face-value conversion is diagnostic, not an API invoice or measured billed dollars."
+}

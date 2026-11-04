@@ -1,0 +1,12 @@
+{
+  "from": "research.discover",
+  "to": "research.synthesize",
+  "providerCalls": 0,
+  "reason": "Explicit user-directed reuse of already verified saved research.",
+  "allocations": {
+    "research": 0.5,
+    "text": 1.99,
+    "review": 0.7,
+    "audio": 0
+  }
+}

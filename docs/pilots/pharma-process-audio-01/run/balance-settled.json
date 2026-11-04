@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-16T14:16:19.577Z",
+  "creditsUsed": 10082,
+  "creditLimit": 37472,
+  "creditsRemaining": 27390,
+  "observedCreditDelta": 1029,
+  "creditFaceValueEquivalentUsd": 0.374563191613279,
+  "attribution": "Account-level display-credit delta after settlement; not an API invoice. Provider character-cost headers total 1029 for these three requests."
+}

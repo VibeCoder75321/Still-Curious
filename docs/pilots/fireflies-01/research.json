@@ -1,0 +1,1024 @@
+{
+  "episodeId": "1a21f9f8-e688-47cf-bc7c-43ed9ba24380",
+  "title": "How Fireflies Make Light",
+  "pipelineVersion": 2,
+  "originalRequest": "How do fireflies make light?",
+  "sourceVersion": 10,
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Bioluminescence – The Vibrant Glow of Nature and its Chemical Mechanisms",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cbic.202400106",
+      "doi": "10.1002/cbic.202400106",
+      "authors": [
+        "Stefan Schramm",
+        "Dieter Weiß"
+      ],
+      "publishedOn": "2024-03-12",
+      "accessedAt": "2026-10-15T22:18:58.987Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "schramm-2024-review",
+      "relationships": [
+        {
+          "sourceId": "source-3",
+          "relation": "related",
+          "note": "A complementary review focused on the molecular emitter and remaining spectrochemical questions."
+        }
+      ],
+      "qualifications": [
+        "Recent review suitable for mapping established findings and open questions.",
+        "Search-result snippet supports a broadly accepted sequence but says some mechanistic details remain under investigation.",
+        "Not a substitute for primary experiments establishing individual steps.",
+        "This is a review, not primary experimental evidence.",
+        "The body read provides a general bioluminescence outline and begins the firefly section, but does not establish the full firefly-specific pathway in the portions inspected.",
+        "The article identifies Photinus pyralis as a prominent research species; do not assume every detail applies identically across fireflies.",
+        "The earlier search-result snippet about ATP-Mg2+ and oxygen binding was not verified in the body read."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "partial",
+      "accessNote": "The Wiley page identifies the article as open access. The body was available, but only the general chemistry section and the beginning of the firefly section were read for this bounded source check.",
+      "passages": [
+        {
+          "id": "source-1-read-2-1",
+          "text": "Bioluminescence involves chemical reactions that generate excited-state molecules; as these return to the ground state, they emit light. The review describes luciferin reacting with oxygen in a reaction catalyzed by luciferase.",
+          "locator": "“Chemical Basis of Bioluminescence,” lines 139–143",
+          "coverage": "body"
+        },
+        {
+          "id": "source-1-read-2-2",
+          "text": "The review says research has prominently featured the North American firefly Photinus pyralis and identifies luciferin and luciferase as central molecules in its bioluminescence reaction.",
+          "locator": "“Firefly,” lines 219–225",
+          "coverage": "body"
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "Firefly bioluminescence: A mechanistic approach of luciferase catalyzed reactions",
+      "url": "https://iubmb.onlinelibrary.wiley.com/doi/abs/10.1002/iub.134",
+      "doi": "10.1002/iub.134",
+      "authors": [
+        "Simone M. Marques",
+        "Joaquim C. G. Esteves da Silva"
+      ],
+      "publishedOn": "2008-10-23",
+      "accessedAt": "2026-10-15T22:19:23.413Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "marques-2008-review",
+      "relationships": [],
+      "qualifications": [
+        "Mechanism-focused review centered on studies of Photinus pyralis.",
+        "Useful for the accessible two-stage outline; detailed intermediate steps should be checked against primary work.",
+        "Search result gives a first-publication date of October 23, 2008.",
+        "This is a critical review; the opened page exposed its abstract, not the full article body.",
+        "The abstract attributes discovery of the reaction to studies of Photinus pyralis luciferase; do not assume every detail generalizes to all fireflies.",
+        "The abstract outlines a two-stage reaction and identifies oxyluciferin as the light emitter, but does not itself provide primary experimental data or establish the reaction in a living insect.",
+        "The page lists a “Read the full text” link, but that full text was not read in this bounded check."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "abstract",
+      "accessNote": "The exact Wiley page was opened. It displayed the article metadata and abstract; the full article body was not read.",
+      "passages": [
+        {
+          "id": "source-2-read-3-1",
+          "text": "“luciferin ... with ATP-Mg2+ ... intermediate luciferyl-adenylate”",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-2-read-3-2",
+          "text": "“oxidation and decarboxylation ... to oxyluciferin, the light emitter”",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "Spectrochemistry of Firefly Bioluminescence",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.1c01047",
+      "doi": "10.1021/acs.chemrev.1c01047",
+      "authors": [],
+      "accessedAt": "2026-10-15T22:19:38.431Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "acs-chemical-reviews-spectrochemistry",
+      "relationships": [
+        {
+          "sourceId": "source-2",
+          "relation": "related",
+          "note": "Complementary mechanism review covering the overall luciferase-catalyzed reaction."
+        }
+      ],
+      "qualifications": [
+        "Review useful for checking the identity and role of the emitting molecule and the limits of claims about color.",
+        "Search result describes remaining questions; it does not settle them.",
+        "Not primary evidence for the complete reaction in living insects.",
+        "This is a review, not primary evidence for the complete reaction in living fireflies.",
+        "The selected ACS page could not be read because the request returned HTTP 403 Forbidden; its content and metadata were not independently verified."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "inaccessible",
+      "accessNote": "The exact selected URL was opened, but access failed with HTTP 403 Forbidden. The page body and metadata could not be read; no substitute source was used.",
+      "passages": [
+        {
+          "id": "source-3-snippet",
+          "text": "The review compiles research on firefly oxyluciferin and related compounds, and discusses factors affecting emission and remaining research questions.",
+          "locator": "Search-result snippet; page not read",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-4",
+      "title": "In vivo bioluminescence emissions of the firefly Luciola praeusta at low temperatures",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1011134416301488",
+      "authors": [],
+      "accessedAt": "2026-10-15T22:19:53.160Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "luciola-praeusta-in-vivo-emissions",
+      "relationships": [],
+      "qualifications": [
+        "Potentially useful primary evidence about emission in an identified species in vivo.",
+        "The snippet describes recordings at low temperatures but does not establish which anatomical features were examined or what conditions support generalization.",
+        "Do not use this result as evidence for a universal firefly mechanism without checking the study.",
+        "The exact selected URL returned HTTP 403 Forbidden, so the study’s contents could not be verified.",
+        "The existing snippet is not treated as an abstract or as evidence from the article body."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "inaccessible",
+      "accessNote": "The exact selected URL was opened, but the request failed with HTTP 403 Forbidden. The page body could not be read; no substitute URL was used.",
+      "passages": [
+        {
+          "id": "source-4-snippet",
+          "text": "The article concerns in-vivo bioluminescence emissions of Luciola praeusta at low temperatures and mentions emission spectra recorded for the species.",
+          "locator": "Search-result snippet; page not read",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-5",
+      "title": "Enzymatic promiscuity and the evolution of bioluminescence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7217382/",
+      "doi": "10.1111/febs.15176",
+      "authors": [
+        "Spencer T. Adams Jr.",
+        "Stephen C. Miller"
+      ],
+      "publishedOn": "2019-12-27",
+      "accessedAt": "2026-10-15T22:20:24.197Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "enzymatic-promiscuity-bioluminescence",
+      "relationships": [
+        {
+          "sourceId": "source-2",
+          "relation": "related",
+          "note": "The snippet overlaps with the reviewed luciferase reaction mechanism."
+        }
+      ],
+      "qualifications": [
+        "Potential primary research relevant to the more detailed reaction pathway and its evolution.",
+        "The search-result snippet states a proposed multi-step sequence but does not show which steps this paper directly tested.",
+        "Use only after checking the paper’s actual experiments and separating observations from pathway interpretation.",
+        "This source is a review, not a primary experimental study. It synthesizes cited research and does not itself test the proposed reaction steps.",
+        "It presents a detailed reaction pathway, including a possible non-light-producing branch; treat the pathway as a review's account of prior work, not as a new observation from this article.",
+        "The review locates bioluminescence in firefly lantern-cell peroxisomes, but the inspected passage does not identify the species or life stage supporting that statement.",
+        "The review's discussion of chemistry in an isolated luciferin-ester system does not establish that the same conditions or sequence have been observed in a living insect.",
+        "Correction, retraction, expression-of-concern, and later-work status were not independently checked."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "partial",
+      "accessNote": "The exact PMC page was opened. Full text is available there; the relevant mechanism, lantern-cell localization, and related sections were read, but not the entire article.",
+      "passages": [
+        {
+          "id": "source-5-read-6-1",
+          "text": "The review summarizes the reaction as luciferin activation by ATP, followed by reaction with oxygen that produces an excited oxyluciferin molecule.",
+          "locator": "“The chemistry of firefly bioluminescence,” paragraph 1, lines 103–105",
+          "coverage": "body"
+        },
+        {
+          "id": "source-5-read-6-2",
+          "text": "When excited oxyluciferin returns to its lower-energy state, it emits a photon; an alternative branch can produce no light.",
+          "locator": "“The chemistry of firefly bioluminescence,” paragraphs 1–2, lines 105–113",
+          "coverage": "body"
+        },
+        {
+          "id": "source-5-read-6-3",
+          "text": "The review places bioluminescence in firefly lantern-cell peroxisomes, while noting that proposed supporting enzymes still need experimental demonstration.",
+          "locator": "“Biosynthesis of D-luciferin,” paragraph 9, lines 157–159",
+          "coverage": "body"
+        }
+      ]
+    },
+    {
+      "id": "source-6",
+      "title": "Function of adenosine triphosphate in the activation of luciferin",
+      "url": "https://www.sciencedirect.com/science/article/pii/0003986156902685",
+      "authors": [
+        "William D. McElroy",
+        "Arda Green"
+      ],
+      "accessedAt": "2026-10-15T22:21:15.129Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "mcelroy-green-1956-atp-activation",
+      "relationships": [],
+      "qualifications": [
+        "Primary biochemical study; the search-result snippet reports use of crystalline luciferase and purified luciferin and associates light production with both luciferin and ATP.",
+        "Useful for the experimental story and for distinguishing ATP’s role from luciferin’s, but this snippet alone does not establish the full in-vivo pathway or every required component.",
+        "The study’s species, conditions, and publication-status history need checking in the paper.",
+        "Primary biochemical study; the previously saved search-result snippet reported use of crystalline firefly luciferase and purified luciferin, but that claim could not be checked against the paper.",
+        "The study’s species, experimental conditions, measured results, and precise conclusions remain unverified.",
+        "This source could not be assessed for corrections, retractions, expressions of concern, or later work."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "inaccessible",
+      "accessNote": "The exact selected URL was opened, but the page could not be fetched: HTTP 403 Forbidden. No substitute URL was used. The previously saved search-result snippet remains unverified.",
+      "passages": [
+        {
+          "id": "source-6-snippet",
+          "text": "Using crystalline firefly luciferase and purified luciferin, the study reports that light production is associated with utilization of both luciferin and ATP.",
+          "locator": "Search-result snippet; page not read",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-7",
+      "title": "Key homeobox transcription factors regulate the development of the firefly’s adult light organ and bioluminescence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10914744/",
+      "doi": "10.1038/s41467-024-45559-7",
+      "authors": [
+        "Xinhua Fu",
+        "Xinlei Zhu"
+      ],
+      "publishedOn": "2024-03-05",
+      "accessedAt": "2026-10-15T22:21:42.131Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "firefly-adult-light-organ-development-peroxisomal-targeting",
+      "relationships": [
+        {
+          "sourceId": "source-10",
+          "relation": "related",
+          "note": "Addresses the same localization question as this earlier ultrastructural study, but is a separate study and should not be treated as replication of it."
+        },
+        {
+          "sourceId": "source-5",
+          "relation": "related",
+          "note": "The saved review also reports lantern-cell peroxisome localization; this primary study is relevant to checking that claim."
+        }
+      ],
+      "qualifications": [
+        "Primary study on the development and organization of an identified firefly’s adult light organ.",
+        "The snippet distinguishes luciferase expression from its transport to a reaction organelle and says conclusive evidence for peroxisomal targeting in firefly photocytes had been absent before this study.",
+        "Check the paper’s species, methods, and specific localization results; the snippet is not sufficient to establish the full mechanism.",
+        "This primary study examines adult light-organ development in the identified species Aquatica leii; its findings should not be generalized to all fireflies without further evidence.",
+        "The study provides anatomical and gene-knockdown evidence relevant to light-organ development, not a controlled test of the full luciferin–luciferase reaction sequence.",
+        "The abstract says four peroxins are involved in importing AlLUC1 into peroxisomes. The inspected Results passage reports that AlLUC1 localized to the cytoplasm and nucleus, while AlLUC2 localized to peroxisomes, in HEK293T cells—not firefly photocytes—and notes that these results differ from previous research. Do not present that cell assay as direct localization in the living insect or reconcile the claims beyond what was read.",
+        "The full article is available, but this bounded reading covered the abstract, introduction, and part of the Results section only. Correction, retraction, expression-of-concern, and later-work status were not checked."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "partial",
+      "accessNote": "Opened the exact selected PMC URL. The full-text article is available; the abstract, introduction, and part of the Results section were read. The whole article was not read.",
+      "passages": [
+        {
+          "id": "source-7-read-9-1",
+          "text": "In Aquatica leii, interference with AlAbd-B and AlUnc-4 was associated with undeveloped or non-luminescent adult light organs; the abstract also reports that four peroxins are involved in AlLUC1 import into peroxisomes.",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-7-read-9-2",
+          "text": "The adult light organ is described as having cuticle, photogenic, and dorsal layers, with photocytes surrounding tracheal end cells.",
+          "locator": "Introduction, paragraph 4",
+          "coverage": "body"
+        },
+        {
+          "id": "source-7-read-9-3",
+          "text": "After pupal-stage AlAbd-B knockdown, the authors report disrupted light-organ development and loss of luminescence; they also observed smaller or empty peroxisomes in photocytes.",
+          "locator": "Results, “Homeobox transcription factors and the development of light organ,” paragraphs 5–6",
+          "coverage": "body"
+        },
+        {
+          "id": "source-7-read-9-4",
+          "text": "In HEK293T cells, AlLUC1 localized to the cytoplasm and nucleus, while AlLUC2 localized to peroxisomes; the authors say these results are not consistent with previous research.",
+          "locator": "Results, “AlABD-B and AlUNC-4 affect the expression of luciferase and pex genes,” paragraph 10",
+          "coverage": "body"
+        }
+      ]
+    },
+    {
+      "id": "source-8",
+      "title": "Ultrastructure of granules and immunocytochemical localization of luciferase in photocytes of fireflies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7324034/",
+      "doi": "10.1016/0040-8166(81)90030-6",
+      "authors": [
+        "M. Neuwirth"
+      ],
+      "publishedOn": "1981",
+      "accessedAt": "2026-10-15T22:22:02.108Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "firefly-photocyte-luciferase-immunolocalization",
+      "relationships": [
+        {
+          "sourceId": "source-9",
+          "relation": "related",
+          "note": "Both address the anatomy of the light organ, but this is a separate study of luciferase localization."
+        },
+        {
+          "sourceId": "source-7",
+          "relation": "related",
+          "note": "Relevant to the same question of subcellular localization; the studies are distinct and their evidence should be compared rather than conflated."
+        }
+      ],
+      "qualifications": [
+        "Primary anatomical and immunocytochemical study relevant to locating luciferase in light-producing cells.",
+        "The search-result snippet says other parts of photocytes and light organs were negative for luciferase; it does not specify enough detail to infer subcellular location or generalize across species.",
+        "Check the full paper for species, life stage, and localization methods.",
+        "Primary study using ultrastructure and immunoferritin labeling to examine photocyte granules and luciferase localization.",
+        "The abstract reports luciferase in photocyte granules and no labeling in other parts of photocytes or light organs. It does not identify the firefly species or life stage.",
+        "This supports subcellular localization, not the complete light-producing reaction or the necessity of the granules for light production.",
+        "The exact PubMed page provides the abstract, but not the article body. Corrections, retractions, expressions of concern, and later work were not checked."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "abstract",
+      "accessNote": "The exact PubMed page was opened and its abstract read. The page links to the full text elsewhere, but that article body was not read.",
+      "passages": [
+        {
+          "id": "source-8-read-10-1",
+          "text": "“Photocyte granules are round to oval, 1-2 micron” and occur in three structural types.",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-8-read-10-2",
+          "text": "“Luciferase has been shown to be localized in these photocyte granules by the immunoferritin technique.”",
+          "locator": "Abstract, paragraph 2",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-8-read-10-3",
+          "text": "“Other parts of photocytes and of light organs are negative for luciferase.”",
+          "locator": "Abstract, paragraph 2",
+          "coverage": "abstract"
+        }
+      ]
+    },
+    {
+      "id": "source-9",
+      "title": "Light and electron microscope studies on the light organ of the firefly (Photinus pyralis)",
+      "url": "https://www.journals.uchicago.edu/doi/10.2307/1539170",
+      "authors": [],
+      "accessedAt": "2026-10-15T22:21:00.043Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "photinus-pyralis-light-organ-anatomy",
+      "relationships": [
+        {
+          "sourceId": "source-8",
+          "relation": "related",
+          "note": "A separate anatomical study relevant to light-organ organization and luciferase localization."
+        }
+      ],
+      "qualifications": [
+        "Primary anatomical study specifically naming Photinus pyralis; a concrete source for the organization of a well-studied light organ.",
+        "The snippet lists light-organ structures but does not itself establish which are necessary for the chemical reaction.",
+        "Use as anatomical context, not as evidence that all fireflies have identical anatomy."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "snippet",
+      "accessNote": "Search result returned the article page; its body was not read.",
+      "passages": [
+        {
+          "id": "source-9-snippet",
+          "text": "The search-result snippet lists a photogenic layer, reflector layer, photogenic granules, and tracheal branches among structures observed in the Photinus pyralis light organ.",
+          "locator": "Search-result snippet; page not read",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-10",
+      "title": "Peroxisomes of the firefly lantern",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022532076801050",
+      "doi": "10.1016/S0022-5320(76)80105-0",
+      "authors": [
+        "Charles H. Hanna",
+        "Thomas A. Hopkins",
+        "John Buck"
+      ],
+      "publishedOn": "1976-11",
+      "accessedAt": "2026-10-15T22:21:00.043Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "firefly-photocyte-granules-catalase",
+      "relationships": [
+        {
+          "sourceId": "source-7",
+          "relation": "related",
+          "note": "A newer primary study addresses peroxisomal targeting in firefly photocytes; compare what each study directly demonstrates."
+        }
+      ],
+      "qualifications": [
+        "Primary ultrastructural and biochemical study of granules in photocytes of adult firefly light organs.",
+        "The snippet reports catalase activity in photogenic tissue, but does not establish that luciferase itself is located in peroxisomes.",
+        "Relevant to the localization question, especially alongside the newer study; do not treat these findings as proof of a universal organelle arrangement."
+      ],
+      "publicationStatus": "unknown",
+      "notices": [],
+      "readingCoverage": "snippet",
+      "accessNote": "Search result returned the article page; its body was not read.",
+      "passages": [
+        {
+          "id": "source-10-snippet",
+          "text": "The study describes 1- to 2-μm granules in photocytes of adult firefly light organs and reports catalase activity in photogenic tissue.",
+          "locator": "Search-result snippet; page not read",
+          "coverage": "snippet"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "commission": {
+      "id": "research-commission:1",
+      "kind": "research_commission",
+      "version": 1
+    },
+    "discoveryRounds": 2,
+    "readSourceIds": [
+      "source-1",
+      "source-2",
+      "source-3",
+      "source-4",
+      "source-5",
+      "source-6",
+      "source-7",
+      "source-8"
+    ],
+    "pendingSourceIds": [
+      "source-9",
+      "source-10"
+    ],
+    "coverageRationale": "The abstract adds direct evidence that luciferase was immunocytochemically localized to photocyte granules and describes three granule types. This strengthens the anatomical connection between firefly light-producing cells and luciferase, but does not establish the entire reaction, the granules’ functional necessity, or generality across species.",
+    "gaps": [
+      "The abstract does not specify species, life stage, or enough methodological detail to assess how broadly the localization finding generalizes.",
+      "The article body was not available on the exact page, so further details of the study and its conditions remain unverified.",
+      "This study does not test the complete biochemical sequence or establish that granules are necessary for light production.",
+      "Correction, retraction, expression-of-concern, and later-work status were not checked."
+    ],
+    "stopReason": "allowance"
+  },
+  "evidenceVersion": 1,
+  "evidencePack": {
+    "sourceRecords": {
+      "id": "source-records:10",
+      "kind": "source_records",
+      "version": 10
+    },
+    "commission": {
+      "id": "research-commission:1",
+      "kind": "research_commission",
+      "version": 1
+    },
+    "commonBriefing": "The bounded question is: what basic chemical pathway do reviews describe for firefly light, and how is luciferase linked to light-producing cells? Luciferin is the reacting molecule and luciferase the catalyst. The saved review account describes ATP activating luciferin, followed by reaction with oxygen to produce excited oxyluciferin. When that molecule returns to a lower-energy state, it emits a photon—light. This explains production of light rather than reflection (C01–C04). The review also describes a non-light-producing branch, so the outline must not become a claim of perfect efficiency (C05).\n\nAnatomical evidence is a separate part of the explanation. The Aquatica leii paper describes an adult light organ containing photocytes, while a 1981 study abstract reports luciferase labeling in photocyte granules. A developmental knockdown in A. leii disrupted organ formation and luminescence, but did not isolate a chemical step (C06–C08).\n\nThe main evidential limit is that the chemical sequence comes from reviews: no primary controlled biochemical reconstitution was successfully read. Exact peroxisomal localization also needs qualification. A review places bioluminescence there, and a newer abstract reports luciferase import, but that paper's inspected HEK293T-cell results place different luciferases in different compartments. These contexts cannot simply be equated or treated as disproving the chemical outline (C09–C12; I03). Heat, numerical efficiency and universal species-level claims are not supported by this pack.",
+    "foundation": {
+      "version": "frozen-evidence-v1",
+      "sourceRecordsSha256": "97928d2b5979a97979377e2db03a2d0c006b187a7ced85778d8381c996f73d1c",
+      "frozenAt": "2026-10-15T22:27:22.822Z"
+    },
+    "centralClaimIds": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C12"
+    ],
+    "evidenceFamilies": [
+      {
+        "id": "acs-chemical-reviews-spectrochemistry",
+        "sourceIds": [
+          "source-3"
+        ]
+      },
+      {
+        "id": "enzymatic-promiscuity-bioluminescence",
+        "sourceIds": [
+          "source-5"
+        ]
+      },
+      {
+        "id": "firefly-adult-light-organ-development-peroxisomal-targeting",
+        "sourceIds": [
+          "source-7"
+        ]
+      },
+      {
+        "id": "firefly-photocyte-granules-catalase",
+        "sourceIds": [
+          "source-10"
+        ]
+      },
+      {
+        "id": "firefly-photocyte-luciferase-immunolocalization",
+        "sourceIds": [
+          "source-8"
+        ]
+      },
+      {
+        "id": "luciola-praeusta-in-vivo-emissions",
+        "sourceIds": [
+          "source-4"
+        ]
+      },
+      {
+        "id": "marques-2008-review",
+        "sourceIds": [
+          "source-2"
+        ]
+      },
+      {
+        "id": "mcelroy-green-1956-atp-activation",
+        "sourceIds": [
+          "source-6"
+        ]
+      },
+      {
+        "id": "photinus-pyralis-light-organ-anatomy",
+        "sourceIds": [
+          "source-9"
+        ]
+      },
+      {
+        "id": "schramm-2024-review",
+        "sourceIds": [
+          "source-1"
+        ]
+      }
+    ],
+    "specialistExtracts": [
+      {
+        "id": "E01",
+        "lens": "Chemical mechanism and evidential level",
+        "summary": "Reaction and energy-state lens: distinguish reactant, catalyst, activation and emitter. The reviewed sequence connects ATP-dependent activation and oxygen reaction to excited oxyluciferin, then light emission. Its source basis is synthesis, not a primary biochemical experiment read for this pack. The non-light-producing branch prevents an unsupported perfect-efficiency gloss.",
+        "claimIds": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05"
+        ],
+        "storyIds": [],
+        "interpretationIds": [
+          "I01"
+        ]
+      },
+      {
+        "id": "E02",
+        "lens": "Anatomy, localization and intervention",
+        "summary": "Organism and experimental-method lens: light-organ anatomy, immunolocalization and developmental knockdown supply different kinds of evidence. The documented knockdown connects disrupted organ development with lost luminescence, but cannot identify which molecular step failed.",
+        "claimIds": [
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "storyIds": [
+          "S01"
+        ],
+        "interpretationIds": [
+          "I02"
+        ]
+      },
+      {
+        "id": "E03",
+        "lens": "Subcellular localization and generalization",
+        "summary": "Scope and localization lens: preserve the distinction between a review's peroxisomal placement, an abstract's import claim and results obtained in HEK293T cells. The partial readings neither reconcile these contexts nor justify presenting them as a decisive contradiction. Keep the main explanation at the light-organ/cell level.",
+        "claimIds": [
+          "C07",
+          "C09",
+          "C10",
+          "C11",
+          "C12"
+        ],
+        "storyIds": [],
+        "interpretationIds": [
+          "I02",
+          "I03"
+        ]
+      }
+    ],
+    "topicMap": [
+      {
+        "questionOrTerm": "What actually makes the light?",
+        "explanation": "The reviewed explanation is chemical excitation followed by light emission as excited oxyluciferin returns to a lower-energy state—not reflection of incoming light (C03–C04)."
+      },
+      {
+        "questionOrTerm": "Luciferin, luciferase, ATP and oxygen",
+        "explanation": "Keep their roles distinct: luciferin reacts; luciferase catalyzes; ATP activates luciferin; subsequent reaction with oxygen produces the excited emitting molecule in the reviewed pathway (C01–C03)."
+      },
+      {
+        "questionOrTerm": "Light organs and photocytes",
+        "explanation": "The anatomical readings connect light production with specialized light-organ cells. An older study abstract reports luciferase labeling in granules within those cells (C06–C08)."
+      },
+      {
+        "questionOrTerm": "What an experiment establishes",
+        "explanation": "Localization detects where luciferase is found; developmental knockdown connects organ development with luminescence. Neither experiment directly establishes the complete chemical sequence (C07–C08; I02)."
+      },
+      {
+        "questionOrTerm": "Peroxisomes and the limits of generalization",
+        "explanation": "The review's peroxisomal account, an import claim in a newer abstract and that paper's HEK293T-cell results must retain their different experimental contexts. They do not establish a universally reconciled organelle-level account (C09–C12)."
+      }
+    ],
+    "claims": [
+      {
+        "id": "C01",
+        "statement": "In the reviewed account, luciferin is a reacting molecule and luciferase is the catalyst; their roles are not interchangeable.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-2"
+          }
+        ],
+        "qualifications": [
+          "The 2024 passage explains general bioluminescence chemistry; its firefly section identifies luciferin and luciferase as central in the prominently studied Photinus pyralis.",
+          "This is a review-supported distinction of roles, not a newly inspected catalytic experiment."
+        ],
+        "reason": "The saved body passage explicitly describes luciferin reacting with oxygen and luciferase catalyzing the reaction; the firefly passage identifies both molecules as central."
+      },
+      {
+        "id": "C02",
+        "statement": "The reviewed firefly pathway begins with ATP-dependent activation of luciferin, followed by reaction with oxygen that produces excited oxyluciferin.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-1"
+          },
+          {
+            "sourceId": "source-2",
+            "passageId": "source-2-read-3-1"
+          },
+          {
+            "sourceId": "source-2",
+            "passageId": "source-2-read-3-2"
+          }
+        ],
+        "qualifications": [
+          "This is the sequence described by reviews, not direct primary observation of every intermediate.",
+          "The 2008 source was read only as an abstract.",
+          "The readings do not establish a complete list of indispensable reaction conditions through controlled omission tests."
+        ],
+        "reason": "Source 5 explicitly summarizes ATP activation followed by oxygen reaction producing excited oxyluciferin. Source 2's abstract supplies a compatible activation-and-oxidation outline."
+      },
+      {
+        "id": "C03",
+        "statement": "In this account, excited oxyluciferin emits light as it returns to a lower-energy state.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-2"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          }
+        ],
+        "qualifications": [
+          "The claim concerns the review's mechanistic account, not an emission measurement newly examined here.",
+          "It does not quantify photon yield, heat production or overall efficiency."
+        ],
+        "reason": "The saved review passage explicitly says excited oxyluciferin emits a photon when returning to a lower-energy state; the recent review supplies the corresponding general principle."
+      },
+      {
+        "id": "C04",
+        "statement": "The reviewed mechanism explains firefly light as chemically generated emission, not reflected light.",
+        "basis": "inference",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          },
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-1"
+          },
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-2"
+          }
+        ],
+        "qualifications": [
+          "This is an explanatory inference from the reviewed emission mechanism, not a separate optical experiment."
+        ],
+        "reason": "Chemical generation of an excited molecule followed by photon emission describes production of light rather than reflection of incident light."
+      },
+      {
+        "id": "C05",
+        "statement": "The 2019 review's pathway account includes a non-light-producing branch.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-2"
+          }
+        ],
+        "qualifications": [
+          "The saved passage does not quantify this branch or establish its frequency in a specified living firefly.",
+          "It cannot support an efficiency percentage."
+        ],
+        "reason": "The saved body passage explicitly includes an alternative branch that can produce no light."
+      },
+      {
+        "id": "C06",
+        "statement": "The Aquatica leii paper describes an adult light organ with a photogenic layer and photocytes surrounding tracheal end cells.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-2"
+          }
+        ],
+        "qualifications": [
+          "This is an anatomical description in the Introduction, not a controlled test of which structures are chemically necessary.",
+          "The study concerns Aquatica leii; it is not a cross-species anatomical survey."
+        ],
+        "reason": "The inspected Introduction describes the adult light organ's layers and the arrangement of photocytes around tracheal end cells."
+      },
+      {
+        "id": "C07",
+        "statement": "A 1981 study abstract reports luciferase localized to photocyte granules by immunoferritin labeling, with other examined parts of photocytes and light organs negative for luciferase.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-8",
+            "passageId": "source-8-read-10-2"
+          },
+          {
+            "sourceId": "source-8",
+            "passageId": "source-8-read-10-3"
+          }
+        ],
+        "qualifications": [
+          "Only the abstract was read; species, life stage and detailed assay controls are not supplied there.",
+          "Negative labeling is an assay result, not proof of absolute molecular absence.",
+          "Localization does not establish the granules' necessity or the location of every reaction step."
+        ],
+        "reason": "The abstract directly reports immunoferritin localization. This is one primary evidence family: firefly-photocyte-luciferase-immunolocalization."
+      },
+      {
+        "id": "C08",
+        "statement": "After pupal-stage AlAbd-B knockdown in Aquatica leii, the authors reported disrupted adult light-organ development, loss of luminescence and smaller or empty peroxisomes in photocytes.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-3"
+          }
+        ],
+        "qualifications": [
+          "The intervention affected development and multiple cellular features; the saved result does not isolate a single cause of lost light.",
+          "It is not a controlled test of the luciferin–luciferase reaction sequence.",
+          "The finding is specific to the reported Aquatica leii intervention."
+        ],
+        "reason": "The inspected Results report all three outcomes after pupal-stage AlAbd-B knockdown. This is the primary family firefly-adult-light-organ-development-peroxisomal-targeting."
+      },
+      {
+        "id": "C09",
+        "statement": "The 2019 review places firefly bioluminescence in lantern-cell peroxisomes while noting that proposed supporting enzymes still require experimental demonstration.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-3"
+          }
+        ],
+        "qualifications": [
+          "The inspected review passage does not identify the species or life stage underlying its localization statement.",
+          "Its caution concerns proposed supporting enzymes; it must not be broadened into a claim that the whole light-producing mechanism lacks evidence."
+        ],
+        "reason": "The saved body passage explicitly states both the peroxisomal placement and the need for experimental demonstration of proposed supporting enzymes."
+      },
+      {
+        "id": "C10",
+        "statement": "The Aquatica leii paper's abstract reports that four peroxins are involved in importing AlLUC1 into peroxisomes.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-1"
+          }
+        ],
+        "qualifications": [
+          "This is what the abstract reports; the relevant complete import experiments were not inspected.",
+          "It must not be substituted for the separately saved HEK293T-cell result."
+        ],
+        "reason": "The abstract explicitly reports involvement of four peroxins in AlLUC1 import."
+      },
+      {
+        "id": "C11",
+        "statement": "In HEK293T cells, the paper reports AlLUC1 in the cytoplasm and nucleus and AlLUC2 in peroxisomes; the authors describe these results as inconsistent with previous research.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-4"
+          }
+        ],
+        "qualifications": [
+          "These are HEK293T-cell results, not direct localization in firefly photocytes.",
+          "The paper was only partially read; the relationship to the abstract's import claim remains unresolved here.",
+          "Different experimental contexts must not be treated as a demonstrated contradiction."
+        ],
+        "reason": "The inspected Results directly report the two localization patterns and the authors' statement that they differ from previous research."
+      },
+      {
+        "id": "C12",
+        "statement": "These readings support a light-organ/cell-level explanation more securely than a universal placement of the complete light-producing pathway in peroxisomes.",
+        "basis": "inference",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-2"
+          },
+          {
+            "sourceId": "source-8",
+            "passageId": "source-8-read-10-2"
+          },
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-3"
+          },
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-1"
+          },
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-4"
+          }
+        ],
+        "qualifications": [
+          "This is an assessment of the supplied evidence's reach, not a claim that peroxisomal localization is false.",
+          "The 1981 granules cannot be identified as peroxisomes solely from the saved abstract."
+        ],
+        "reason": "Anatomical description and enzyme labeling support the light-organ/cell connection. The differing source types and assay contexts do not establish a reconciled, species-universal organelle-level account."
+      }
+    ],
+    "interpretations": [
+      {
+        "id": "I01",
+        "proposition": "The clearest supported explanation separates ATP-dependent activation, luciferin as reactant, luciferase as catalyst and excited oxyluciferin as emitter. The final explanatory link is a change of molecular energy state accompanied by light emission.",
+        "attribution": "Editorial synthesis of the saved review passages in sources 1, 2 and 5.",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          },
+          {
+            "sourceId": "source-2",
+            "passageId": "source-2-read-3-1"
+          },
+          {
+            "sourceId": "source-2",
+            "passageId": "source-2-read-3-2"
+          },
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-1"
+          },
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-2"
+          }
+        ],
+        "strongestObjection": "The pack contains no successfully read primary component-addition or component-withholding experiment, nor primary energy measurements establishing the sequence. A reviewed mechanism must not be presented as direct observation of every intermediate in a living firefly.",
+        "currentStanding": "Supported as a bounded, review-based explanation. The limitation concerns the primary evidence inspected here, not a demonstrated competing explanation.",
+        "whatWouldChangeAssessment": "Read primary biochemical experiments with defined components, controls and measured emission would permit stronger statements about experimental necessity and the evidence for individual steps."
+      },
+      {
+        "id": "I02",
+        "proposition": "The anatomical studies connect the molecular account to the insect, but they answer different questions from a controlled biochemical reconstruction.",
+        "attribution": "Editorial inference from the Aquatica leii results and the 1981 immunolocalization abstract.",
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-2"
+          },
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-3"
+          },
+          {
+            "sourceId": "source-8",
+            "passageId": "source-8-read-10-2"
+          },
+          {
+            "sourceId": "source-8",
+            "passageId": "source-8-read-10-3"
+          }
+        ],
+        "strongestObjection": "Immunolocalization reports where an enzyme-associated signal is detected, not where every reaction step occurs. The developmental intervention altered organ formation and multiple cellular features, so loss of light does not isolate the necessity of any one granule, organelle or chemical step.",
+        "currentStanding": "Supported for the limited conclusion that specialized light-organ cells, luciferase localization and successful organ development are relevant to the observed luminescence. Not sufficient to establish the full chemical pathway.",
+        "whatWouldChangeAssessment": "Direct localization and selective functional tests in identified firefly photocytes, with controls separating organ development from reaction chemistry, would sharpen the cellular conclusion."
+      },
+      {
+        "id": "I03",
+        "proposition": "Peroxisomal localization should remain qualified rather than being silently harmonized across reviews, abstracts and cell-line experiments.",
+        "attribution": "Editorial comparison of source 5's review account with the saved abstract and Results passages of source 7.",
+        "passages": [
+          {
+            "sourceId": "source-5",
+            "passageId": "source-5-read-6-3"
+          },
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-1"
+          },
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-4"
+          }
+        ],
+        "strongestObjection": "The newer paper's abstract and HEK293T-cell assay need not describe the same experimental context. A result outside firefly photocytes cannot by itself refute native peroxisomal localization; the partial reading also cannot reconcile the accounts.",
+        "currentStanding": "An unresolved localization qualification within this saved material, not evidence of a competing overall light-production mechanism.",
+        "whatWouldChangeAssessment": "The relevant complete methods and results, especially direct localization in identified firefly photocytes and an explanation of how the import and cell-assay results relate, could resolve the apparent tension."
+      }
+    ],
+    "stories": [
+      {
+        "id": "S01",
+        "puzzle": "Does perturbing development of the adult light organ also affect its ability to emit light?",
+        "attempted": "The authors performed AlAbd-B knockdown during the pupal stage of Aquatica leii.",
+        "observed": "The Results report disrupted light-organ development and loss of luminescence, together with smaller or empty peroxisomes in photocytes.",
+        "whatChanged": "Following the pupal-stage intervention, the reported adult outcome included both abnormal light-organ development and lost luminescence.",
+        "documentedDetails": [
+          "Species: Aquatica leii.",
+          "Intervention stage: pupa.",
+          "Target: AlAbd-B.",
+          "Reported outcomes: disrupted light-organ development, lost luminescence and altered photocyte peroxisomes."
+        ],
+        "passages": [
+          {
+            "sourceId": "source-7",
+            "passageId": "source-7-read-9-3"
+          }
+        ],
+        "qualifications": [
+          "The story is a developmental intervention in Aquatica leii, not a purified biochemical reconstruction.",
+          "The saved passage does not supply sample sizes, intervention details or controls sufficient for a full methodological assessment.",
+          "Because organ formation and cellular structures were both affected, the result does not isolate a molecular cause of lost luminescence."
+        ]
+      }
+    ],
+    "openQuestions": [
+      "Which controlled primary biochemical experiments directly demonstrate ATP-dependent activation, oxygen involvement and measured light emission, and under what species-specific and laboratory conditions?",
+      "Which steps and intermediates in the reviewed pathway were directly observed, and which were inferred from biochemical evidence?",
+      "How do the Aquatica leii paper's peroxin/import findings relate to its HEK293T-cell localization results and to direct localization in firefly photocytes?",
+      "How broadly do the detailed biochemical and localization findings generalize across firefly species and life stages?",
+      "Do complete source texts or later publication notices materially qualify any retained result?"
+    ],
+    "limitations": [
+      "Dropped promise: this pack cannot supply a documented controlled biochemical reconstruction or ingredient-withholding story establishing the essential reaction steps. Source 6 was inaccessible; its search snippet is not support.",
+      "The 2024 review was read only for general bioluminescence chemistry and the beginning of its firefly section. The more detailed pathway rests on a partially read 2019 review and a 2008 review abstract, not a fully inspected current mechanistic synthesis.",
+      "Sources 1, 2 and 5 are reviews. Their agreement is not three independent experimental replications, and overlap in their underlying primary evidence was not traced. Sources 7 and 8 belong to distinct primary evidence families but test different endpoints, not the same result.",
+      "The organism-level material is not one continuous demonstration in a single species: the recent review highlights Photinus pyralis, the developmental study concerns adult Aquatica leii, and the 1981 localization abstract does not identify species or life stage.",
+      "The saved passages support discussion of light organs and photocytes, but not a verified external body location or a detailed anatomical tour.",
+      "Exact peroxisomal targeting and the relationship between the newer paper's abstract and HEK293T-cell results remain unresolved in the partial reading. Photocyte granules in the 1981 abstract must not simply be relabeled as peroxisomes.",
+      "No read measurements support claims of zero heat, numerical efficiency, a universal emission color or a complete accounting of energy transfer from ATP. These claims should be omitted.",
+      "Sources 3, 4 and 6 were inaccessible, and sources 9 and 10 were available only as snippets. None supplies read support for affirmative findings here.",
+      "Correction, retraction, expression-of-concern and later-work histories were not independently checked. The supplied records must not be described as having passed a comprehensive publication-status check.",
+      "No read source supplies a competing tested explanation of the overall reaction. The localization qualification and missing primary biochemical reading should not be converted into manufactured controversy."
+    ],
+    "coverageDecision": {
+      "status": "narrowed",
+      "centralQuestion": "What basic chemical pathway do reviews describe for firefly light, and how is luciferase linked to light-producing cells?",
+      "reason": "The saved reviews support a useful chemical outline, and primary anatomical material connects luciferase and luminescence with light-organ cells. However, the commission also promised primary controlled biochemical evidence and an explanation of how the essential reaction steps were experimentally established. The relevant biochemical source was inaccessible, and the recent review was only partially read. Narrow the account to a clearly attributed review-based mechanism plus the anatomical evidence, without claiming that this pack independently demonstrates every ingredient, energy transfer or intermediate."
+    }
+  },
+  "postConversationEvidence": []
+}

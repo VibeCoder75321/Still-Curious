@@ -1,0 +1,20 @@
+[
+  {
+    "method": "GET",
+    "purpose": "Inspect producer status",
+    "timestamp": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "purpose": "Inspect held source actions and output",
+    "timestamp": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "purpose": "Verify echoed source tool limit",
+    "timestamp": null,
+    "status": 200
+  }
+]

@@ -1,0 +1,211 @@
+{
+  "value": {
+    "candidates": [
+      {
+        "title": "Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20558668/?dopt=Abstract",
+        "doi": "10.1126/science.1188934",
+        "authors": [
+          "Christopher K. Savile",
+          "Jacob M. Janey",
+          "Emily C. Mundorff",
+          "Jeffrey C. Moore",
+          "Sarena Tam",
+          "William R. Jarvis",
+          "Jeffrey C. Colbeck",
+          "Anke Krebber",
+          "Fred J. Fleitz",
+          "Jos Brands",
+          "Paul N. Devine",
+          "Gjalt W. Huisman",
+          "Gregory J. Hughes"
+        ],
+        "publishedOn": "2010-06-17 (online publication; journal issue dated 2010-07-16)",
+        "sourceType": "primary_study",
+        "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+        "publicationStatus": "published",
+        "notices": [],
+        "relationships": [
+          {
+            "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+            "relation": "reports_on",
+            "note": "The EPA award account summarizes the same sitagliptin transaminase process and reports pilot-scale work in 2009."
+          }
+        ],
+        "qualifications": [
+          "Primary study most directly aligned with the central case: its abstract describes replacing rhodium-catalyzed asymmetric hydrogenation in large-scale sitagliptin manufacture with an engineered transaminase.",
+          "The result identifies enzyme engineering for practical manufacturing, but the search snippet does not establish the production scale, repeat-batch performance, reaction conditions, or complete isolation evidence.",
+          "Use the paper and supporting information to distinguish reported experimental observations from broader claims about manufacturing suitability."
+        ],
+        "accessNote": "Discovery result provides the PubMed abstract and citation details; full article and supporting information have not been assessed.",
+        "snippet": {
+          "text": "The authors report a biocatalytic process to replace a recently implemented rhodium-catalyzed asymmetric enamine hydrogenation for large-scale sitagliptin manufacture; they describe engineering a transaminase for practical manufacturing use.",
+          "locator": "Search-result snippet reproducing the PubMed abstract"
+        }
+      },
+      {
+        "title": "Application of On-Line NIR for Process Control during the Manufacture of Sitagliptin",
+        "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+        "doi": "10.1021/acs.oprd.5b00409",
+        "authors": [
+          "George Zhou",
+          "Shane Grosser",
+          "Lei Sun",
+          "Gabriel Graffius"
+        ],
+        "publishedOn": "2016-03-18",
+        "sourceType": "primary_study",
+        "evidenceFamilyId": "sitagliptin_online_nir_process_control_2016",
+        "publicationStatus": "published",
+        "notices": [],
+        "relationships": [
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+            "relation": "same_study",
+            "note": "This is the same article as the previously saved source-3, whose record currently contains only a brief snippet."
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+            "relation": "related",
+            "note": "Its reported direct crystallization from reaction components is also mentioned in the saved 2025 Merck retrospective, which remains inaccessible in the prior reading record."
+          }
+        ],
+        "qualifications": [
+          "Primary process-control study relevant to the link between reaction-stream composition and product isolation.",
+          "The result reports design-of-experiments work connecting crystallization particle-size outcomes to seeding-point temperature and solution composition, and describes near-infrared models used for composition measurement.",
+          "This saved source was previously available only as a brief snippet; the current search result offers more abstract-level detail, not full-text verification.",
+          "The abstract does not by itself establish repeatability across production batches or isolate the cause of any scale-related effects."
+        ],
+        "accessNote": "Discovery result provides article metadata and abstract text; full article and supporting information have not been assessed.",
+        "snippet": {
+          "text": "The abstract reports that final API particle-size distribution depended strongly on seeding-point temperature, which depended on solution composition; near-infrared models were applied to analyze production-batch composition before crystallization.",
+          "locator": "Search-result snippet reproducing the ACS abstract"
+        }
+      },
+      {
+        "title": "Presidential Green Chemistry Challenge: 2010 Greener Reaction Conditions Award",
+        "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+        "doi": null,
+        "authors": [],
+        "publishedOn": "2010 (award year; original webpage publication date unclear)",
+        "sourceType": "institutional",
+        "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+        "publicationStatus": "published",
+        "notices": [],
+        "relationships": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20558668/?dopt=Abstract",
+            "relation": "reports_on",
+            "note": "Institutional summary of the sitagliptin transaminase process described in the 2010 primary study."
+          }
+        ],
+        "qualifications": [
+          "Institutional award account useful for locating the prior hydrogenation route, its stated drawbacks, and reported pilot-scale development of the transaminase process.",
+          "The account reports comparative productivity, yield, and waste figures, but the result does not provide experimental methods or establish which conditions were held constant.",
+          "Treat it as an institutional summary, not as the primary experimental record or independent verification of the reported figures."
+        ],
+        "accessNote": "The discovery result includes substantial page text, but the source remains an institutional summary rather than primary experimental evidence.",
+        "snippet": {
+          "text": "The account describes the hydrogenation route’s high-pressure equipment and rhodium catalyst, reports a transaminase process intended to supplant it, and says Merck scaled the process to pilot scale during 2009.",
+          "locator": "Search-result snippet from the EPA award page"
+        }
+      }
+    ],
+    "coverageRationale": "Prioritized the primary report on the route change, then a primary study that connects measured solution composition to crystallization and particle-size outcomes, and finally the institutional account for the documented hydrogenation alternative and pilot-scale context. The 2016 article is linked to the already saved source-3 rather than treated as independent confirmation. The search did not surface useful publication-status notices; notice checking, full-text and supporting-information review, and a controlled comparison of operating conditions remain open.",
+    "gaps": [
+      "No correction, retraction, or expression-of-concern notice surfaced in this discovery search; publication-status notices for the central studies still need a dedicated check.",
+      "The primary sitagliptin transaminase report’s supporting information and full experimental detail remain to be located and assessed. The search result does not establish batch size, repeat-batch reproducibility, or which variables were controlled in scale comparisons.",
+      "The 2016 crystallization and near-infrared study appears promising for tracing measurement to an isolation decision, but its full text and any supporting information have not been examined.",
+      "The search surfaced a documented hydrogenation alternative and reported advantages of replacing it, but not a controlled, independently verified comparison of all relevant performance measures."
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%A5%E8%89%BA%E5%8C%96%E5%AD%A6",
+      "title": null
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+      "title": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20558668/?dopt=Abstract",
+      "title": null
+    },
+    {
+      "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+      "title": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21284073/",
+      "title": null
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.1c00574",
+      "title": null
+    },
+    {
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.1c00574",
+      "title": null
+    },
+    {
+      "url": "https://www.sciencedirect.com/topics/chemistry/sitagliptin",
+      "title": null
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+      "title": null
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960308510000052",
+      "title": null
+    },
+    {
+      "url": "https://www.sciencedirect.com/topics/neuroscience/sitagliptin",
+      "title": null
+    },
+    {
+      "url": "https://novel-coronavirus.onlinelibrary.wiley.com/doi/pdf/10.1002/9781118354520.ch04",
+      "title": null
+    },
+    {
+      "url": "https://ndl.ethernet.edu.et/bitstream/123456789/42229/1/7.pdf",
+      "title": null
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201007051",
+      "title": null
+    },
+    {
+      "url": "https://www.gao.gov/assets/700/690003.pdf",
+      "title": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Process_chemistry",
+      "title": null
+    },
+    {
+      "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/05/20/27/00001/ZUO_R.pdf",
+      "title": null
+    },
+    {
+      "url": "https://macmillan.princeton.edu/wp-content/uploads/SJM_Protein-Biocat-in-Ind.pdf",
+      "title": null
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2021/ra/d0ra10273c",
+      "title": null
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/c5ra00358j",
+      "title": null
+    }
+  ],
+  "actions": [
+    {
+      "type": "search",
+      "url": null,
+      "status": "completed"
+    }
+  ]
+}

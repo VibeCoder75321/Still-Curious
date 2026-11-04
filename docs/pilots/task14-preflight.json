@@ -1,0 +1,83 @@
+{
+  "mode": "preflight-only",
+  "providerCalls": 0,
+  "topic": "How do fireflies make light?",
+  "spendingCeilingUsd": null,
+  "allocations": {
+    "research": 0,
+    "text": 0,
+    "review": 0,
+    "audio": 0
+  },
+  "quotes": [
+    {
+      "role": "producer",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.40384
+    },
+    {
+      "role": "research",
+      "model": "gpt-6-luna",
+      "reservationUsd": 0.5411440000000001
+    },
+    {
+      "role": "source",
+      "model": "gpt-6-luna",
+      "reservationUsd": 0.5411440000000001
+    },
+    {
+      "role": "synthesis",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.40384
+    },
+    {
+      "role": "casting",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    },
+    {
+      "role": "guest_preparation",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    },
+    {
+      "role": "host_preparation",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    },
+    {
+      "role": "host",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.28096
+    },
+    {
+      "role": "guest",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    },
+    {
+      "role": "contribution_request",
+      "model": "gpt-6-luna",
+      "reservationUsd": 0.013024
+    },
+    {
+      "role": "editing",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    },
+    {
+      "role": "review",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.40384
+    },
+    {
+      "role": "local_repair",
+      "model": "gpt-6.1-sol",
+      "reservationUsd": 0.32192
+    }
+  ],
+  "notice": "Reservation headroom is not an expected charge. Live execution requires an explicitly approved ceiling and --run.",
+  "proposedCeilingUsd": 5,
+  "authorization": "Awaiting user confirmation; no live run has started.",
+  "baselineCommit": "16375d7cabc3d70c016eb09020476d1edda510ce"
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-15T14:10:36.228247+00:00",
+  "baseline_revision": "53c7ea4b905ddddfc8c07a440b0e4608993efec4",
+  "framework": {
+    "version": "2.1",
+    "path": "Still_Curious_Podcast_Framework_v2_1.docx",
+    "sha256": "4e6545f9e5a058de8ba9f8165108ca204271bef2cf70785800c1cdc77980581a",
+    "source": "Existing framework produced and revised in this conversation; saved workspace DOCX",
+    "library_file_id": "libfile_11ad40622710819184de4da5fd7485f8",
+    "derived_text": "framework-v2.1.md",
+    "derived_text_sha256": "f2dadf2b43e69fe78fdc498a3cee8bf1b1c600853427aec836cdb8d2f5c26d42",
+    "paragraphs": 170,
+    "tables": 2
+  },
+  "implementation_task_pack": {
+    "version": "1",
+    "path": "Still_Curious_Implementation_Task_Pack_v1.docx",
+    "sha256": "d1cfe663b1a697687fbe68e9bf2c6641979fdcee919f4518b35076be7e327c01",
+    "source": "User-supplied attachment for Task 01",
+    "library_file_id": "libfile_4c8698cf905c81919d25258967cbc52e",
+    "content_file_id": "file_0000000070d4820c836104d8d19da0de"
+  },
+  "original_user_brief": {
+    "status": "not_available",
+    "searched": "Relevant files in the current conversation workspace and repository",
+    "note": "Existing summaries and prompts are not a verbatim copy. Framework v2.1 is the available authority until the original is supplied."
+  }
+}

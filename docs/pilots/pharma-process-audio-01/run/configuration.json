@@ -1,0 +1,24 @@
+{
+  "pricing": {
+    "version": 1,
+    "model": "eleven_v4",
+    "voices": {
+      "host": "CwhRBWXzGAHq8TQ4Fs17",
+      "expert1": "EXAVITQu4vr4xnSDxMaL",
+      "expert2": "JBFqnCBsd6RMkjVDRZzb",
+      "expert3": "onwK4e9ZLuTAKqWW03F9"
+    },
+    "usdPer1kCharacters": 0.08,
+    "checkedAt": 1792159990334
+  },
+  "audioAllowanceUsd": 1.49,
+  "apiPricing": {
+    "usdPer1kCharacters": 0.08,
+    "checkedAt": 1792159983314,
+    "sources": [
+      "https://elevenlabs.io/pricing/api",
+      "https://elevenlabs.io/app/subscription/api"
+    ]
+  },
+  "checkedFrom": "API pricing page, signed-in API price table, model catalog and four exact default voices"
+}

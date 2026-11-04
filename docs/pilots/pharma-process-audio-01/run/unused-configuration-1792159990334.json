@@ -1,0 +1,16 @@
+{
+  "pricing": {
+    "version": 1,
+    "model": "eleven_v4",
+    "voices": {
+      "host": "CwhRBWXzGAHq8TQ4Fs17",
+      "expert1": "EXAVITQu4vr4xnSDxMaL",
+      "expert2": "JBFqnCBsd6RMkjVDRZzb",
+      "expert3": "onwK4e9ZLuTAKqWW03F9"
+    },
+    "usdPer1kCharacters": 0.364006989,
+    "checkedAt": 1792159809689
+  },
+  "audioAllowanceUsd": 1.49,
+  "checkedFrom": "Owned account subscription, model catalog and four exact default-voice records"
+}

@@ -1,0 +1,7 @@
+{"event":"provider_http","method":"POST","startedAt":"2026-10-16T00:49:13.065Z","finishedAt":null,"status":200,"providerRequestId":"req_3549882eea2b46bba0735c33417a5d92","responseId":"resp_0f4407aa51eb470a006ad1748e879087d1a3f173fb4d9afc88"}
+{"episodeId":"75636e6f-2c23-4c4b-a474-0b9620e546b1","stage":"research.read","status":"running","operations":6,"estimatedUsd":0.073980395,"allowanceUsd":1.1773128750000001,"disposition":"saved"}
+{"episodeId":"75636e6f-2c23-4c4b-a474-0b9620e546b1","stage":"research.read","status":"running","operations":6,"estimatedUsd":0.075750695,"allowanceUsd":0.64794775,"disposition":"saved"}
+{"event":"provider_http","method":"POST","startedAt":"2026-10-16T00:49:34.562Z","finishedAt":null,"status":200,"providerRequestId":"req_39de7adcb36844899a788bf4be9270d7","responseId":"resp_0801f24dd1c1be14006ad1749ed61c87d1b158ae00fc1b3ef0"}
+{"episodeId":"75636e6f-2c23-4c4b-a474-0b9620e546b1","stage":"research.read","status":"running","operations":7,"estimatedUsd":0.075750695,"allowanceUsd":1.1890917500000002,"disposition":"saved"}
+{"episodeId":"75636e6f-2c23-4c4b-a474-0b9620e546b1","stage":"research.discover","status":"running","operations":7,"estimatedUsd":0.07688549,"allowanceUsd":0.65967825,"disposition":"saved"}
+{"episodeId":"75636e6f-2c23-4c4b-a474-0b9620e546b1","stage":"research.read","status":"running","operations":7,"estimatedUsd":0.075750695,"allowanceUsd":1.1890917500000002,"disposition":"busy"}

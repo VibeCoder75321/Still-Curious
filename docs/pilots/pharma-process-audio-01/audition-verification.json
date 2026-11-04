@@ -1,0 +1,58 @@
+{
+  "checkedOn": "2026-10-16",
+  "status": "awaiting_listener_acceptance",
+  "paidRequests": 3,
+  "allProviderPostStatuses": [
+    200,
+    200,
+    200
+  ],
+  "scriptHash": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "audio": {
+    "key": "episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/audition.mp3",
+    "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c",
+    "bytes": 4891375,
+    "durationSeconds": 305.7110204081633
+  },
+  "sampleRateHz": 44100,
+  "channels": 1,
+  "codec": "mp3",
+  "independentDecode": "ffmpeg full-stream decode: exit 0, no errors",
+  "independentDurationSeconds": 305.710938,
+  "typescriptTests": {
+    "passed": 201,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "newResearchCalls": 0,
+  "newTextGenerationCalls": 0,
+  "fullSynthesisStarted": false,
+  "auditionAccepted": false,
+  "existingKeyLimit": 10000,
+  "keyLimitChanged": false,
+  "balance": {
+    "checkedAt": "2026-10-16T14:16:19.577Z",
+    "creditsUsed": 10082,
+    "creditLimit": 37472,
+    "creditsRemaining": 27390,
+    "observedCreditDelta": 1029,
+    "creditFaceValueEquivalentUsd": 0.374563191613279,
+    "attribution": "Account-level display-credit delta after settlement; not an API invoice. Provider character-cost headers total 1029 for these three requests."
+  },
+  "actualBilledUsd": null,
+  "pricing": {
+    "apiUsdPer1kCharacters": 0.08,
+    "auditionConservativeReservationUsd": 0.414640001,
+    "fullConservativeReservationUsd": 1.241920002,
+    "audioAllowanceUsd": 1.49,
+    "originalCombinedCapUsd": 5
+  },
+  "limits": [
+    "File integrity, decoding, input speech preservation and duration verified; listening/speaker correspondence needs the user.",
+    "Account credit balance updates lagged the final audio response; settled delta matches the three raw character-cost headers.",
+    "Display-credit face value is not an API invoice. Earlier derived reportedCostUsd was corrected without changing audio, reservations or script."
+  ],
+  "artifactReferencesVerified": 35,
+  "originalResearchAndTextUnchanged": true,
+  "whitespaceCheck": "passed"
+}

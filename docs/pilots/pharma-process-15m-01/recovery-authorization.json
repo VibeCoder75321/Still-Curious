@@ -1,0 +1,13 @@
+{
+  "approvalText": "Whatever you think best. Keep $5 cap",
+  "approvalAt": "2026-10-15T20:42:08-04:00",
+  "approvedAction": "Abandon the missing source-reading result and continue with other sources, retaining its full reservation within the existing $5 cap.",
+  "episodeId": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "stepKey": "research.read:4:source-3",
+  "operationId": "attempt_8d47e710-08a0-4b49-9379-824dc8fdee4b",
+  "sourceId": "source-3",
+  "retainedReservationUsd": 0.541144,
+  "spendingCeilingUsd": 5,
+  "resubmitAbandonedRequest": false,
+  "audioAuthorized": false
+}

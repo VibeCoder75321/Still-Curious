@@ -1,0 +1,14 @@
+{
+  "originalRequest": "Do a 15 minute run about pharmaceutical process development and chemistry",
+  "approvalText": "Sure",
+  "approvalAt": "2026-10-15T19:51:58-04:00",
+  "approvedProposal": "Can I use a $5 maximum API budget for this run?",
+  "topic": "pharmaceutical process development and chemistry",
+  "lengthMinutes": 15,
+  "format": "text-only",
+  "spendingCeilingUsd": 5,
+  "audioAuthorized": false,
+  "credentialReuse": "Existing configured provider access; already authorized.",
+  "sourceCommitAtStart": "bcdb2f2fd2b91cbc9a5b3a66f6e5a41cca2430e4",
+  "workspaceInterruption": "Approval initially arrived while the execution environment was unavailable. No provider calls were made before the workspace returned."
+}

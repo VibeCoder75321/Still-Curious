@@ -1,0 +1,425 @@
+{
+  "episodeId": "61a8b4b4-638e-4792-a90d-80fb35881e62",
+  "topic": "pharmaceutical process development and chemistry",
+  "status": "paused",
+  "stage": "ready_for_audio.wait",
+  "textAccepted": true,
+  "pause": {
+    "code": "text_checkpoint",
+    "reason": "The exact reviewed script is accepted. Review the text pilot before authorizing audio generation."
+  },
+  "spendingCeilingUsd": 3.19,
+  "allocations": {
+    "research": 0.25,
+    "text": 2.24,
+    "review": 0.7,
+    "audio": 0
+  },
+  "operations": 32,
+  "stages": [
+    {
+      "key": "commission.produce:1",
+      "stage": "commission",
+      "phase": "completed",
+      "role": "producer",
+      "wallTimeMs": 275515,
+      "observedOperationLatencyMs": 275513,
+      "usageRecordId": "attempt_0181bd14-23f7-45e2-adc7-4d71027af18c",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.synthesize:1:1",
+      "stage": "research",
+      "phase": "completed",
+      "role": "synthesis",
+      "wallTimeMs": 306499,
+      "observedOperationLatencyMs": 306497,
+      "usageRecordId": "attempt_d050227a-7e5f-4a3c-b0bb-aa7d514575b9",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "casting.cast:1",
+      "stage": "casting",
+      "phase": "completed",
+      "role": "casting",
+      "wallTimeMs": 81542,
+      "observedOperationLatencyMs": 81541,
+      "usageRecordId": "attempt_9e563432-3daa-4862-83f5-2a594ecc8000",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert1:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 27147,
+      "observedOperationLatencyMs": 27147,
+      "usageRecordId": "attempt_5ca766cd-3fe8-49da-b2b6-8e12ab360399",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert2:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 31573,
+      "observedOperationLatencyMs": 31572,
+      "usageRecordId": "attempt_f482b2c3-7187-4482-bba0-072a96d42074",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert3:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 36057,
+      "observedOperationLatencyMs": 36057,
+      "usageRecordId": "attempt_9337c59f-c914-4d12-abeb-62999dd08ae2",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.host:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "host_preparation",
+      "wallTimeMs": 82428,
+      "observedOperationLatencyMs": 82427,
+      "usageRecordId": "attempt_960ef354-05e0-44f8-a1fc-6b9c25c33ce8",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:1",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 11781,
+      "observedOperationLatencyMs": 11780,
+      "usageRecordId": "attempt_b1dd4688-3cde-421c-8a2c-c8768bcc622a",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert2:2",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 22656,
+      "observedOperationLatencyMs": 22654,
+      "usageRecordId": "attempt_32171b1f-f897-47bc-8a93-cf8e40abece9",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:3",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 9592,
+      "observedOperationLatencyMs": 9590,
+      "usageRecordId": "attempt_db06cb9d-5859-4457-a62c-7d20a33458e0",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:4",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 29547,
+      "observedOperationLatencyMs": 29545,
+      "usageRecordId": "attempt_c75baaac-815e-4841-8200-9aea193039c3",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:5",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 7507,
+      "observedOperationLatencyMs": 7505,
+      "usageRecordId": "attempt_b8961712-85ee-4cef-9152-51f6e737685e",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert3:6",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 35919,
+      "observedOperationLatencyMs": 35918,
+      "usageRecordId": "attempt_b6dce617-148e-4029-8fa4-6368473d4641",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:7",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 9537,
+      "observedOperationLatencyMs": 9535,
+      "usageRecordId": "attempt_e2a8a786-ea95-4c22-b690-09759038aac9",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert2:8",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 27300,
+      "observedOperationLatencyMs": 27298,
+      "usageRecordId": "attempt_51b20220-a7f8-43fc-b9f7-2469e896bb87",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:9",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 11866,
+      "observedOperationLatencyMs": 11864,
+      "usageRecordId": "attempt_1e0e424d-3d35-438b-a1ba-635a99fe2216",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:10",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 29635,
+      "observedOperationLatencyMs": 29633,
+      "usageRecordId": "attempt_0ec72228-40a6-4b90-9c67-dc690742c5f6",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:11",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 7418,
+      "observedOperationLatencyMs": 7417,
+      "usageRecordId": "attempt_d364f9b7-45bd-4d1d-b004-6a8e5dc29402",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert3:12",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 27167,
+      "observedOperationLatencyMs": 27165,
+      "usageRecordId": "attempt_43533bf8-c5cf-405c-a4a0-38ee6eb0e19d",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:13",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 17769,
+      "observedOperationLatencyMs": 17767,
+      "usageRecordId": "attempt_2c6db864-7f34-4b8e-bd84-b7b3e2c0451c",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert3:14",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 20722,
+      "observedOperationLatencyMs": 20720,
+      "usageRecordId": "attempt_ad4c6b2b-4616-49ba-a740-44d72cd2ac8e",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:15",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 12060,
+      "observedOperationLatencyMs": 12058,
+      "usageRecordId": "attempt_8f20b880-eef0-438a-8826-e8554026e1bf",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert2:16",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 33885,
+      "observedOperationLatencyMs": 33883,
+      "usageRecordId": "attempt_3923abf6-4a7d-4945-ba25-212d68a1e39b",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:17",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 14187,
+      "observedOperationLatencyMs": 14185,
+      "usageRecordId": "attempt_d8dd129f-ba2d-4f13-89bf-18aec665d3d3",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:18",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 20774,
+      "observedOperationLatencyMs": 20773,
+      "usageRecordId": "attempt_064c7890-9028-4c05-bff7-6792c33a9c66",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:19",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 9873,
+      "observedOperationLatencyMs": 9870,
+      "usageRecordId": "attempt_5102d679-74dc-4b43-9843-433d854a4740",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert2:20",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 18690,
+      "observedOperationLatencyMs": 18688,
+      "usageRecordId": "attempt_7b195f04-8396-4f18-9ea4-9ae1b3aeaa67",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:21",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 7568,
+      "observedOperationLatencyMs": 7566,
+      "usageRecordId": "attempt_6c86768c-1a89-46ca-aae4-551b6fd6e00b",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:22",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 26108,
+      "observedOperationLatencyMs": 26105,
+      "usageRecordId": "attempt_f0d65092-098e-43ea-9b7f-eeb229264a62",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:23",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 5230,
+      "observedOperationLatencyMs": 5227,
+      "usageRecordId": "attempt_2f2bfeee-ffd0-4424-9ea1-4ccc89e450ab",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "editing.edit:23",
+      "stage": "editing",
+      "phase": "completed",
+      "role": "editing",
+      "wallTimeMs": 73382,
+      "observedOperationLatencyMs": 73380,
+      "usageRecordId": "attempt_808ad7af-f5ad-4a06-8b3d-1f67670f0f60",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "review.assess:1",
+      "stage": "review",
+      "phase": "completed",
+      "role": "review",
+      "wallTimeMs": 47071,
+      "observedOperationLatencyMs": 47068,
+      "usageRecordId": "attempt_ec7d7794-ea57-4051-b4f9-8a9cd296827a",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    }
+  ],
+  "observed": {
+    "inputTokens": {
+      "reportedSubtotal": 470968,
+      "missingOperations": []
+    },
+    "outputTokens": {
+      "reportedSubtotal": 51657,
+      "missingOperations": []
+    },
+    "totalTokens": {
+      "reportedSubtotal": 522625,
+      "missingOperations": []
+    },
+    "reasoningTokens": {
+      "reportedSubtotal": 31382,
+      "missingOperations": []
+    },
+    "cachedInputTokens": {
+      "reportedSubtotal": 28843,
+      "missingOperations": []
+    },
+    "cacheWriteInputTokens": {
+      "reportedSubtotal": 442029,
+      "missingOperations": []
+    },
+    "webSearchCalls": {
+      "reportedSubtotal": 0,
+      "missingOperations": []
+    },
+    "searchCalls": {
+      "reportedSubtotal": 0,
+      "missingOperations": []
+    },
+    "sourceReads": {
+      "reportedSubtotal": 0,
+      "missingOperations": []
+    }
+  },
+  "ignoredWebAttempts": 0,
+  "abandonedOperations": [],
+  "cost": {
+    "estimatedReportedSubtotalUsd": 1.6247188000000001,
+    "missingEstimates": [],
+    "heldAllowanceUsd": 1.69399,
+    "billedUsd": null,
+    "gaps": [],
+    "priceVersions": [
+      "openai-standard-global-2026-10-15"
+    ]
+  },
+  "recovery": [],
+  "interpretation": "Reported counts are observed provider usage. Missing counts and costs remain unknown; calculated charges are estimates, not a bill. Stage wall times and observed operation latency include polling and may include operator pauses; provider-only processing latency was not independently measured."
+}

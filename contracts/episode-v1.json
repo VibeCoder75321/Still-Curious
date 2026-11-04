@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/contracts/episode-v1.json",
+  "title": "Offline podcast episode v1",
+  "description": "Structural contract for an episode. Referential integrity between IDs is checked by the Python validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "episode_id", "topic", "title", "target_minutes", "status", "speakers", "sources", "claims", "turns", "audio"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "episode_id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+    "topic": {"$ref": "#/$defs/nonempty"},
+    "title": {"$ref": "#/$defs/nonempty"},
+    "target_minutes": {"type": "number", "exclusiveMinimum": 0},
+    "status": {"enum": ["draft", "reviewed"]},
+    "speakers": {
+      "type": "object", "additionalProperties": false, "required": ["host", "companion"],
+      "properties": {"host": {"$ref": "#/$defs/speaker"}, "companion": {"$ref": "#/$defs/speaker"}, "companion2": {"$ref": "#/$defs/speaker"}}
+    },
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "turns": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/turn"}},
+    "audio": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/audio"}]}
+  },
+  "$defs": {
+    "nonempty": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "speaker": {"type": "object", "additionalProperties": false, "required": ["display_name"], "properties": {"display_name": {"$ref": "#/$defs/nonempty"}}},
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["id", "title", "url", "accessed_on", "locator"],
+      "properties": {
+        "id": {"$ref": "#/$defs/nonempty"}, "title": {"$ref": "#/$defs/nonempty"},
+        "url": {"type": "string", "pattern": "^https?://\\S+$"},
+        "accessed_on": {"type": "string", "format": "date", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+        "locator": {"$ref": "#/$defs/nonempty"}
+      }
+    },
+    "claim": {"type": "object", "additionalProperties": false, "required": ["id", "statement", "source_ids"], "properties": {"id": {"$ref": "#/$defs/nonempty"}, "statement": {"$ref": "#/$defs/nonempty"}, "source_ids": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/nonempty"}, "uniqueItems": true}}},
+    "turn": {"type": "object", "additionalProperties": false, "required": ["id", "speaker", "text", "claim_ids", "delivery"], "properties": {"id": {"$ref": "#/$defs/nonempty"}, "speaker": {"enum": ["host", "companion", "companion2"]}, "text": {"$ref": "#/$defs/nonempty"}, "claim_ids": {"type": "array", "items": {"$ref": "#/$defs/nonempty"}, "uniqueItems": true}, "delivery": {"enum": ["conversational", "settling"]}}},
+    "audio": {"type": "object", "additionalProperties": false, "required": ["file_name", "duration_seconds"], "properties": {"file_name": {"$ref": "#/$defs/nonempty"}, "duration_seconds": {"type": "number", "exclusiveMinimum": 0}}}
+  }
+}

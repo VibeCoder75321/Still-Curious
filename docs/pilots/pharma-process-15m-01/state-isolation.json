@@ -1,0 +1,20 @@
+{
+  "episodeId": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "previousLeaseUntil": 1792112086266,
+  "stage": "research",
+  "substep": "read",
+  "recent": [
+    {
+      "id": "attempt_4e166470-2383-4b7d-bd97-726f2d1f7bef",
+      "responseId": "resp_0f4407aa51eb470a006ad1748e879087d1a3f173fb4d9afc88",
+      "outcome": "completed"
+    },
+    {
+      "id": "attempt_52c870a1-502e-4600-8cef-1524594f8122",
+      "responseId": "resp_0801f24dd1c1be14006ad1749ed61c87d1b158ae00fc1b3ef0",
+      "outcome": "pending"
+    }
+  ],
+  "at": "2026-10-16T00:50:55.656Z",
+  "reason": "The previous runner exited with busy after its saved progress reverted. Continue the identical job in an isolated runtime directory, retrieving known response IDs; do not duplicate submissions."
+}

@@ -1,0 +1,4 @@
+{"event":"provider_http","method":"POST","startedAt":"2026-10-16T02:38:12.011Z","status":200,"finishedAt":null,"providerRequestId":"req_47d2f0b5578f4c77bdf1223e6745c293","responseId":"resp_0ad32e3e50495a3c006ad18e19c78487d18fe6152e3b519e93"}
+{"episodeId":"61a8b4b4-638e-4792-a90d-80fb35881e62","stage":"commission.produce","status":"running","operations":1,"allowanceUsd":0.40384}
+{"episodeId":"61a8b4b4-638e-4792-a90d-80fb35881e62","stage":"commission.produce","status":"paused","operations":1,"allowanceUsd":0.0814825}
+{"prepared":false,"root":"/workspace/scratch/8f99195eb4c5/sleep-podcast/node_modules/.cache/still-curious-pharma-reuse-02","episodeId":"61a8b4b4-638e-4792-a90d-80fb35881e62","status":"paused","pause":{"code":"needs_input","reason":"The provider result could not be accepted. Its response metadata was saved for review before continuing."}}

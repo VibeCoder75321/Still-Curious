@@ -1,0 +1,48 @@
+{
+  "verifiedOn": "2026-10-16",
+  "typescriptTests": {
+    "passed": 206,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "browserScriptSyntax": "passed",
+  "whitespaceCheck": "passed",
+  "durationOptionsMinutes": [
+    5,
+    15
+  ],
+  "fullRecordingDefault": true,
+  "auditionOptional": true,
+  "newProviderSynthesisRequests": 0,
+  "newPaidGenerationRequests": 0,
+  "runtimeEnvironmentRevision": 7,
+  "siteAudience": "owner-private, unchanged",
+  "browserQA": "not performed; required control-browser skill unavailable",
+  "realDevicePlayback": "not performed",
+  "routeCoverage": [
+    "15-minute creation",
+    "reserved audio within total cap",
+    "reviewed-text hand-off",
+    "optional preview acceptance and clip reuse",
+    "direct full recording",
+    "private byte ranges",
+    "no regeneration after ready"
+  ],
+  "uiCoverage": [
+    "15-minute selection payload",
+    "explicit shared spending limit",
+    "default full recording",
+    "optional preview",
+    "playable result",
+    "playback speed"
+  ],
+  "staticIndexOverrideRemoved": true,
+  "liveServerCapabilities": {
+    "supportedLengths": [
+      5,
+      15
+    ],
+    "audioEnabled": true,
+    "privateIdentityRequired": true
+  }
+}

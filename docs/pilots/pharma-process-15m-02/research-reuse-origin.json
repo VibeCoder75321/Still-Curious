@@ -1,0 +1,26 @@
+{
+  "preparedAt": "2026-10-16T02:37:02.241Z",
+  "previousEpisodeId": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "previousSourceReference": {
+    "id": "source-records:9",
+    "kind": "source_records",
+    "version": 9
+  },
+  "previousSourceSha256": "4e0d4bcdf0abd9333c3154a4974d816db3ce6e213468085d7e1e39fae8458ccf",
+  "previousVerifiedArtifacts": 35,
+  "originalSourceDataUnchangedInPriorRun": true,
+  "reusedSourceReference": {
+    "id": "reused-source-records:1",
+    "kind": "source_records",
+    "version": 1
+  },
+  "reusedSourceSha256": "bd1563a35101925435e79133e006bddb0ecb65bcf37c1c975b3d72c10d4476b3",
+  "correctionsFile": "../pharma-process-15m-01/corrections.md",
+  "correctionFileSha256": "53597978bf039ad49b31f436d74e642b3bbd1ab0365941f4fec00df528ce4dfc",
+  "priorWebReferences": [
+    "turn15view0",
+    "turn15view1"
+  ],
+  "newlyFetchedSources": 0,
+  "note": "All original records retained; two previously verified EPA passages and the previously verified 2021 Codexis announcement added. Original and new timestamps are distinguished in access notes."
+}

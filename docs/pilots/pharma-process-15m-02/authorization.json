@@ -1,0 +1,17 @@
+{
+  "userRequest": "Do a 15 minute run about pharmaceutical process development and chemistry. Use the existing research.",
+  "previousCapInstruction": "Whatever you think best. Keep $5 cap",
+  "combinedCapUsd": 5,
+  "priorConservativeAllowanceUsd": 1.8062681250000001,
+  "newRunCeilingUsd": 3.19,
+  "conservativeCombinedMaximumUsd": 4.996268125,
+  "existingKeyReusePreviouslyAuthorized": true,
+  "audioAuthorized": false,
+  "newRetrievalAuthorized": false,
+  "newRunAllocations": {
+    "research": 1.1165,
+    "text": 1.4355,
+    "review": 0.638,
+    "audio": 0
+  }
+}

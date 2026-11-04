@@ -1,0 +1,88 @@
+{
+  "episodeId": "1a21f9f8-e688-47cf-bc7c-43ed9ba24380",
+  "textAccepted": true,
+  "reviewOutcome": "acceptable",
+  "words": 600,
+  "characters": 3917,
+  "turns": 9,
+  "openingWords": 59,
+  "planningWordsPerMinute": 135,
+  "estimatedDeliverySeconds": 266.6666666666667,
+  "estimatedOpeningSeconds": 26.222222222222225,
+  "measuredAudioDurationSeconds": null,
+  "elapsedSeconds": 1539.24,
+  "operations": 28,
+  "roles": {
+    "producer": 1,
+    "research": 2,
+    "source": 8,
+    "synthesis": 1,
+    "casting": 1,
+    "guest_preparation": 3,
+    "host_preparation": 1,
+    "host": 5,
+    "guest": 4,
+    "editing": 1,
+    "review": 1
+  },
+  "byStage": {
+    "commission": {
+      "operations": 1,
+      "observedWallSeconds": 247.618
+    },
+    "research": {
+      "operations": 11,
+      "observedWallSeconds": 722.3090000000001
+    },
+    "casting": {
+      "operations": 1,
+      "observedWallSeconds": 69.138
+    },
+    "preparation": {
+      "operations": 4,
+      "observedWallSeconds": 182.135
+    },
+    "conversation": {
+      "operations": 9,
+      "observedWallSeconds": 148.511
+    },
+    "editing": {
+      "operations": 1,
+      "observedWallSeconds": 86.683
+    },
+    "review": {
+      "operations": 1,
+      "observedWallSeconds": 27.734
+    }
+  },
+  "http": {
+    "submissions": 28,
+    "runnerRetrievals": 451,
+    "diagnosticRetrievals": 3,
+    "entriesWithoutCompletionObservation": 2
+  },
+  "tools": {
+    "webSearchCalls": 10,
+    "searchCalls": 2,
+    "sourceReads": 8
+  },
+  "ignoredWebAttempts": 1,
+  "tokens": {
+    "inputTokens": 361099,
+    "outputTokens": 57854,
+    "totalTokens": 418953,
+    "reasoningTokens": 33625,
+    "cachedInputTokens": 46246,
+    "cacheWriteInputTokens": 253375
+  },
+  "cost": {
+    "spendCeilingUsd": 5,
+    "estimatedUsd": 0.918714875,
+    "conservativeAllowanceUsedUsd": 1.017925625,
+    "billedUsd": null,
+    "missingEstimates": 0,
+    "priceVersions": [
+      "openai-standard-global-2026-10-15"
+    ]
+  }
+}

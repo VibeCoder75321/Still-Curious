@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "episode_id": "wayfinding-audition",
+  "topic": "How did Polynesians navigate the Pacific?",
+  "title": "Finding a Way Across the Pacific",
+  "target_minutes": 2,
+  "status": "reviewed",
+  "speakers": {
+    "host": {
+      "display_name": "Host"
+    },
+    "companion": {
+      "display_name": "Companion 1"
+    },
+    "companion2": {
+      "display_name": "Companion 2"
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Polynesian Wayfinding",
+      "url": "https://hokulea.com/polynesian-wayfinding/",
+      "accessed_on": "2026-10-14",
+      "locator": "The Star Compass; modern voyage components"
+    },
+    {
+      "id": "S2",
+      "title": "Holding a Course",
+      "url": "https://archive.hokulea.com/ike/hookele/holding_a_course.html",
+      "accessed_on": "2026-10-14",
+      "locator": "Steering by the Stars; Steering by Ocean Swells; Reading Swells"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "Nainoa Thompson's modern Hawaiian star compass is a remembered framework for directions.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "C2",
+      "statement": "Stellar bearings can be held ahead of or to the side of a canoe.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "C3",
+      "statement": "Swell bearings are checked against celestial clues.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "C4",
+      "statement": "Canoe motion changes with heading relative to a stable swell.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "C5",
+      "statement": "Changing swells and mixed seas complicate interpretation.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "C6",
+      "statement": "Modern wayfinding tracks distance and direction traveled.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "id": "t01",
+      "speaker": "host",
+      "text": "If you were far out at sea, with no land in sight, where would you look for a direction?",
+      "claim_ids": [],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t02",
+      "speaker": "companion",
+      "text": "One useful place is the horizon. In the modern Hawaiian system developed by Nainoa Thompson, a navigator remembers the horizon as a framework of directions. Familiar stars mark bearings as they rise and set.",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t03",
+      "speaker": "host",
+      "text": "So you choose a star and sail toward it?",
+      "claim_ids": [],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t04",
+      "speaker": "companion",
+      "text": "You can, if it marks the direction you need. But a star off to one side can be useful too. You keep it at the appropriate angle to the canoe. It gives you a reference without needing to sit directly ahead.",
+      "claim_ids": [
+        "C2"
+      ],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t05",
+      "speaker": "host",
+      "text": "And when a cloud moves across it?",
+      "claim_ids": [],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t06",
+      "speaker": "companion",
+      "text": "Then the swells can help. Their direction can be checked against the sky while the stars or sun are visible.",
+      "claim_ids": [
+        "C3"
+      ],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t07",
+      "speaker": "companion2",
+      "text": "And there is a useful clue in the canoe’s motion. As a swell passes underneath, the movement you feel depends on how the canoe meets it. If that movement changes, your heading may have changed too, provided the swell is still coming from the same direction. That qualification matters. Swells can change, and mixed seas are harder to read. A navigator keeps checking.",
+      "claim_ids": [
+        "C4",
+        "C5"
+      ],
+      "delivery": "conversational"
+    },
+    {
+      "id": "t08",
+      "speaker": "host",
+      "text": "That helps me picture holding a course. There is still the question of how far you have traveled.",
+      "claim_ids": [],
+      "delivery": "settling"
+    },
+    {
+      "id": "t09",
+      "speaker": "companion2",
+      "text": "Yes. Modern wayfinding also keeps track of distance and direction traveled. Holding a heading is one part of following the journey.",
+      "claim_ids": [
+        "C6"
+      ],
+      "delivery": "settling"
+    },
+    {
+      "id": "t10",
+      "speaker": "host",
+      "text": "We can stay with that picture for a moment: a familiar star near the horizon, and the passing swell beneath the canoe.",
+      "claim_ids": [],
+      "delivery": "settling"
+    }
+  ],
+  "audio": null
+}

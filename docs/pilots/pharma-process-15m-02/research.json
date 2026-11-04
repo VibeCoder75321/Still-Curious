@@ -1,0 +1,1045 @@
+{
+  "episodeId": "61a8b4b4-638e-4792-a90d-80fb35881e62",
+  "title": "Making the Same Drug a Different Way",
+  "pipelineVersion": 2,
+  "originalRequest": "pharmaceutical process development and chemistry",
+  "sourceVersion": 1,
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Presidential Green Chemistry Challenge: 2010 Greener Reaction Conditions Award",
+      "url": "https://www.epa.gov/greenchemistry/presidential-green-chemistry-challenge-2010-greener-reaction-conditions-award",
+      "authors": [],
+      "publishedOn": "2010 (award year; original webpage publication date unclear; page last updated July 27, 2026)",
+      "accessedAt": "2026-10-15T23:57:08.644Z",
+      "sourceType": "institutional",
+      "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+      "relationships": [
+        {
+          "sourceId": "source-4",
+          "relation": "reports_on",
+          "note": "A later Merck-authored historical account also describes the sitagliptin process-development history."
+        },
+        {
+          "sourceId": "source-6",
+          "relation": "reports_on",
+          "note": "Institutional summary of the sitagliptin transaminase process described in the 2010 primary study."
+        }
+      ],
+      "qualifications": [
+        "Institutional award account; useful for identifying the documented alternative to the hydrogenation route and reported comparative outcomes.",
+        "The snippet reports pilot-scale work in 2009, but does not provide experimental methods or establish which variables were held constant.",
+        "The EPA award page is an institutional summary, not the underlying experimental report or supporting information.",
+        "It reports that Merck scaled the process to pilot scale in 2009, but gives no batch size, experimental methods, batch-to-batch data, or detailed comparison conditions.",
+        "The page reports improved productivity using existing equipment, but does not establish which operating conditions or other variables were held constant.",
+        "Its performance figures and process descriptions should be attributed to the EPA account; the page alone does not independently verify the measurements.",
+        "Institutional award account useful for locating the prior hydrogenation route, its stated drawbacks, and reported pilot-scale development of the transaminase process.",
+        "The account reports comparative productivity, yield, and waste figures, but the result does not provide experimental methods or establish which conditions were held constant.",
+        "Treat it as an institutional summary, not as the primary experimental record or independent verification of the reported figures.",
+        "This is the 2010 award account; a later webpage update does not make its commercialization plans current. Activity improvement is not manufacturing yield or a ratio with a zero denominator."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "full",
+      "accessNote": "The full EPA webpage body was available and read. It is an institutional award summary, not a primary experimental report. Reuse snapshot includes two omitted passages verified in the preceding editorial turn at this same URL; no new access in this run.",
+      "passages": [
+        {
+          "id": "source-1-read-2-1",
+          "text": "The process has some inherent liabilities however: inadequate stereoselectivity requires a crystallization step, and high-pressure hydrogenation (at 250 psi) requires expensive, specialized manufacturing equipment, and a rhodium catalyst.",
+          "locator": "“Summary of Technology,” lines 14–16",
+          "coverage": "body"
+        },
+        {
+          "id": "source-1-read-2-2",
+          "text": "The evolved transaminase had a compounded improvement in biocatalytic activity of over 25,000-fold, with no detectable amounts of the undesired, S-enantiomer of sitagliptin being formed.",
+          "locator": "“Summary of Technology,” line 18",
+          "coverage": "body"
+        },
+        {
+          "id": "source-1-read-2-3",
+          "text": "The benefits of the new process include a 56 percent improvement in productivity with the existing equipment, a 10–13 percent overall increase in yield, and a 19 percent reduction in overall waste generation.",
+          "locator": "“Summary of Technology,” line 19",
+          "coverage": "body"
+        },
+        {
+          "id": "source-1-read-2-4",
+          "text": "During 2009, Merck scaled up the new process to pilot scale. Plans to commercialize this technology are moving forward.",
+          "locator": "Lines 21–21",
+          "coverage": "body"
+        },
+        {
+          "id": "epa-prior-verification-initial-activity",
+          "text": "Merck's tests of available transaminases failed to identify an enzyme with any detectable activity on the sitagliptin ketone. Starting from an R-selective transaminase with some slight activity on a smaller, truncated methyl ketone analog of the sitagliptin ketone, Codexis evolved a biocatalyst to enable a new manufacturing process to supplant the hydrogenation route.",
+          "locator": "2010 award account, Summary of Technology, paragraphs 3–4; previously verified in this conversation",
+          "coverage": "body"
+        },
+        {
+          "id": "epa-prior-verification-purification",
+          "text": "The streamlined, enzymatic process eliminates the high-pressure hydrogenation, all metals (rhodium and iron), and the wasteful chiral purification step.",
+          "locator": "2010 award account, Summary of Technology, paragraph 5; previously verified in this conversation",
+          "coverage": "body"
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "Efficient and Convenient Synthetic Routes for Sitagliptin Impurities",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.201702552",
+      "doi": "10.1002/slct.201702552",
+      "authors": [
+        "Dattatray S. Metil",
+        "Aalla Sampath",
+        "Jinna Rajender Reddy",
+        "Elati Ravi Ram Chandrashekar",
+        "Vilas H. Dahanukar",
+        "Chittireddy Venkata Ramana Reddy",
+        "Rakeshwar Bandichhor"
+      ],
+      "publishedOn": "2018-03-12",
+      "accessedAt": "2026-10-15T23:57:35.139Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "sitagliptin_impurity_profile_study_2018",
+      "relationships": [],
+      "qualifications": [
+        "Primary study relevant to analytical detection and impurity control in sitagliptin manufacture.",
+        "The snippet describes HPLC and LC–MS identification and reports impurity behavior during workup and isolation; verify the full paper before attributing these findings to the selected route or a particular commercial process.",
+        "The abstract reports HPLC and LC–MS detection of six process-related sitagliptin impurities and says their presence was confirmed by co-injection and retention-time matching against spiked impurities.",
+        "The abstract says impurity formation and control are discussed, but does not provide the detailed experimental results, specific impurity identities, scale, or process-performance comparisons needed to assess them.",
+        "This impurity-profile study does not establish that the reported impurities or controls relate to Merck’s transaminase route. The earlier snippet’s toluene–water isolation detail is not confirmed in the accessible abstract.",
+        "The publisher page identifies the paper as published on March 12, 2018. No independent correction or retraction check was performed."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "abstract",
+      "accessNote": "The exact Wiley publisher page was opened. Its rendered content provided the abstract, citation metadata, and a supporting-information listing, but not the full article body or supporting-information contents.",
+      "passages": [
+        {
+          "id": "source-2-read-3-1",
+          "text": "Six process-related sitagliptin impurities were detected by HPLC and LC–MS.",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-2-read-3-2",
+          "text": "Their presence was confirmed by co-injection and retention-time matching against spiked impurities.",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-2-read-3-3",
+          "text": "The authors say the paper discusses impurity formation and control during sitagliptin manufacture.",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "Application of On-Line NIR for Process Control during the Manufacture of Sitagliptin",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.oprd.5b00409",
+      "doi": "10.1021/acs.oprd.5b00409",
+      "authors": [
+        "George Zhou",
+        "Shane Grosser",
+        "Lei Sun",
+        "Gabriel Graffius et al."
+      ],
+      "publishedOn": "2016-03-18",
+      "accessedAt": "2026-10-15T23:56:47.437Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "sitagliptin_online_nir_process_control_2016",
+      "relationships": [
+        {
+          "sourceId": "source-4",
+          "relation": "related",
+          "note": "Its reported direct crystallization from reaction components is also mentioned in the saved 2025 Merck retrospective, which remains inaccessible in the prior reading record."
+        }
+      ],
+      "qualifications": [
+        "Primary process-control study on sitagliptin manufacture; potentially useful for explaining what process measurements can establish.",
+        "The snippet describes calibration using simulated process samples and does not by itself establish scale effects or reproducibility.",
+        "Primary process-control study relevant to the link between reaction-stream composition and product isolation.",
+        "The result reports design-of-experiments work connecting crystallization particle-size outcomes to seeding-point temperature and solution composition, and describes near-infrared models used for composition measurement.",
+        "This saved source was previously available only as a brief snippet; the current search result offers more abstract-level detail, not full-text verification.",
+        "The abstract does not by itself establish repeatability across production batches or isolate the cause of any scale-related effects.",
+        "Primary process-control study directly relevant to the commissioned reaction-to-isolation account. It is an existing saved source that had only snippet-level coverage; this search surfaced its publisher abstract.",
+        "The abstract reports a design-of-experiments study linking crystallization particle-size distribution to seeding-point temperature and solution composition, plus online NIR composition measurements applied to production batches.",
+        "The abstract does not establish that scale itself caused the observed effects, nor does it provide repeat-batch reproducibility evidence."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "snippet",
+      "accessNote": "ACS publisher page; discovery snippet only. No reading result accepted for source-3: User-approved abandonment of the missing response; retain full reservation and use other queued sources.",
+      "passages": [
+        {
+          "id": "source-3-snippet",
+          "text": "The authors developed near-infrared methods with partial least-squares regression using simulated process samples containing sitagliptin free base, water, and process solvents.",
+          "locator": "Search-result snippet; article abstract/details",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-4",
+      "title": "From Cortisone to Enlicitide: A Journey of Synthetic Chemistry Innovations at Merck",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11998012/",
+      "authors": [],
+      "publishedOn": "2025",
+      "accessedAt": "2026-10-16T00:49:32.534Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+      "relationships": [
+        {
+          "sourceId": "source-1",
+          "relation": "reports_on",
+          "note": "Retrospective account of the sitagliptin process-development history also summarized by the EPA award page."
+        }
+      ],
+      "qualifications": [
+        "Retrospective account by Merck-affiliated authors; the snippet connects process development to a later isolation and particle-size optimization problem.",
+        "Secondary account, not a substitute for the underlying experimental report or supporting information.",
+        "The saved record classifies this as a 2025 review and identifies its authorship as Merck-affiliated; the page could not be accessed to verify those details.",
+        "No claims about the article’s content or its cited studies could be checked during this reading."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "inaccessible",
+      "accessNote": "The exact selected URL opened to a browser verification (reCAPTCHA) page rather than the article. No article text was available to read.",
+      "passages": [
+        {
+          "id": "source-4-snippet",
+          "text": "The article describes direct crystallization from reaction components and reports that crystallization and particle-size development required careful attention for scale-up, including design-of-experiments work using near-infrared methods.",
+          "locator": "Search-result snippet; section locator unavailable",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-5",
+      "title": "Medicinal chemistry and process development of the type 2 diabetes drug sitagliptin",
+      "url": "https://www.sciencedirect.com/science/article/pii/B978044327402200019X",
+      "doi": "10.1016/B978-0-443-27402-2.00019-X",
+      "authors": [
+        "Jinyou Xu",
+        "Guibai Liang"
+      ],
+      "publishedOn": "2025",
+      "accessedAt": "2026-10-16T00:51:06.890Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "sitagliptin_process_development_history",
+      "relationships": [
+        {
+          "sourceId": "source-4",
+          "relation": "related",
+          "note": "Provides broader process-development context for the sitagliptin case."
+        }
+      ],
+      "qualifications": [
+        "Secondary chapter focused on sitagliptin medicinal chemistry and process research; may help orient the case and trace its development history.",
+        "Search result does not expose experimental detail sufficient to resolve the commissioned comparisons.",
+        "This is a secondary book chapter on sitagliptin medicinal chemistry and process development; it cannot substitute for primary experimental reports.",
+        "The supplied saved record identifies the chapter as published in 2025 by Jinyou Xu and Guibai Liang. These details could not be rechecked against the page during this reading.",
+        "The exact selected URL returned a 403 Forbidden error, so the chapter’s text, abstract, and references were unavailable."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "inaccessible",
+      "accessNote": "The exact selected ScienceDirect URL failed to load with a 403 Forbidden response. No page text was available to read.",
+      "passages": [
+        {
+          "id": "source-5-snippet",
+          "text": "The chapter introduces Merck's process research on the sustainable chemical synthesis of sitagliptin alongside the drug's discovery and medicinal-chemistry history.",
+          "locator": "Search-result snippet; abstract",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-6",
+      "title": "Biocatalytic asymmetric synthesis of chiral amines from ketones applied to sitagliptin manufacture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20558668/?dopt=Abstract",
+      "doi": "10.1126/science.1188934",
+      "authors": [
+        "Christopher K. Savile",
+        "Jacob M. Janey",
+        "Emily C. Mundorff",
+        "Jeffrey C. Moore",
+        "Sarena Tam",
+        "William R. Jarvis",
+        "Jeffrey C. Colbeck",
+        "Anke Krebber",
+        "Fred J. Fleitz",
+        "Jos Brands",
+        "Paul N. Devine",
+        "Gjalt W. Huisman",
+        "Gregory J. Hughes"
+      ],
+      "publishedOn": "2010-06-17 (online publication; journal issue dated 2010-07-16)",
+      "accessedAt": "2026-10-16T00:55:12.381Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+      "relationships": [
+        {
+          "sourceId": "source-1",
+          "relation": "reports_on",
+          "note": "The EPA award account summarizes the same sitagliptin transaminase process and reports pilot-scale work in 2009."
+        }
+      ],
+      "qualifications": [
+        "Primary study most directly aligned with the central case: its abstract describes replacing rhodium-catalyzed asymmetric hydrogenation in large-scale sitagliptin manufacture with an engineered transaminase.",
+        "The result identifies enzyme engineering for practical manufacturing, but the search snippet does not establish the production scale, repeat-batch performance, reaction conditions, or complete isolation evidence.",
+        "Use the paper and supporting information to distinguish reported experimental observations from broader claims about manufacturing suitability.",
+        "This primary study reports an engineered transaminase process intended to replace rhodium-catalyzed asymmetric hydrogenation in large-scale sitagliptin manufacture.",
+        "The abstract describes enzyme engineering, but does not provide reaction conditions, measured yields or purities, production batch size, repeat-batch performance, or detailed isolation results.",
+        "The PubMed page identifies the corresponding author's affiliation as Codexis, Inc.; the abstract alone does not establish the authors' individual roles or provide an independent comparison of the processes.",
+        "Publication-status notices and later work were not independently checked as part of this bounded reading."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "abstract",
+      "accessNote": "The exact PubMed page was opened and its citation metadata and abstract were read. It links to the full text at Science, but that linked page and the supporting information were not opened; full-text access is therefore unassessed.",
+      "passages": [
+        {
+          "id": "source-6-read-8-1",
+          "text": "“replace a recently implemented rhodium-catalyzed asymmetric enamine hydrogenation”",
+          "locator": "Abstract, paragraph 1",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-6-read-8-2",
+          "text": "“lacked any activity toward the prositagliptin ketone”",
+          "locator": "Abstract, paragraph 2",
+          "coverage": "abstract"
+        },
+        {
+          "id": "source-6-read-8-3",
+          "text": "“directed evolution for practical application in a manufacturing setting”",
+          "locator": "Abstract, paragraph 2",
+          "coverage": "abstract"
+        }
+      ]
+    },
+    {
+      "id": "source-7",
+      "title": "Highly Efficient Asymmetric Synthesis of Sitagliptin — Supporting Information",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/ja902462q/suppl_file/ja902462q_si_001.pdf",
+      "doi": "10.1021/ja902462q",
+      "authors": [],
+      "publishedOn": "2009 (exact date unavailable in the search result)",
+      "accessedAt": "2026-10-16T00:56:08.410Z",
+      "sourceType": "primary_study",
+      "evidenceFamilyId": "sitagliptin_hydrogenation_route_2009",
+      "relationships": [
+        {
+          "sourceId": "source-8",
+          "relation": "corrects",
+          "note": "The linked 2020 notice corrects reagent quantities in this study’s Experimental Section; it states that the isolation paragraph was omitted from the correction."
+        }
+      ],
+      "qualifications": [
+        "Primary supporting-information PDF for a published hydrogenation study, surfaced as a serious alternative route to the transaminase process.",
+        "The search result reports manufacturing-scale implementation and up to 65% overall isolated yield, but those are search-result claims; experimental details and the basis for comparison need to be checked in the paper and its supporting information.",
+        "A 2020 correction notice specifically addresses experimental quantities in the procedure for this study. See the linked notice for its scope."
+      ],
+      "publicationStatus": "corrected",
+      "notices": [
+        {
+          "type": "correction",
+          "url": "https://pubs.acs.org/doi/10.1021/jacs.0c06041",
+          "note": "The notice corrects quantities of chiral phosphine and rhodium catalyst in the Experimental Section. It does not indicate retraction."
+        },
+        {
+          "type": "corrects",
+          "url": "https://pubs.acs.org/doi/10.1021/jacs.0c06041",
+          "note": "Corrects catalyst and ligand quantities in the experimental section of this sitagliptin hydrogenation study."
+        }
+      ],
+      "readingCoverage": "snippet",
+      "accessNote": "Only the search-result snippet was available in this discovery round; supporting-information contents were not read.",
+      "passages": [
+        {
+          "id": "source-7-snippet",
+          "text": "Supporting information for “Highly Efficient Asymmetric Synthesis of Sitagliptin”; the search result describes hydrogenation and final phosphate-salt isolation.",
+          "locator": "Search-result snippet; supporting-information PDF",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-8",
+      "title": "Correction to “Highly Efficient Asymmetric Synthesis of Sitagliptin”",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.0c06041",
+      "doi": "10.1021/jacs.0c06041",
+      "authors": [],
+      "publishedOn": "2020-07-24 (online); issue dated 2020-08-05",
+      "accessedAt": "2026-10-16T00:56:08.410Z",
+      "sourceType": "other",
+      "evidenceFamilyId": "sitagliptin_hydrogenation_route_2009",
+      "relationships": [
+        {
+          "sourceId": "source-7",
+          "relation": "corrects",
+          "note": "Corrects catalyst and ligand quantities in the experimental section of this sitagliptin hydrogenation study."
+        }
+      ],
+      "qualifications": [
+        "Material correction notice for the alternative rhodium-catalyzed route; useful for avoiding reliance on the superseded experimental quantities.",
+        "The notice describes a 405.3 g substrate charge and an 82% isolated yield for the corrected procedure. These details concern the chemical hydrogenation route, not the transaminase process.",
+        "The correction does not itself compare the routes under controlled conditions."
+      ],
+      "publicationStatus": "corrected",
+      "notices": [
+        {
+          "type": "corrects",
+          "url": "https://pubs.acs.org/doi/suppl/10.1021/ja902462q/suppl_file/ja902462q_si_001.pdf",
+          "note": "The linked 2020 notice corrects reagent quantities in this study’s Experimental Section; it states that the isolation paragraph was omitted from the correction."
+        }
+      ],
+      "readingCoverage": "snippet",
+      "accessNote": "The publisher search result exposed the correction text and its scope; the full original article was not read in this discovery round.",
+      "passages": [
+        {
+          "id": "source-8-snippet",
+          "text": "The notice corrects amounts of chiral phosphine and rhodium catalyst in the experimental method; it gives the corrected procedure and reports 82% yield for the described isolation.",
+          "locator": "Correction text; corrected Experimental Section",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "source-9",
+      "title": "Development of a Sitagliptin Transaminase",
+      "url": "https://novel-coronavirus.onlinelibrary.wiley.com/doi/pdf/10.1002/9781118354520.ch04",
+      "doi": "10.1002/9781118354520.ch04",
+      "authors": [],
+      "publishedOn": "2013-04-08",
+      "accessedAt": "2026-10-16T00:56:08.410Z",
+      "sourceType": "review",
+      "evidenceFamilyId": "sitagliptin_transaminase_process_development",
+      "relationships": [],
+      "qualifications": [
+        "Secondary case-study chapter that may help identify practical workup challenges, including extraction-related emulsification, during enzyme-process development and scale-up.",
+        "The search-result summary does not expose experimental detail sufficient to establish the scale, measurements, or specific development decisions behind those challenges.",
+        "Use as context only; it cannot substitute for the primary study or supporting information."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "snippet",
+      "accessNote": "Discovery snippet only; chapter text was not read.",
+      "passages": [
+        {
+          "id": "source-9-snippet",
+          "text": "The chapter summary identifies workup and extraction-related emulsification as a challenge in scaling an enzymatic transformation, and presents sitagliptin as a case study in enzyme development.",
+          "locator": "Publisher search-result summary",
+          "coverage": "snippet"
+        }
+      ]
+    },
+    {
+      "id": "codexis-2021-prior-verification",
+      "title": "Codexis and Merck Amend and Extend Supply Agreement for Enzyme Used in Manufacture of Sitagliptin",
+      "url": "https://ir.codexis.com/news-events/press-releases/detail/303/codexis-and-merck-amend-and-extend-supply-agreement-forenzyme-used-in-manufacture-of-sitagliptin",
+      "authors": [
+        "Codexis, Inc."
+      ],
+      "publishedOn": "2021-09-09",
+      "accessedAt": "2026-10-16T02:37:02.241Z",
+      "sourceType": "institutional",
+      "evidenceFamilyId": "codexis-commercial-supply-history",
+      "qualifications": [
+        "Company announcement establishes its reported commercial supply history and agreement terms, not an independent audit of process performance or proof of uninterrupted current supply or renewal."
+      ],
+      "publicationStatus": "published",
+      "notices": [],
+      "readingCoverage": "partial",
+      "accessNote": "Prepared from the source body already read in the immediately preceding editorial turn. accessedAt records this reuse snapshot, not a new fetch. See the prior pilot correction record and origin manifest.",
+      "passages": [
+        {
+          "id": "codexis-prior-commercial-history",
+          "text": "Codexis announced the amendment and extension of its agreement with Merck to license and supply a proprietary enzyme used in the manufacturing process for sitagliptin. In 2012 Codexis and Merck entered into a supply agreement for the enzyme and in 2015 signed a multi-year extension, which was to expire in February 2022. This subsequent extension and amendment is for the license and supply of the proprietary enzyme through December 31, 2026. The extension can be renewed for an additional 5 years upon mutual agreement by both companies.",
+          "locator": "Release dated 9 September 2021, introductory paragraph and agreement-history paragraph",
+          "coverage": "body"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "commission": {
+      "id": "research-commission:1",
+      "kind": "research_commission",
+      "version": 1
+    },
+    "discoveryRounds": 0,
+    "readSourceIds": [
+      "source-1",
+      "source-2",
+      "source-6",
+      "codexis-2021-prior-verification"
+    ],
+    "pendingSourceIds": [],
+    "skippedSourceIds": [
+      "source-3",
+      "source-4",
+      "source-5",
+      "source-7",
+      "source-8",
+      "source-9"
+    ],
+    "coverageRationale": "Explicit user-directed reuse of saved research and corrections verified before this run. No new discovery or source reads. Refresh the commission, synthesis, cast and preparation; do not reuse earlier dialogue or guest answers.",
+    "gaps": [
+      "The collection does not reconstruct all engineering rounds, developers' private decisions, a complete isolation sequence or repeated-batch records. Do not imply the whole field lacks this information.",
+      "The 2021 agreement announcement is later history, not fresh confirmation of supply today."
+    ],
+    "stopReason": "coverage"
+  },
+  "evidenceVersion": 1,
+  "evidencePack": {
+    "sourceRecords": {
+      "id": "reused-source-records:1",
+      "kind": "source_records",
+      "version": 1
+    },
+    "commission": {
+      "id": "research-commission:1",
+      "kind": "research_commission",
+      "version": 1
+    },
+    "commonBriefing": "The revealing development is that the enzyme programme did not begin with a catalyst already working detectably on the target. EPA reports that available transaminases showed no detectable activity on the sitagliptin ketone, but an R-selective transaminase had slight activity on a smaller analogue. Developers evolved a biocatalyst from that starting point. EPA subsequently reports no detectable formation of the undesired S-enantiomer and a process that eliminated high-pressure hydrogenation and the prior chiral-purification step [C03, C04, C05, C06; S01]. The detail worth explaining is the smaller analogue: it supplied a starting point for development when screening directly against the target had not supplied a ready-to-use enzyme. The saved passages do not reveal the structural changes or individual engineering rounds.\n\nThe central distinction is between a reaction approach and a manufacturing process. Here, the comparison includes catalysts and substrates, but also pressure requirements, equipment and separation operations [C10, C11]. The preceding approach is identified as rhodium-catalyzed asymmetric enamine hydrogenation; the enzyme programme concerns activity on a ketone. It should not be presented as simply replacing rhodium with an enzyme in an identical reaction [C01, C03, C10]. For molecular handedness, the accessible image is left versus right hands. The specific finding is that EPA reports no detectable undesired S-enantiomer—not absolute absence, complete purity or clinical safety [C05].\n\nThe chemical route is a serious comparator: the primary abstract calls it recently implemented [C01]. EPA describes its practical liabilities as high-pressure hydrogenation at 250 psi requiring specialized equipment and a rhodium catalyst, plus a crystallization step required by inadequate stereoselectivity [C02]. Removing those particular operations provides a concrete manufacturing rationale for pursuing another route [C06]. It does not mean that the enzyme process needed no further isolation or purification. EPA also reports improved productivity using existing equipment, but the saved account does not define the calculation or establish matched comparison conditions [C07]. The percentage headlines are therefore not needed for the central explanation.\n\nHistorical development extends beyond the pilot account. EPA reports pilot-scale work during 2009 and commercialization plans in its 2010 award account. In September 2021, Codexis reported an enzyme used in sitagliptin manufacture and a license-and-supply agreement extending through 31 December 2026, with renewal possible by mutual agreement [C08, C09; S02]. This adds company-reported commercial history, not confirmation of current supply or an unchanged process.\n\nThe primary abstract and EPA account describe one development programme, not independent replications. Together they support a qualitative account of engineering a catalyst alongside a changed process. They do not isolate the enzyme's contribution to every reported benefit or provide a complete manufacturing validation [C10].",
+    "foundation": {
+      "version": "frozen-evidence-v1",
+      "sourceRecordsSha256": "b77c61f3e2052762bbb5815588cb84e2335be15ad33ca6142016d97ecbff47ff",
+      "frozenAt": "2026-10-16T02:48:30.336Z"
+    },
+    "centralClaimIds": [
+      "C01",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C08",
+      "C09",
+      "C10"
+    ],
+    "evidenceFamilies": [
+      {
+        "id": "codexis-commercial-supply-history",
+        "sourceIds": [
+          "codexis-2021-prior-verification"
+        ]
+      },
+      {
+        "id": "sitagliptin_hydrogenation_route_2009",
+        "sourceIds": [
+          "source-7",
+          "source-8"
+        ]
+      },
+      {
+        "id": "sitagliptin_impurity_profile_study_2018",
+        "sourceIds": [
+          "source-2"
+        ]
+      },
+      {
+        "id": "sitagliptin_online_nir_process_control_2016",
+        "sourceIds": [
+          "source-3"
+        ]
+      },
+      {
+        "id": "sitagliptin_process_development_history",
+        "sourceIds": [
+          "source-5"
+        ]
+      },
+      {
+        "id": "sitagliptin_transaminase_process_development",
+        "sourceIds": [
+          "source-1",
+          "source-4",
+          "source-6",
+          "source-9"
+        ]
+      }
+    ],
+    "specialistExtracts": [
+      {
+        "id": "SE01",
+        "lens": "Biocatalyst development and molecular selectivity",
+        "summary": "The enzyme-development lens connects the initially unsuccessful target screening, slight activity on a smaller analogue and directed evolution. Keep the final selectivity result separate from activity and from overall process performance; the engineering mechanism is not recoverable from the saved abstract.",
+        "claimIds": [
+          "C03",
+          "C04",
+          "C05"
+        ],
+        "storyIds": [
+          "S01"
+        ],
+        "interpretationIds": [
+          "I01"
+        ]
+      },
+      {
+        "id": "SE02",
+        "lens": "Reaction choice, separation operations and comparative performance",
+        "summary": "The process lens starts with an already implemented chemical route and follows the reported removal of high-pressure hydrogenation and chiral purification. Productivity is an attributed process-level report, not evidence that the enzyme alone caused every benefit or that all isolation disappeared.",
+        "claimIds": [
+          "C01",
+          "C02",
+          "C06",
+          "C07",
+          "C10",
+          "C11"
+        ],
+        "storyIds": [
+          "S01"
+        ],
+        "interpretationIds": [
+          "I01",
+          "I02"
+        ]
+      },
+      {
+        "id": "SE03",
+        "lens": "Scale-up history and the limits of commercial announcements",
+        "summary": "The historical-evidence lens distinguishes pilot-scale work and commercialization plans from a later company report of enzyme use and contractual supply terms. The 2021 announcement extends the account beyond a pilot proposal, but does not audit performance or establish present-day operation.",
+        "claimIds": [
+          "C08",
+          "C09"
+        ],
+        "storyIds": [
+          "S02"
+        ],
+        "interpretationIds": [
+          "I03"
+        ]
+      }
+    ],
+    "topicMap": [
+      {
+        "questionOrTerm": "The molecule, the route and the manufacturing process",
+        "explanation": "The case concerns a different way of producing sitagliptin, not discovering a different drug. A useful working distinction is between the reaction approach and the wider process, including equipment and separation operations. The EPA comparison spans both [C01, C06, C11]."
+      },
+      {
+        "questionOrTerm": "What chemistry is actually documented?",
+        "explanation": "The primary abstract names the preceding rhodium-catalyzed asymmetric enamine hydrogenation. The enzyme-development account concerns a transaminase and the sitagliptin ketone. These descriptions do not establish a drop-in catalyst substitution in an otherwise unchanged reaction [C01, C03, C04, C10]."
+      },
+      {
+        "questionOrTerm": "Molecular handedness and selectivity",
+        "explanation": "Left and right hands provide a simple image for the account's enantiomer distinction. EPA identifies the S-enantiomer as undesired and reports that none was detected with the evolved enzyme. That is a specific selectivity result, not a finding that every impurity was absent [C02, C05]."
+      },
+      {
+        "questionOrTerm": "How can an initially inactive enzyme be a useful starting point?",
+        "explanation": "EPA reports no detectable activity from available transaminases on the target ketone, but slight activity from an R-selective transaminase on a smaller analogue. That analogue activity supplied the documented starting point for enzyme development [C03, C04; S01]."
+      },
+      {
+        "questionOrTerm": "Why reconsider an implemented manufacturing route?",
+        "explanation": "The preceding route was already implemented. The illuminating comparison is that EPA reports removing high-pressure hydrogenation and a chiral-purification step, rather than merely obtaining a successful reaction with another catalyst [C01, C02, C06]."
+      },
+      {
+        "questionOrTerm": "Pilot work, reported commercial use and present-day status",
+        "explanation": "The 2010 award account describes 2009 pilot work and commercialization plans. A 2021 company announcement adds a reported enzyme-use and supply relationship, with agreement terms extending through 2026. These are different historical evidence types, neither a current production audit [C08, C09; S02]."
+      }
+    ],
+    "claims": [
+      {
+        "id": "C01",
+        "statement": "The preceding sitagliptin route was an implemented rhodium-catalyzed asymmetric enamine hydrogenation, not merely an unsuccessful laboratory proposal.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          }
+        ],
+        "qualifications": [
+          "This establishes the comparator's described historical implementation, not its present-day use or a complete performance assessment.",
+          "The primary paper was read only at abstract level."
+        ],
+        "reason": "The saved primary abstract explicitly describes replacing a recently implemented rhodium-catalyzed asymmetric enamine hydrogenation; the EPA passage identifies the enzyme process as intended to supplant the hydrogenation route."
+      },
+      {
+        "id": "C02",
+        "statement": "EPA describes the preceding process as requiring hydrogenation at 250 psi, expensive specialized equipment and a rhodium catalyst, with inadequate stereoselectivity necessitating a crystallization step.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          }
+        ],
+        "qualifications": [
+          "These are the EPA account's characterizations, not an independent equipment-cost assessment.",
+          "The crystallization statement concerns a step required by the preceding route's stereoselectivity; it does not imply that every crystallization in a later process became unnecessary."
+        ],
+        "reason": "The saved EPA body directly identifies the pressure, equipment, catalyst and stereoselectivity-related crystallization requirements."
+      },
+      {
+        "id": "C03",
+        "statement": "EPA reports that Merck's tests of available transaminases identified none with detectable activity on the sitagliptin ketone.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          },
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-2"
+          }
+        ],
+        "qualifications": [
+          "Nondetection does not establish that every possible enzyme would be inactive.",
+          "The primary abstract and EPA account are reports from the same development programme, not independent screening replications."
+        ],
+        "reason": "EPA explicitly reports unsuccessful tests of available transaminases on the sitagliptin ketone. The primary abstract also preserves the target-activity obstacle in its statement about lacking activity toward prositagliptin ketone."
+      },
+      {
+        "id": "C04",
+        "statement": "Developers started from an R-selective transaminase with slight activity on a smaller, truncated methyl-ketone analogue and evolved a biocatalyst for a new manufacturing process; the primary abstract describes directed evolution for practical manufacturing application.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          },
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-3"
+          }
+        ],
+        "qualifications": [
+          "The saved material does not document individual mutations, engineering rounds, selection conditions or a structural explanation.",
+          "Slight activity on the smaller analogue is the documented starting point, not a measured initial activity on the target."
+        ],
+        "reason": "EPA gives the smaller-analogue starting point and attributes evolution of the biocatalyst to Codexis. The primary abstract explicitly names directed evolution for manufacturing application."
+      },
+      {
+        "id": "C05",
+        "statement": "EPA reports that the evolved transaminase formed no detectable amounts of the undesired S-enantiomer of sitagliptin.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-2"
+          }
+        ],
+        "qualifications": [
+          "No analytical detection threshold is provided in the saved passage.",
+          "No detectable S-enantiomer is not absolute absence, absence of other impurities or evidence of clinical safety."
+        ],
+        "reason": "The saved EPA passage directly reports the detection-limited stereochemical outcome. The support is for the attributed report, not an independently examined analytical measurement."
+      },
+      {
+        "id": "C06",
+        "statement": "EPA says the streamlined enzymatic process eliminated high-pressure hydrogenation, the metals rhodium and iron, and the preceding chiral-purification step.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          }
+        ],
+        "qualifications": [
+          "This is a process-level description from an institutional award account.",
+          "It does not establish removal of all downstream separation, purification or crystallization operations, nor analytical absence of every metal trace."
+        ],
+        "reason": "The saved EPA body explicitly names the eliminated hydrogenation, metals and chiral-purification step."
+      },
+      {
+        "id": "C07",
+        "statement": "EPA reports that the enzymatic process improved productivity with existing equipment relative to the preceding process.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-3"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          }
+        ],
+        "qualifications": [
+          "The comparator is the preceding hydrogenation process in the EPA narrative.",
+          "The saved account gives no productivity units, normalization formula, paired baseline data or controlled comparison conditions.",
+          "The numerical headline is not retained as a quantitative benchmark, and the report does not isolate a catalyst-only effect."
+        ],
+        "reason": "EPA explicitly reports improved productivity with existing equipment as a benefit of the new process. Only that attributed qualitative outcome is retained."
+      },
+      {
+        "id": "C08",
+        "statement": "The 2010 EPA award account reports that Merck scaled the new process to pilot scale during 2009 and that commercialization plans were moving forward.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-4"
+          }
+        ],
+        "qualifications": [
+          "The account supplies no pilot batch size, repeat-batch data or detailed methods.",
+          "Commercialization plans are historical plans in the 2010 award account, not current status."
+        ],
+        "reason": "The saved passage explicitly dates pilot scale-up to 2009 and separately describes plans to commercialize."
+      },
+      {
+        "id": "C09",
+        "statement": "On 9 September 2021, Codexis reported a proprietary enzyme used in sitagliptin manufacture, a supply agreement originating in 2012 and extended in 2015, and an amended license-and-supply term through 31 December 2026, renewable for five additional years by mutual agreement.",
+        "basis": "observation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "codexis-2021-prior-verification",
+            "passageId": "codexis-prior-commercial-history"
+          }
+        ],
+        "qualifications": [
+          "This is a company report of enzyme use and agreement history, not an independent manufacturing or shipment audit.",
+          "The agreement term does not prove uninterrupted current supply, renewal, complete replacement of other routes or an unchanged enzyme variant."
+        ],
+        "reason": "The saved release body states that the proprietary enzyme is used in sitagliptin manufacture and supplies the agreement history and extension terms."
+      },
+      {
+        "id": "C10",
+        "statement": "The saved comparison concerns a changed reaction and process configuration, not a demonstrated catalyst-only substitution under otherwise identical conditions.",
+        "basis": "inference",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-3"
+          }
+        ],
+        "qualifications": [
+          "The saved descriptions do not reconstruct every upstream or downstream change.",
+          "This limits causal attribution of reported benefits; it does not negate the operations EPA reports removing."
+        ],
+        "reason": "The record names an enamine hydrogenation, enzyme development against a ketone and removal of a purification operation. It does not describe an otherwise fixed comparison varying only the catalyst."
+      },
+      {
+        "id": "C11",
+        "statement": "A useful reading separates making the desired molecular form from developing a useful manufacturing process: the case reports distinct evidence about selectivity, equipment, separation operations and productivity.",
+        "basis": "interpretation",
+        "supportStatus": "supported",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-2"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-3"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          }
+        ],
+        "qualifications": [
+          "This is an explanatory framework for the documented case, not a reconstruction of the complete manufacturing process.",
+          "A reported selectivity result should not be substituted for evidence about product recovery, routine robustness or all quality attributes."
+        ],
+        "reason": "EPA reports selectivity separately from equipment requirements, purification operations and productivity, supporting this distinction without supplying a complete process flow."
+      }
+    ],
+    "interpretations": [
+      {
+        "id": "I01",
+        "proposition": "The useful lesson is not simply that an enzyme can make the target: catalyst development was associated with a process redesign that EPA reports removed demanding reaction and purification operations.",
+        "attribution": "Editorial synthesis of the saved 2010 primary abstract and EPA award account; both belong to evidence family sitagliptin_transaminase_process_development.",
+        "passages": [
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-1"
+          },
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-3"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-3"
+          }
+        ],
+        "strongestObjection": "The saved descriptions do not hold substrate, operating conditions, purification and other process variables constant. They therefore cannot isolate the enzyme's contribution to the reported productivity gain or explain which engineering changes enabled each manufacturing benefit.",
+        "currentStanding": "Supported as a bounded qualitative explanation of a coupled catalyst-and-process change, not as a controlled causal allocation of all reported improvements.",
+        "whatWouldChangeAssessment": "Full reaction and process records, including the engineering sequence, separation operations and matched comparisons, could establish how much each change contributed and reveal additional trade-offs."
+      },
+      {
+        "id": "I02",
+        "proposition": "The new route was pursued against an implemented alternative, not a failed route; the evidence favors the enzymatic process on the specific measures EPA reports without settling every manufacturing criterion.",
+        "attribution": "Editorial comparison grounded in the primary abstract's implemented-route description and the EPA account's stated liabilities and benefits.",
+        "passages": [
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-1"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-3"
+          }
+        ],
+        "strongestObjection": "Implementation alone does not establish the preceding route's relative economics or robustness. Conversely, the missing comprehensive comparison is not counterevidence to EPA's named improvements and does not justify presenting the two routes as equally supported on every criterion.",
+        "currentStanding": "The implemented comparator and the attributed operational advantages should both be stated plainly. The saved material does not support a universal preference for enzymes or an overall economic or environmental ranking.",
+        "whatWouldChangeAssessment": "A read account of the corrected hydrogenation work and a comparison using common cost, quality, robustness and environmental boundaries would support a broader judgement."
+      },
+      {
+        "id": "I03",
+        "proposition": "The historical account need not stop at commercialization plans, because the 2021 announcement reports an enzyme used in manufacture and a supply relationship, but that does not establish present-day operating status.",
+        "attribution": "Editorial historical synthesis of the EPA pilot account and Codexis's announcement dated 9 September 2021.",
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-4"
+          },
+          {
+            "sourceId": "codexis-2021-prior-verification",
+            "passageId": "codexis-prior-commercial-history"
+          }
+        ],
+        "strongestObjection": "The later evidence is a company announcement about enzyme use and an agreement. It is not shipment documentation, a production audit or proof that the enzyme variant and process configuration remained unchanged from the earlier development.",
+        "currentStanding": "Supported as an extension from a pilot-and-plans account to company-reported commercial enzyme-use history. Current deployment, uninterrupted supply and renewal remain unchecked.",
+        "whatWouldChangeAssessment": "Later dated supply, manufacturing or renewal records could establish subsequent status; process-specific records could establish continuity with the earlier enzyme development."
+      }
+    ],
+    "stories": [
+      {
+        "id": "S01",
+        "puzzle": "How could an enzyme-development programme proceed when screening against the target had not found a detectably active enzyme?",
+        "attempted": "Merck tested available transaminases against the sitagliptin ketone. Development then started from an R-selective transaminase with slight activity on a smaller analogue; EPA attributes evolution of the biocatalyst to Codexis, and the primary abstract identifies directed evolution for manufacturing application.",
+        "observed": "EPA reports no detectable target activity in the initial available-enzyme tests, followed by an evolved transaminase producing no detectable undesired S-enantiomer and an enzymatic process eliminating high-pressure hydrogenation and the prior chiral-purification step.",
+        "whatChanged": "The documented starting point was not an enzyme ready for the target reaction. Activity on a smaller analogue became the basis for developing a biocatalyst associated with a different manufacturing process and removal of particular operations.",
+        "documentedDetails": [
+          "Available transaminases showed no detectable activity on the sitagliptin ketone in Merck's tests.",
+          "The starting R-selective transaminase had slight activity on a smaller, truncated methyl-ketone analogue.",
+          "The primary abstract identifies directed evolution for practical manufacturing application.",
+          "EPA reports no detectable formation of the undesired S-enantiomer with the evolved transaminase.",
+          "EPA reports elimination of high-pressure hydrogenation and the chiral-purification step."
+        ],
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-initial-activity"
+          },
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-2"
+          },
+          {
+            "sourceId": "source-6",
+            "passageId": "source-6-read-8-3"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-2"
+          },
+          {
+            "sourceId": "source-1",
+            "passageId": "epa-prior-verification-purification"
+          }
+        ],
+        "qualifications": [
+          "This is a documented development sequence, not a reconstructed laboratory scene or account of private decisions.",
+          "The sources describe one programme. The saved material does not provide engineering rounds, a mechanistic explanation or the analytical threshold for the final selectivity report."
+        ]
+      },
+      {
+        "id": "S02",
+        "puzzle": "Did the documented development remain only a pilot-scale proposal, and what kind of evidence extends that history?",
+        "observed": "The EPA account reports 2009 pilot scale-up and commercialization plans. The 2021 Codexis release later reports an enzyme used in sitagliptin manufacture and an amended license-and-supply agreement extending through 31 December 2026.",
+        "whatChanged": "The later read record adds a reported commercial enzyme-use relationship to the earlier pilot-and-plans account. It does not turn a historical announcement into confirmation of present-day deployment.",
+        "documentedDetails": [
+          "EPA dates Merck's pilot scale-up to 2009.",
+          "The 2010 award account describes commercialization plans as moving forward.",
+          "Codexis's 9 September 2021 release reports a supply agreement entered in 2012 and extended in 2015.",
+          "The announced amended term runs through 31 December 2026.",
+          "A further five-year renewal requires mutual agreement."
+        ],
+        "passages": [
+          {
+            "sourceId": "source-1",
+            "passageId": "source-1-read-2-4"
+          },
+          {
+            "sourceId": "codexis-2021-prior-verification",
+            "passageId": "codexis-prior-commercial-history"
+          }
+        ],
+        "qualifications": [
+          "Pilot scale is not itself routine commercial production, and the saved EPA account gives no batch size.",
+          "The later announcement is company-reported commercial history, not an independent production audit.",
+          "The saved passages do not establish an unchanged enzyme variant, uninterrupted supply, current operation or renewal."
+        ]
+      }
+    ],
+    "openQuestions": [
+      "Which enzyme changes enabled useful activity on the target ketone, and which were needed for manufacturing conditions? The saved abstract names directed evolution but does not document those mechanisms or rounds.",
+      "What do full product-recovery, quality and repeat-batch records show about operating robustness? Those records are not reconstructed in this collection.",
+      "What calculation and baseline conditions underlie the reported productivity improvement, and how much is attributable to catalyst, reaction conditions or other process operations?",
+      "How would the two routes compare on cost, robustness, supply resilience and environmental impact using consistent whole-process boundaries? This pack has not investigated that broader comparison.",
+      "What later records establish actual enzyme supply, process configuration and any agreement renewal after the 2021 announcement?"
+    ],
+    "limitations": [
+      "Source-1 and source-6 describe the same development programme and share evidenceFamilyId sitagliptin_transaminase_process_development. The institutional summary is not independent experimental corroboration of the primary study. The Codexis announcement supplies a separate commercial-history record, not independent performance verification.",
+      "Source-6 was read only at abstract level. Its full paper and supporting information were not read; the saved fragments do not establish detailed transformations, engineering rounds, reaction conditions, batch sizes or isolation results.",
+      "The collection does not reconstruct complete product recovery, impurity control, repeat-batch performance or a controlled whole-process comparison. These are limits of this pack, not evidence that the field lacks such information.",
+      "EPA's productivity, yield and waste percentage headlines are not used as quantitative benchmarks because calculation bases and comparison conditions are not supplied. Its activity-fold headline is also omitted because the saved passages do not establish the relevant activity comparator; a fold increase must not be calculated from initial nondetection.",
+      "Source-3 and source-9 remain snippet-only leads; source-4 and source-5 were inaccessible. Their process-control, isolation and workup details do not support this account.",
+      "The associated hydrogenation study/supporting-information record, source-7, carries a 2020 correction flag linked to source-8, not a retraction. Those records are snippet-only here. Neither superseded nor corrected experimental quantities or yields are used.",
+      "The read 2018 impurity-study abstract, source-2, does not connect its findings to the selected transaminase route. It cannot be used to assign those impurities to this process or to qualify the selectivity result with route-specific impurity claims.",
+      "The historical plans belong to the 2010 award account, regardless of the webpage's later update date. The latest read commercial announcement is from 2021; later operation, supply continuity and renewal have not been checked.",
+      "The broad listener request is addressed through one small-molecule process-development case. Drug discovery, finished-tablet formulation, clinical effects, a full manufacturing-validation account and definitive economic or environmental rankings are outside this pack."
+    ],
+    "coverageDecision": {
+      "status": "sufficient",
+      "centralQuestion": "What makes a different way of producing the same drug a practical manufacturing choice, as illustrated by the development of sitagliptin?",
+      "reason": "The saved primary abstract, EPA body passages and later company announcement support the commissioned bounded qualitative case: an implemented comparator, a documented enzyme-development obstacle, reported changes to manufacturing operations, pilot work and later reported commercial history. This is sufficient for the selected 15-minute inquiry, provided it does not promise a complete chemical reconstruction, numerical benchmarking or independent manufacturing validation."
+    }
+  },
+  "postConversationEvidence": []
+}

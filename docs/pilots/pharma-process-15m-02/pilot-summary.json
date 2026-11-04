@@ -1,0 +1,111 @@
+{
+  "episodeId": "61a8b4b4-638e-4792-a90d-80fb35881e62",
+  "title": "Making the Same Drug a Different Way",
+  "topic": "pharmaceutical process development and chemistry",
+  "lengthMinutes": 15,
+  "status": "paused",
+  "stage": "ready_for_audio.wait",
+  "reviewOutcome": "acceptable",
+  "reviewSummary": "The episode delivers a sound, accessible answer through a genuine development puzzle, with reported operational benefits and commercial history appropriately bounded. It is a worthwhile guided discussion, though the extended hypothetical closing section is less engaging than the concrete sitagliptin story. No material correction is needed.",
+  "reviewNotes": [
+    "Story: The smaller-analogue foothold in turns 1–2 receives its payoff through target activity, handedness selectivity and removed operations in turns 4 and 8. Turn 4 supplies the most memorable understanding: an imperfect distinction made by the reaction leaves a separation to finish the job.",
+    "Insight: Turn 10 usefully distinguishes the changed starting material and transformation from a simple catalyst substitution; turn 12 makes product formation versus recovery tangible. Turn 14 correctly extends the history beyond pilot plans to company-reported manufacturing use without implying verified present-day supply.",
+    "Voices: Distinct intellectual priorities are audible: Tomas notices a promising trace of related activity in turn 2; Mira follows the work a reaction leaves downstream in turn 4; Leena follows equipment demands and recovered output in turns 6 and 12. Each contributes substantially, although their polished explanatory rhythms are similar.",
+    "Interaction: Much of the programme consists of host-led explanations rather than direct exchange, but turns 18–20 genuinely develop an idea: Mira questions whether higher concentration helps the surrounding process, Tomas identifies a reason to stop optimizing that property, and Mira redirects the next experiment toward the actual bottleneck.",
+    "Pacing: At roughly 2,100 words, the material reasonably fits fifteen minutes, and the opening reaches the puzzle promptly. Turns 16–20 linger over related hypothetical optimization lessons after the case has largely paid off; the very brief conclusion in turn 21 leaves that tail more prominent than the final synthesis."
+  ],
+  "words": 2119,
+  "characters": 13724,
+  "turns": 21,
+  "acceptedWords": 2183,
+  "estimatedMinutes": {
+    "at145WordsPerMinute": 14.613793103448275,
+    "at135WordsPerMinute": 15.696296296296296,
+    "at120WordsPerMinute": 17.658333333333335
+  },
+  "openingWords": 114,
+  "participation": {
+    "totalTurns": 21,
+    "totalWords": 2119,
+    "hostWords": 272,
+    "guests": [
+      {
+        "speaker": "expert1",
+        "turns": 4,
+        "words": 662,
+        "lastTurnId": "turn-20",
+        "otherGuestTurnsSinceLast": 0
+      },
+      {
+        "speaker": "expert2",
+        "turns": 4,
+        "words": 592,
+        "lastTurnId": "turn-19",
+        "otherGuestTurnsSinceLast": 1
+      },
+      {
+        "speaker": "expert3",
+        "turns": 3,
+        "words": 593,
+        "lastTurnId": "turn-14",
+        "otherGuestTurnsSinceLast": 4
+      }
+    ],
+    "guestsNotYetHeard": [],
+    "adjacentDifferentGuestTurns": 2
+  },
+  "speakers": [
+    {
+      "id": "host",
+      "name": "Nell Arden"
+    },
+    {
+      "id": "expert1",
+      "name": "Mira Calder"
+    },
+    {
+      "id": "expert2",
+      "name": "Tomas Venn"
+    },
+    {
+      "id": "expert3",
+      "name": "Leena Orrell"
+    }
+  ],
+  "yieldDecisions": 2,
+  "bidRounds": 0,
+  "stanceUpdates": [],
+  "operationCount": 32,
+  "roles": {
+    "producer": 1,
+    "synthesis": 1,
+    "casting": 1,
+    "guest_preparation": 3,
+    "host_preparation": 1,
+    "host": 12,
+    "guest": 11,
+    "editing": 1,
+    "review": 1
+  },
+  "http": {
+    "submissions": 32,
+    "retrievals": 547,
+    "missingCompletions": 0
+  },
+  "cost": {
+    "newRunCeilingUsd": 3.19,
+    "estimatedUsd": 1.6247188000000001,
+    "conservativeAllowanceUsd": 1.69399,
+    "previousConservativeAllowanceUsd": 1.8062681250000001,
+    "combinedConservativeAllowanceUsd": 3.500258125,
+    "combinedCapUsd": 5,
+    "billedUsd": null
+  },
+  "finalTurnsSha256": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "artifactsVerified": 35,
+  "reusedResearch": true,
+  "newSourceReads": 0,
+  "newSearches": 0,
+  "originalRunUnchanged": true,
+  "actualAudioDurationMeasured": false
+}

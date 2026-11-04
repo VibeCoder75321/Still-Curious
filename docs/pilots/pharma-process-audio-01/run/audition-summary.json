@@ -1,0 +1,144 @@
+{
+  "status": "awaiting_listener_acceptance",
+  "episodeId": "61a8b4b4-638e-4792-a90d-80fb35881e62",
+  "title": "Making the Same Drug a Different Way",
+  "finalScript": {
+    "id": "final-script:1",
+    "kind": "final_script",
+    "version": 1
+  },
+  "scriptHash": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811",
+  "audio": {
+    "key": "episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/audition.mp3",
+    "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c",
+    "bytes": 4891375,
+    "durationSeconds": 305.7110204081633
+  },
+  "model": "eleven_v4",
+  "voices": [
+    {
+      "speaker": "host",
+      "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+      "name": "Roger - Laid-Back, Casual, Resonant",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert1",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "name": "Sarah - Mature, Reassuring, Confident",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert2",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "name": "George - Warm, Captivating Storyteller",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert3",
+      "voiceId": "onwK4e9ZLuTAKqWW03F9",
+      "name": "Daniel - Steady Broadcaster",
+      "category": "premade",
+      "customRate": null
+    }
+  ],
+  "chunks": [
+    {
+      "id": "section-01",
+      "characters": 1768,
+      "turnIds": [
+        "turn-1",
+        "turn-2"
+      ]
+    },
+    {
+      "id": "section-02",
+      "characters": 1599,
+      "turnIds": [
+        "turn-3",
+        "turn-4",
+        "turn-5"
+      ]
+    },
+    {
+      "id": "section-03",
+      "characters": 1316,
+      "turnIds": [
+        "turn-6",
+        "turn-7"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "chunkId": "section-01",
+      "phase": "completed",
+      "startedAt": 1792160025431,
+      "receivedAt": 1792160058470,
+      "requestId": "HWFmXS2xGqlEMNykHknm",
+      "historyItemId": "u4W46n5B90w92lrWD2JF",
+      "maxChargeCharacters": 1868,
+      "reservedUsd": 0.14944,
+      "chargedCharacters": null,
+      "reportedCostUsd": null,
+      "billedUsd": null,
+      "providerCharacterCost": 389,
+      "clip": {
+        "key": "episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-01.mp3",
+        "sha256": "7118de01bbba9ebb736842037674d7949f7d34af76f6f4b0a32ed0e34f7e81bd",
+        "bytes": 1882531,
+        "durationSeconds": 117.65551020408164,
+        "chunkId": "section-01"
+      }
+    },
+    {
+      "chunkId": "section-02",
+      "phase": "completed",
+      "startedAt": 1792160058715,
+      "receivedAt": 1792160079303,
+      "requestId": "D7A2f2wka1nL72EcHbPa",
+      "historyItemId": "jS6O4hGEYu6KESRDwsyq",
+      "maxChargeCharacters": 1799,
+      "reservedUsd": 0.143920001,
+      "chargedCharacters": null,
+      "reportedCostUsd": null,
+      "billedUsd": null,
+      "providerCharacterCost": 351,
+      "clip": {
+        "key": "episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-02.mp3",
+        "sha256": "d72c4c0cdcd637f9f4293594854c765deff0b7c9acc7c1f08375643e42e2dfca",
+        "bytes": 1622978,
+        "durationSeconds": 101.4334693877551,
+        "chunkId": "section-02"
+      }
+    },
+    {
+      "chunkId": "section-03",
+      "phase": "completed",
+      "startedAt": 1792160079479,
+      "receivedAt": 1792160099975,
+      "requestId": "jNy8jRgiFxeC3WsCMwGL",
+      "historyItemId": "HYXqoHwv2sEIczHZdsLw",
+      "maxChargeCharacters": 1516,
+      "reservedUsd": 0.12128,
+      "chargedCharacters": null,
+      "reportedCostUsd": null,
+      "billedUsd": null,
+      "providerCharacterCost": 289,
+      "clip": {
+        "key": "episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-03.mp3",
+        "sha256": "6020c72f62d78b7708b743b5c8f8ee28ecb12b89d80fd8556eed23161e297ad8",
+        "bytes": 1387249,
+        "durationSeconds": 86.70040816326531,
+        "chunkId": "section-03"
+      }
+    }
+  ],
+  "actualBilledUsd": null,
+  "conservativeCombinedCapUsd": 5,
+  "fullSynthesisStarted": false,
+  "billingNote": "Raw character-cost headers are provider billing units, not spoken character counts or dollars. Earlier derived reportedCostUsd values are superseded; conservative reservations are unchanged."
+}

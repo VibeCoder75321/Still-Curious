@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-16T14:13:45.364Z",
+  "funding": {
+    "userReportedTopupUsd": 10,
+    "observedCreditsAdded": 27472,
+    "usdPerCredit": 0.0003640069889341875,
+    "note": "Credit face-value conversion, excluding any unreported purchase tax; not an invoice or a second charge."
+  },
+  "balance": {
+    "checkedAt": "2026-10-16T14:13:28.436Z",
+    "tier": "payg",
+    "creditsUsed": 9053,
+    "creditLimit": 37472,
+    "creditsRemaining": 28419
+  },
+  "model": {
+    "id": "eleven_v4",
+    "name": "Eleven v4",
+    "canDoTextToSpeech": true,
+    "catalogTokenCostFactor": 1
+  },
+  "voices": [
+    {
+      "speaker": "host",
+      "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+      "name": "Roger - Laid-Back, Casual, Resonant",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert1",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "name": "Sarah - Mature, Reassuring, Confident",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert2",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "name": "George - Warm, Captivating Storyteller",
+      "category": "premade",
+      "customRate": null
+    },
+    {
+      "speaker": "expert3",
+      "voiceId": "onwK4e9ZLuTAKqWW03F9",
+      "name": "Daniel - Steady Broadcaster",
+      "category": "premade",
+      "customRate": null
+    }
+  ],
+  "apiPricing": {
+    "usdPer1kCharacters": 0.08,
+    "checkedAt": 1792159983314,
+    "sources": [
+      "https://elevenlabs.io/pricing/api",
+      "https://elevenlabs.io/app/subscription/api"
+    ]
+  },
+  "usdPer1kCharacters": 0.08,
+  "pricingBasis": "Official API dollar rate, confirmed on the signed-in account's API pricing table. Catalog token_cost_factor and purchased display-credit conversion are not API dollar prices.",
+  "audioAllowanceUsd": 1.49,
+  "fullAudioAcceptanceAuthorized": false,
+  "priorResearchAndTextChanged": false
+}

@@ -1,0 +1,861 @@
+{
+  "id": "1a21f9f8-e688-47cf-bc7c-43ed9ba24380",
+  "userId": "local-measured-pilot",
+  "topic": "How do fireflies make light?",
+  "title": "How Fireflies Make Light",
+  "lengthMinutes": 5,
+  "createdAt": 1792102250684,
+  "updatedAt": 1792102560472,
+  "schemaVersion": 2,
+  "pipelineVersion": 2,
+  "textOnly": true,
+  "status": "paused",
+  "stage": "research",
+  "substep": "read",
+  "config": {
+    "schemaVersion": 2,
+    "pipelineVersion": 2,
+    "profileVersion": "five-minute-pilot-v1",
+    "lengthMinutes": 5,
+    "targetDurationSeconds": 300,
+    "introductionTargetSeconds": {
+      "min": 20,
+      "max": 30
+    },
+    "spokenWordTarget": {
+      "min": 550,
+      "max": 700
+    },
+    "audioDurationSeconds": {
+      "min": 240,
+      "max": 390
+    },
+    "audio": {
+      "maxCharacters": 5000,
+      "chunkMaxCharacters": 1800
+    },
+    "limits": {
+      "maxProviderOperations": 64,
+      "maxSearchCalls": 4,
+      "maxSourceReads": 8,
+      "maxConversationTurns": 32,
+      "maxContributionRequestRounds": 3,
+      "maxEditPasses": 1,
+      "maxReviewPasses": 2,
+      "maxLocalRepairPasses": 1,
+      "maxSectionRevisionPasses": 1,
+      "maxPostConversationSourceReads": 1,
+      "spendCeilingUsd": 5
+    }
+  },
+  "progress": {
+    "message": "Source discovery and coverage rationale saved",
+    "sourceCount": 5
+  },
+  "state": {
+    "artifacts": {
+      "episode-brief:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "episode-brief:1",
+        "kind": "episode_brief",
+        "version": 1,
+        "createdAt": "2026-10-15T22:14:58.313Z",
+        "provenance": {
+          "inputVersions": [],
+          "editorialVersion": "framework-2.1/producer-excerpts-1/original-unavailable",
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.0.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh"
+          },
+          "usageRecordIds": [
+            "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f"
+          ]
+        },
+        "data": {
+          "originalRequest": "How do fireflies make light?",
+          "mainCuriosity": "How a living insect generates visible light.",
+          "interpretation": "explicit",
+          "interpretationNote": "The request explicitly asks how fireflies produce light. Treating this as a mechanism-led explanation is strongly supported by the wording. The preference for an accessible account rather than an exhaustive chemical pathway is a modest editorial inference from the general-listener format and five-minute duration; the listener has not specified their prior knowledge or desired molecular depth.",
+          "centralQuestion": "How do fireflies make light?",
+          "listenerPromise": "By the end, the listener should be able to follow an evidence-backed explanation from the insect's light-producing tissue through the molecular process to visible light, and understand how researchers established the essential steps.",
+          "startingKnowledge": "Assume no specialist chemistry or insect biology. Begin with the idea of an insect emitting visible light, without assuming the listener has personally seen a firefly.",
+          "essentialFoundations": [
+            "The distinction between producing light and reflecting light.",
+            "The location of the light-producing process within the insect.",
+            "The minimum concepts of energy, reacting molecules and catalysts needed to follow the researched explanation.",
+            "What it means for a molecule to emit light, explained without equations and only to the depth needed."
+          ],
+          "deeperFocus": "The experimentally supported chain connecting the necessary components and energy changes to light emission, with molecular names serving understanding rather than becoming the subject.",
+          "exclusions": [
+            "Synchronised flashing and collective rhythms.",
+            "A separate investigation of flash timing or neural control.",
+            "Detailed courtship, ecological functions, evolution or conservation.",
+            "Biotechnology applications, a catalogue of glowing organisms and exhaustive molecular intermediates."
+          ],
+          "secondaryQuestions": [
+            "Where in the insect does light production take place?",
+            "How can experiments reveal what is needed to produce the light?"
+          ],
+          "premisesToCheck": [
+            "The request itself introduces no doubtful explanatory premise. Research should nevertheless check whether a familiar species can responsibly represent fireflies more generally.",
+            "Do not assume that every detail of a simplified reaction diagram has the same evidential status.",
+            "If descriptions such as 'cold light' or exceptional efficiency enter the explanation, verify their definitions and limitations rather than treating them as established absolutes."
+          ],
+          "lengthMinutes": 5,
+          "atmosphere": "Composed, personable and quietly curious: a prepared discussion that rewards attention without requiring a screen. Let clarity and concrete evidence provide reassurance; avoid forced banter, decorative wonder and unnecessary jargon.",
+          "durationAdaptation": {
+            "profileVersion": "five-minute-pilot-v1",
+            "targetDurationSeconds": 300,
+            "introductionTargetSeconds": {
+              "min": 20,
+              "max": 30
+            },
+            "scopeDecision": "preserved",
+            "scopeRationale": "The listener has supplied a narrow mechanism question, so preserve it rather than substitute a broader firefly episode. The short-duration adaptation selects the light-producing process and its essential foundations; signalling, synchronisation, evolutionary history and applications are excluded rather than compressed into brief mentions. These are provisional priorities, not a script or fixed running order. The verified original programme brief is unavailable. The supplied framework guidance informs this commission but is not treated as a replacement original brief.",
+            "introductionPurpose": "Reach the substantive question in roughly 20–30 seconds: establish the subject, make the puzzle tangible and introduce the three fictional specialists economically. Avoid a general survey of fireflies before beginning the mechanism.",
+            "discussionFocus": "Within the five-minute, approximately 550–700-word profile, give just enough anatomical and energy background to sustain a clear explanation of light production, supported by one revealing piece of evidence if available. Use one host and three fictional specialists with complementary expertise, flexible contributions and no required guest-to-guest questioning. Prepare evidence in advance; do not interrupt the exchange for research or real-time claim auditing. Conduct a proportionate whole-episode review afterward, using local edits or affected-section revisions for local errors, not accuracy percentages or automatic whole-conversation regeneration.",
+            "endingAim": "Briefly consolidate the explanatory chain that became clearer, acknowledge any consequential limit in the evidence without manufacturing uncertainty, and close with brief thanks rather than opening a new topic."
+          },
+          "editorialInputs": {
+            "frameworkVersion": "2.1",
+            "frameworkSourceSha256": "f2dadf2b43e69fe78fdc498a3cee8bf1b1c600853427aec836cdb8d2f5c26d42",
+            "guidanceVersion": "producer-excerpts-1",
+            "programmeBrief": null
+          }
+        }
+      },
+      "research-commission:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "research-commission:1",
+        "kind": "research_commission",
+        "version": 1,
+        "createdAt": "2026-10-15T22:14:58.313Z",
+        "provenance": {
+          "inputVersions": [],
+          "editorialVersion": "framework-2.1/producer-excerpts-1/original-unavailable",
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.0.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh"
+          },
+          "usageRecordIds": [
+            "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f"
+          ]
+        },
+        "data": {
+          "episodeBrief": {
+            "id": "episode-brief:1",
+            "kind": "episode_brief",
+            "version": 1
+          },
+          "originalRequest": "How do fireflies make light?",
+          "lengthMinutes": 5,
+          "questions": [
+            "Where is light produced in a well-studied firefly, and which features of its light-producing tissue are necessary to explain the process?",
+            "What evidence-supported sequence connects the required ingredients and energy supply to visible light? Which molecular roles and steps must a general listener understand, and which can be omitted?",
+            "Which experiments establish that account, and what can experiments on isolated components demonstrate—or not demonstrate—about the process in a living insect?",
+            "Which parts of the account generalise across fireflies, and which species differences or unresolved mechanistic details require a short qualification?"
+          ],
+          "evidenceRequirements": [
+            "Use a current authoritative scientific synthesis to map established findings and unresolved details, then consult relevant primary research for the central account.",
+            "Find controlled biochemical evidence identifying necessary components, their roles and the energy changes associated with measured light emission. Distinguish experimentally observed results from inferred reaction steps.",
+            "Obtain anatomical or physiological evidence locating the process in the living insect. Record species, life stage and experimental conditions where they affect generalisation.",
+            "Check that the accessible explanation distinguishes an energy source, a reacting molecule and any catalyst rather than treating their roles as interchangeable.",
+            "Trace any retained claim about heat, efficiency or colour to measurements with clear definitions. Omit attractive numerical claims that are unnecessary or insufficiently supported.",
+            "Prepare source-linked notes separating findings, interpretations and open questions, including limitations and relevant counterevidence. Research should be completed before the exchange rather than introduced through live checking."
+          ],
+          "alternativesToExamine": [
+            "Seek credible competing or revised explanations of the detailed light-emitting reaction. Determine whether they alter the five-minute account or belong only in research qualifications; do not create opposing camps for dramatic effect.",
+            "Compare conclusions from isolated reaction systems with observations in living fireflies. Examine whether missing cellular conditions limit an otherwise persuasive laboratory explanation.",
+            "Test whether an account drawn from a familiar species needs qualification for other fireflies, rather than assuming either complete uniformity or wholesale difference."
+          ],
+          "storiesToSeek": [
+            "Investigate a documented experiment in which researchers isolated, combined or withheld components and measured light production. Establish what the experiment actually demonstrated, and use it only if it makes the mechanism easier to understand.",
+            "Look for a well-documented observation of light-producing tissue in an identified firefly species that can provide a concrete, audio-friendly connection between the insect and the molecular explanation. Prefer one useful example over several anecdotes."
+          ],
+          "avoid": [
+            "Do not let synchronised flashing, mating signals, conservation or technological applications displace the question of how light is produced.",
+            "Do not generalise findings from one species or life stage to all fireflies without support.",
+            "Avoid unexplained molecular terminology, a recital of chemical names, and analogies that obscure where the energy comes from.",
+            "Do not repeat claims such as 'cold light', 'no heat' or 'nearly 100% efficient' without checking their meaning and evidence.",
+            "Do not invent discovery anecdotes or manufacture disagreement where the evidence supports a shared account."
+          ],
+          "evidenceSufficiency": "Enough evidence means a coherent account supported by relevant primary biochemical results and evidence from the organism, with a reliable synthesis checking their interpretation. Each load-bearing explanatory claim should be traceable to evidence, and any important gap should be identified rather than filled by analogy. One documented experiment is sufficient as an illustrative story if it genuinely supports the explanation. The episode need not settle every molecular intermediate, quantify efficiency or explain flash timing."
+        }
+      },
+      "source-records:1": {
+        "schemaVersion": 2,
+        "pipelineVersion": 2,
+        "id": "source-records:1",
+        "kind": "source_records",
+        "version": 1,
+        "createdAt": "2026-10-15T22:15:34.132Z",
+        "provenance": {
+          "inputVersions": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            }
+          ],
+          "editorialVersion": "framework-2.1/research-1",
+          "prompt": {
+            "id": "source-discovery",
+            "version": "1.0.0"
+          },
+          "modelConfiguration": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high"
+          },
+          "usageRecordIds": [
+            "attempt_dc3e75c1-5a06-435a-b4bb-2c0e23675e7f"
+          ]
+        },
+        "data": {
+          "sources": [
+            {
+              "id": "source-1",
+              "title": "Bioluminescence – The Vibrant Glow of Nature and its Chemical Mechanisms",
+              "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cbic.202400106",
+              "doi": "10.1002/cbic.202400106",
+              "authors": [],
+              "accessedAt": "2026-10-15T22:15:34.132Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "schramm-2024-review",
+              "relationships": [
+                {
+                  "sourceId": "source-3",
+                  "relation": "related",
+                  "note": "A complementary review focused on the molecular emitter and remaining spectrochemical questions."
+                }
+              ],
+              "qualifications": [
+                "Recent review suitable for mapping established findings and open questions.",
+                "Search-result snippet supports a broadly accepted sequence but says some mechanistic details remain under investigation.",
+                "Not a substitute for primary experiments establishing individual steps."
+              ],
+              "publicationStatus": "unknown",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Search result supplied a summary snippet; source page not read.",
+              "passages": [
+                {
+                  "id": "source-1-snippet",
+                  "text": "The initial step involves firefly luciferin binding to luciferase; the search-result snippet notes that ATP-Mg2+ is believed to induce a conformational change and that oxygen binding to an intermediate remains a research question.",
+                  "locator": "Search-result snippet; page not read",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-2",
+              "title": "Firefly bioluminescence: A mechanistic approach of luciferase catalyzed reactions",
+              "url": "https://iubmb.onlinelibrary.wiley.com/doi/abs/10.1002/iub.134",
+              "doi": "10.1002/iub.134",
+              "authors": [
+                "Simone M. Marques"
+              ],
+              "publishedOn": "2008-10-23",
+              "accessedAt": "2026-10-15T22:15:34.132Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "marques-2008-review",
+              "relationships": [],
+              "qualifications": [
+                "Mechanism-focused review centered on studies of Photinus pyralis.",
+                "Useful for the accessible two-stage outline; detailed intermediate steps should be checked against primary work.",
+                "Search result gives a first-publication date of October 23, 2008."
+              ],
+              "publicationStatus": "unknown",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Search result supplied abstract-level material; source page not read.",
+              "passages": [
+                {
+                  "id": "source-2-snippet",
+                  "text": "The reaction is summarized as luciferin reacting with ATP-Mg2+ to form luciferyl-adenylate, followed by oxidation and decarboxylation that produces oxyluciferin and photons.",
+                  "locator": "Search-result abstract snippet; page not read",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-3",
+              "title": "Spectrochemistry of Firefly Bioluminescence",
+              "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.1c01047",
+              "doi": "10.1021/acs.chemrev.1c01047",
+              "authors": [],
+              "accessedAt": "2026-10-15T22:15:34.132Z",
+              "sourceType": "review",
+              "evidenceFamilyId": "acs-chemical-reviews-spectrochemistry",
+              "relationships": [
+                {
+                  "sourceId": "source-2",
+                  "relation": "related",
+                  "note": "Complementary mechanism review covering the overall luciferase-catalyzed reaction."
+                }
+              ],
+              "qualifications": [
+                "Review useful for checking the identity and role of the emitting molecule and the limits of claims about color.",
+                "Search result describes remaining questions; it does not settle them.",
+                "Not primary evidence for the complete reaction in living insects."
+              ],
+              "publicationStatus": "unknown",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Search result supplied a summary snippet; source page not read.",
+              "passages": [
+                {
+                  "id": "source-3-snippet",
+                  "text": "The review compiles research on firefly oxyluciferin and related compounds, and discusses factors affecting emission and remaining research questions.",
+                  "locator": "Search-result snippet; page not read",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-4",
+              "title": "In vivo bioluminescence emissions of the firefly Luciola praeusta at low temperatures",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1011134416301488",
+              "authors": [],
+              "accessedAt": "2026-10-15T22:15:34.132Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "luciola-praeusta-in-vivo-emissions",
+              "relationships": [],
+              "qualifications": [
+                "Potentially useful primary evidence about emission in an identified species in vivo.",
+                "The snippet describes recordings at low temperatures but does not establish which anatomical features were examined or what conditions support generalization.",
+                "Do not use this result as evidence for a universal firefly mechanism without checking the study."
+              ],
+              "publicationStatus": "unknown",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Search result supplied a descriptive snippet; source page not read.",
+              "passages": [
+                {
+                  "id": "source-4-snippet",
+                  "text": "The article concerns in-vivo bioluminescence emissions of Luciola praeusta at low temperatures and mentions emission spectra recorded for the species.",
+                  "locator": "Search-result snippet; page not read",
+                  "coverage": "snippet"
+                }
+              ]
+            },
+            {
+              "id": "source-5",
+              "title": "Enzymatic promiscuity and the evolution of bioluminescence",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7217382/",
+              "authors": [],
+              "accessedAt": "2026-10-15T22:15:34.132Z",
+              "sourceType": "primary_study",
+              "evidenceFamilyId": "enzymatic-promiscuity-bioluminescence",
+              "relationships": [
+                {
+                  "sourceId": "source-2",
+                  "relation": "related",
+                  "note": "The snippet overlaps with the reviewed luciferase reaction mechanism."
+                }
+              ],
+              "qualifications": [
+                "Potential primary research relevant to the more detailed reaction pathway and its evolution.",
+                "The search-result snippet states a proposed multi-step sequence but does not show which steps this paper directly tested.",
+                "Use only after checking the paper’s actual experiments and separating observations from pathway interpretation."
+              ],
+              "publicationStatus": "unknown",
+              "notices": [],
+              "readingCoverage": "snippet",
+              "accessNote": "Search result supplied a mechanistic snippet; source page not read.",
+              "passages": [
+                {
+                  "id": "source-5-snippet",
+                  "text": "The snippet outlines adenylation, oxygen reaction, formation of a high-energy intermediate, and eventual excited oxyluciferin emission.",
+                  "locator": "Search-result snippet; page not read",
+                  "coverage": "snippet"
+                }
+              ]
+            }
+          ],
+          "research": {
+            "commission": {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            "discoveryRounds": 1,
+            "readSourceIds": [],
+            "pendingSourceIds": [
+              "source-1",
+              "source-2",
+              "source-3",
+              "source-4",
+              "source-5"
+            ],
+            "coverageRationale": "The search prioritized a recent scientific synthesis, a mechanism-focused review, and a species-identified in-vivo result, while also surfacing research relevant to the detailed pathway. The returned snippets support a careful distinction between the broad reaction outline and unresolved molecular details, but are discovery evidence only: no pages were read and no primary component-withholding experiment or publication-status notice was found. Follow-up should target primary biochemical experiments and lantern/photocyte anatomy, and verify any correction or retraction notices before relying on central sources.",
+            "gaps": [
+              "This search surfaced useful syntheses and one in-vivo study, but no clearly identified foundational controlled biochemical experiment showing what happened when reaction components were separately added or withheld. A later research round should seek that primary evidence.",
+              "No explicit correction, retraction, or expression-of-concern notice appeared in the returned results. Publication status remains unverified, not confirmed clear.",
+              "The returned in-vivo result concerns Luciola praeusta and low-temperature emissions; it does not, from the snippet alone, establish the full anatomy or mechanism across firefly species.",
+              "The results indicate that fine details of the emitting reaction and color remain under study, but do not provide enough evidence to evaluate a specific competing mechanism."
+            ],
+            "stopReason": "continue"
+          }
+        }
+      }
+    },
+    "sources": [],
+    "modelPolicy": {
+      "version": 1,
+      "verifiedAt": "2026-10-15",
+      "roles": {
+        "producer": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "research": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 1,
+          "timeoutMs": 90000
+        },
+        "source": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 1,
+          "timeoutMs": 90000
+        },
+        "synthesis": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "casting": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "guest_preparation": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "host_preparation": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "host": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "medium",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 4096,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "guest": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "contribution_request": {
+          "model": "gpt-6-luna",
+          "reasoningEffort": "low",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 2048,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "editing": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "review": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "xhigh",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 16384,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        },
+        "local_repair": {
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "maxInputTokens": 96000,
+          "maxOutputTokens": 8192,
+          "maxToolCalls": 0,
+          "timeoutMs": 90000
+        }
+      }
+    },
+    "usageLedger": {
+      "version": 1,
+      "spendCeilingUsd": 5,
+      "allocations": {
+        "research": 1.75,
+        "text": 2.25,
+        "review": 1,
+        "audio": 0
+      },
+      "maxOperations": 64,
+      "maxSearchCalls": 4,
+      "maxSourceReads": 8,
+      "records": [
+        {
+          "id": "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f",
+          "role": "producer",
+          "bucket": "text",
+          "provider": "openai",
+          "requestedModel": "gpt-6.1-sol",
+          "actualModel": "gpt-6.1-sol",
+          "responseId": "resp_08977c8075a82cc0006ad14f73ed8c87d1b27f99bd12727a5c",
+          "requestId": "req_7766ab3d20f9418581e559dbb482862b",
+          "settings": {
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "xhigh",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 16384,
+            "maxToolCalls": 0,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 96000,
+            "outputTokens": 16384,
+            "toolCalls": 0,
+            "searchCalls": 0,
+            "sourceReads": 0
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 2,
+              "cached": 0.1,
+              "cacheWrite": 2.5,
+              "output": 10
+            },
+            "longContext": {
+              "input": 4,
+              "cached": 0.2,
+              "cacheWrite": 5,
+              "output": 15
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.40384,
+          "allowanceUsd": 0.05425,
+          "estimatedUsd": 0.0542485,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T22:10:50.697Z",
+          "finishedAt": "2026-10-15T22:14:58.313Z",
+          "latencyMs": 247616,
+          "outcome": "completed",
+          "reported": {
+            "inputTokens": 2792,
+            "outputTokens": 4727,
+            "totalTokens": 7519,
+            "reasoningTokens": 3106,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 2789,
+            "webSearchCalls": 0,
+            "searchCalls": 0,
+            "sourceReads": 0
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_dc3e75c1-5a06-435a-b4bb-2c0e23675e7f",
+          "role": "research",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": "gpt-6-luna",
+          "responseId": "resp_017b3c9db594b081006ad15064e12887d1b87eff2b3bde78c5",
+          "requestId": "req_32d049fc3c1c46f5bb1fa0d7d96a9ca0",
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.013591625,
+          "estimatedUsd": 0.013380675,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T22:15:00.324Z",
+          "finishedAt": "2026-10-15T22:15:34.132Z",
+          "latencyMs": 33808,
+          "outcome": "completed",
+          "reported": {
+            "inputTokens": 15145,
+            "outputTokens": 3397,
+            "totalTokens": 18542,
+            "reasoningTokens": 1579,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 6707,
+            "webSearchCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 0
+          },
+          "error": null,
+          "boundExceeded": false
+        },
+        {
+          "id": "attempt_bfda6296-79a3-4a16-90e2-4e3c9d765322",
+          "role": "source",
+          "bucket": "research",
+          "provider": "openai",
+          "requestedModel": "gpt-6-luna",
+          "actualModel": "gpt-6-luna",
+          "responseId": "resp_067be76de2117a65006ad15088e08887d1bdb42c3f74a33a36",
+          "requestId": "req_0bbb48e093af4dfcb536d51ccfcb5710",
+          "settings": {
+            "model": "gpt-6-luna",
+            "reasoningEffort": "high",
+            "maxInputTokens": 96000,
+            "maxOutputTokens": 8192,
+            "maxToolCalls": 1,
+            "timeoutMs": 90000
+          },
+          "maxima": {
+            "inputTokens": 2100000,
+            "outputTokens": 8192,
+            "toolCalls": 1,
+            "searchCalls": 1,
+            "sourceReads": 1
+          },
+          "priceVersion": "openai-standard-global-2026-10-15",
+          "pricing": {
+            "version": "openai-standard-global-2026-10-15",
+            "verifiedAt": "2026-10-15",
+            "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+            "shortContext": {
+              "input": 0.1,
+              "cached": 0.01,
+              "cacheWrite": 0.125,
+              "output": 0.5
+            },
+            "longContext": {
+              "input": 0.2,
+              "cached": 0.02,
+              "cacheWrite": 0.25,
+              "output": 0.75
+            },
+            "longContextThreshold": 272000,
+            "searchCallUsd": 0.01
+          },
+          "reservedUsd": 0.5411440000000001,
+          "allowanceUsd": 0.023233625,
+          "estimatedUsd": 0.00300415,
+          "billedUsd": null,
+          "unknownCosts": [],
+          "startedAt": "2026-10-15T22:15:36.144Z",
+          "finishedAt": "2026-10-15T22:16:00.472Z",
+          "latencyMs": 24328,
+          "outcome": "completed",
+          "reported": {
+            "inputTokens": 17941,
+            "outputTokens": 1982,
+            "totalTokens": 19923,
+            "reasoningTokens": 1281,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 8762,
+            "webSearchCalls": 2,
+            "searchCalls": 0,
+            "sourceReads": 2
+          },
+          "error": {
+            "code": "reservation_exceeded",
+            "category": "configuration",
+            "message": "Reported provider work exceeded its configured reservation. Review the allowance before continuing.",
+            "ambiguous": false
+          },
+          "boundExceeded": true
+        }
+      ]
+    },
+    "execution": {
+      "revision": 78,
+      "steps": {
+        "commission.produce:1": {
+          "id": "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f",
+          "key": "commission.produce:1",
+          "step": {
+            "stage": "commission",
+            "substep": "produce"
+          },
+          "inputHash": "2cc0214e6155d9579dfc741e41d3b0b58cbf98cf7bd611002e345858f880da1a",
+          "inputs": [],
+          "prompt": {
+            "id": "editorial-producer",
+            "version": "1.0.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f",
+          "resultRefs": [
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            }
+          ],
+          "createdAt": 1792102250696,
+          "updatedAt": 1792102498314
+        },
+        "research.discover:1:1": {
+          "id": "attempt_dc3e75c1-5a06-435a-b4bb-2c0e23675e7f",
+          "key": "research.discover:1:1",
+          "step": {
+            "stage": "research",
+            "substep": "discover"
+          },
+          "inputHash": "648ac0d3a34f18e372136b1909f51b9b07a28a5ecdaffa4fc9bbd3f346dec1e2",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            }
+          ],
+          "prompt": {
+            "id": "source-discovery",
+            "version": "1.0.0"
+          },
+          "phase": "completed",
+          "usageRecordId": "attempt_dc3e75c1-5a06-435a-b4bb-2c0e23675e7f",
+          "resultRefs": [
+            {
+              "id": "source-records:1",
+              "kind": "source_records",
+              "version": 1
+            }
+          ],
+          "createdAt": 1792102500324,
+          "updatedAt": 1792102534132
+        },
+        "research.read:2:source-1": {
+          "id": "attempt_bfda6296-79a3-4a16-90e2-4e3c9d765322",
+          "key": "research.read:2:source-1",
+          "step": {
+            "stage": "research",
+            "substep": "read"
+          },
+          "inputHash": "aa609c227db4f73271255ac105f7be410f36a0650677e8c3e782cc60fa946cad",
+          "inputs": [
+            {
+              "id": "research-commission:1",
+              "kind": "research_commission",
+              "version": 1
+            },
+            {
+              "id": "episode-brief:1",
+              "kind": "episode_brief",
+              "version": 1
+            },
+            {
+              "id": "source-records:1",
+              "kind": "source_records",
+              "version": 1
+            }
+          ],
+          "prompt": {
+            "id": "source-reading",
+            "version": "1.0.0"
+          },
+          "phase": "failed",
+          "usageRecordId": "attempt_bfda6296-79a3-4a16-90e2-4e3c9d765322",
+          "resultRefs": [],
+          "createdAt": 1792102536144,
+          "updatedAt": 1792102560472,
+          "reason": "Reported provider work exceeded its configured reservation. Review the allowance before continuing."
+        }
+      }
+    }
+  },
+  "pause": {
+    "code": "needs_input",
+    "reason": "Reported provider work exceeded its configured reservation. Review the allowance before continuing."
+  }
+}

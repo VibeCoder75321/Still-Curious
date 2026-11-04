@@ -1,0 +1,380 @@
+{
+  "episodeId": "1a21f9f8-e688-47cf-bc7c-43ed9ba24380",
+  "topic": "How do fireflies make light?",
+  "status": "paused",
+  "stage": "ready_for_audio.wait",
+  "textAccepted": true,
+  "pause": {
+    "code": "text_checkpoint",
+    "reason": "The exact reviewed script is accepted. Review the text pilot before authorizing audio generation."
+  },
+  "spendingCeilingUsd": 5,
+  "allocations": {
+    "research": 1.75,
+    "text": 2.25,
+    "review": 1,
+    "audio": 0
+  },
+  "operations": 28,
+  "stages": [
+    {
+      "key": "commission.produce:1",
+      "stage": "commission",
+      "phase": "completed",
+      "role": "producer",
+      "wallTimeMs": 247618,
+      "observedOperationLatencyMs": 247616,
+      "usageRecordId": "attempt_89fd9bb3-3360-4a5b-b53e-1d616730ca0f",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.discover:1:1",
+      "stage": "research",
+      "phase": "completed",
+      "role": "research",
+      "wallTimeMs": 33808,
+      "observedOperationLatencyMs": 33808,
+      "usageRecordId": "attempt_dc3e75c1-5a06-435a-b4bb-2c0e23675e7f",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:2:source-1",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 202843,
+      "observedOperationLatencyMs": 202843,
+      "usageRecordId": "attempt_bfda6296-79a3-4a16-90e2-4e3c9d765322",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:3:source-2",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 22412,
+      "observedOperationLatencyMs": 22411,
+      "usageRecordId": "attempt_78aa57c6-4598-48e2-966e-ef05bc1db5e2",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:4:source-3",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 13004,
+      "observedOperationLatencyMs": 13003,
+      "usageRecordId": "attempt_b0be704f-cb6a-4b13-9e65-1843192c0a36",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:5:source-4",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 12713,
+      "observedOperationLatencyMs": 12712,
+      "usageRecordId": "attempt_5b451d6b-f19e-4144-9af6-7a025efb9f59",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:6:source-5",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 29019,
+      "observedOperationLatencyMs": 29019,
+      "usageRecordId": "attempt_c2e4e6f4-c6b1-4619-af03-6597087b975d",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.discover:1:7",
+      "stage": "research",
+      "phase": "completed",
+      "role": "research",
+      "wallTimeMs": 33829,
+      "observedOperationLatencyMs": 33828,
+      "usageRecordId": "attempt_d06684ae-0139-4dcd-a89b-5450d6041030",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:8:source-6",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 13065,
+      "observedOperationLatencyMs": 13064,
+      "usageRecordId": "attempt_77b6f769-6ca1-4363-b96e-17783cb60fe0",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:9:source-7",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 24982,
+      "observedOperationLatencyMs": 24980,
+      "usageRecordId": "attempt_1411c5d2-fc45-46b2-9457-99597f96def1",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.read:10:source-8",
+      "stage": "research",
+      "phase": "completed",
+      "role": "source",
+      "wallTimeMs": 17954,
+      "observedOperationLatencyMs": 17953,
+      "usageRecordId": "attempt_35d4bee0-6157-4bdf-9566-75bb215616f0",
+      "model": "gpt-6-luna",
+      "outcome": "completed"
+    },
+    {
+      "key": "research.synthesize:10:1",
+      "stage": "research",
+      "phase": "completed",
+      "role": "synthesis",
+      "wallTimeMs": 318680,
+      "observedOperationLatencyMs": 318677,
+      "usageRecordId": "attempt_7b528825-dae3-4c78-86c7-beea09ce5ba5",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "casting.cast:1",
+      "stage": "casting",
+      "phase": "completed",
+      "role": "casting",
+      "wallTimeMs": 69138,
+      "observedOperationLatencyMs": 69136,
+      "usageRecordId": "attempt_c580cb38-6573-4c94-b38e-df60e3710fe5",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert1:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 27255,
+      "observedOperationLatencyMs": 27253,
+      "usageRecordId": "attempt_7de70b95-7e7c-48c2-b47e-1d5b81bdecbf",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert2:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 25136,
+      "observedOperationLatencyMs": 25135,
+      "usageRecordId": "attempt_321f049d-0abe-44b6-8746-9b110519b573",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.expert3:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "guest_preparation",
+      "wallTimeMs": 34358,
+      "observedOperationLatencyMs": 34356,
+      "usageRecordId": "attempt_552a1fb1-c225-4b7b-bf2c-1375c44f3c68",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "preparation.host:1",
+      "stage": "preparation",
+      "phase": "completed",
+      "role": "host_preparation",
+      "wallTimeMs": 95386,
+      "observedOperationLatencyMs": 95384,
+      "usageRecordId": "attempt_b36d0879-2b97-4b4b-86a0-63929fe640ef",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:1",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 11527,
+      "observedOperationLatencyMs": 11524,
+      "usageRecordId": "attempt_0e76a5e4-d848-4efa-99bc-09bb2d2ab72c",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert2:2",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 16131,
+      "observedOperationLatencyMs": 16128,
+      "usageRecordId": "attempt_b57d8d27-9061-4366-81dd-85d5964da97e",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:3",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 8483,
+      "observedOperationLatencyMs": 8482,
+      "usageRecordId": "attempt_ca160e69-aa0d-4153-8c19-f06485c3ea68",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:4",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 19950,
+      "observedOperationLatencyMs": 19947,
+      "usageRecordId": "attempt_b89e486f-09bb-4e08-aa40-428f9e49c556",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:5",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 10915,
+      "observedOperationLatencyMs": 10913,
+      "usageRecordId": "attempt_e48bea59-d4c3-420d-8505-f0bca01dbadd",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert3:6",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 29981,
+      "observedOperationLatencyMs": 29979,
+      "usageRecordId": "attempt_6a2969ef-4b43-4623-bf99-838f21234162",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:7",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 16141,
+      "observedOperationLatencyMs": 16138,
+      "usageRecordId": "attempt_a5c5a257-d0af-4e09-bfd6-5fbd9d1e4ee7",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.expert1:8",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "guest",
+      "wallTimeMs": 24739,
+      "observedOperationLatencyMs": 24737,
+      "usageRecordId": "attempt_9672d3db-8566-4dd3-ba4c-5bc62118092e",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "conversation.host:9",
+      "stage": "conversation",
+      "phase": "completed",
+      "role": "host",
+      "wallTimeMs": 10644,
+      "observedOperationLatencyMs": 10641,
+      "usageRecordId": "attempt_770a4ad8-98c8-403a-b060-1b9f14f980d1",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "editing.edit:9",
+      "stage": "editing",
+      "phase": "completed",
+      "role": "editing",
+      "wallTimeMs": 86683,
+      "observedOperationLatencyMs": 86681,
+      "usageRecordId": "attempt_8ed1b861-54bc-4921-b5a0-b1c2217c188c",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    },
+    {
+      "key": "review.assess:1",
+      "stage": "review",
+      "phase": "completed",
+      "role": "review",
+      "wallTimeMs": 27734,
+      "observedOperationLatencyMs": 27731,
+      "usageRecordId": "attempt_12e60e4b-48db-4f54-8a68-2d51a8465bac",
+      "model": "gpt-6.1-sol",
+      "outcome": "completed"
+    }
+  ],
+  "observed": {
+    "inputTokens": {
+      "reportedSubtotal": 361099,
+      "missingOperations": []
+    },
+    "outputTokens": {
+      "reportedSubtotal": 57854,
+      "missingOperations": []
+    },
+    "totalTokens": {
+      "reportedSubtotal": 418953,
+      "missingOperations": []
+    },
+    "reasoningTokens": {
+      "reportedSubtotal": 33625,
+      "missingOperations": []
+    },
+    "cachedInputTokens": {
+      "reportedSubtotal": 46246,
+      "missingOperations": []
+    },
+    "cacheWriteInputTokens": {
+      "reportedSubtotal": 253375,
+      "missingOperations": []
+    },
+    "webSearchCalls": {
+      "reportedSubtotal": 10,
+      "missingOperations": []
+    },
+    "searchCalls": {
+      "reportedSubtotal": 2,
+      "missingOperations": []
+    },
+    "sourceReads": {
+      "reportedSubtotal": 8,
+      "missingOperations": []
+    }
+  },
+  "ignoredWebAttempts": 1,
+  "cost": {
+    "estimatedReportedSubtotalUsd": 0.9187148749999999,
+    "missingEstimates": [],
+    "heldAllowanceUsd": 1.017925625,
+    "billedUsd": null,
+    "gaps": [],
+    "priceVersions": [
+      "openai-standard-global-2026-10-15"
+    ]
+  },
+  "recovery": [],
+  "interpretation": "Reported counts are observed provider usage. Missing counts and costs remain unknown; calculated charges are estimates, not a bill. Stage wall times and observed operation latency include polling and may include operator pauses; provider-only processing latency was not independently measured."
+}

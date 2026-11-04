@@ -1,0 +1,56 @@
+{
+  "verifiedOn": "2026-10-16",
+  "tests": {
+    "passed": 214,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "browserScriptSyntax": "passed",
+  "whitespace": "passed",
+  "libraryRecordings": [
+    {
+      "id": "pharmaceutical-process",
+      "durationSeconds": 305.71102,
+      "label": "opening excerpt",
+      "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c"
+    }
+  ],
+  "speedOptions": [
+    1.2,
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6
+  ],
+  "singleSharedPlayer": true,
+  "visibleBudgetFields": false,
+  "serverEpisodeCapUsd": 5,
+  "serverDefaultAudioReserveUsd": 1.5,
+  "newPaidRequests": 0,
+  "browserVisualQA": "unverified; required skill unavailable",
+  "siteAudience": "owner-private, unchanged",
+  "sectionOrder": [
+    "library",
+    "create",
+    "now-playing",
+    "saved"
+  ],
+  "retiredPublicAssets": [
+    "/audio/polynesian-opening.mp3",
+    "/prerecorded-excerpt.json"
+  ],
+  "savedHistoryReset": {
+    "archivedExistingPilots": 3,
+    "activePilotsObserved": 0,
+    "underlyingRecordsPreserved": true,
+    "newEpisodesRemainVisible": true,
+    "legacyBrowserCacheRemoved": true,
+    "speedPreferenceRetained": true
+  },
+  "sharing": {
+    "linkAloneGrantsAccess": false,
+    "freeLibraryPackagedWithSite": true,
+    "generatedEpisodesScopedToVisitor": true
+  }
+}

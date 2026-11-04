@@ -1,0 +1,188 @@
+{
+  "at": "2026-10-16T03:08:45.141Z",
+  "artifactReferences": [
+    {
+      "id": "reused-source-records:1",
+      "kind": "source_records",
+      "version": 1
+    },
+    {
+      "id": "episode-brief:1",
+      "kind": "episode_brief",
+      "version": 1
+    },
+    {
+      "id": "research-commission:1",
+      "kind": "research_commission",
+      "version": 1
+    },
+    {
+      "id": "evidence-pack:1",
+      "kind": "evidence_pack",
+      "version": 1
+    },
+    {
+      "id": "cast:1",
+      "kind": "cast",
+      "version": 1
+    },
+    {
+      "id": "guest-preparation:expert1:1",
+      "kind": "guest_preparation",
+      "version": 1
+    },
+    {
+      "id": "guest-preparation:expert2:1",
+      "kind": "guest_preparation",
+      "version": 1
+    },
+    {
+      "id": "guest-preparation:expert3:1",
+      "kind": "guest_preparation",
+      "version": 1
+    },
+    {
+      "id": "host-plan:1",
+      "kind": "host_plan",
+      "version": 1
+    },
+    {
+      "id": "edit-report:1",
+      "kind": "edit_report",
+      "version": 1
+    },
+    {
+      "id": "review:1",
+      "kind": "review",
+      "version": 1
+    },
+    {
+      "id": "final-script:1",
+      "kind": "final_script",
+      "version": 1
+    },
+    {
+      "id": "transcript:1",
+      "kind": "transcript",
+      "version": 1
+    },
+    {
+      "id": "transcript:2",
+      "kind": "transcript",
+      "version": 2
+    },
+    {
+      "id": "transcript:3",
+      "kind": "transcript",
+      "version": 3
+    },
+    {
+      "id": "transcript:4",
+      "kind": "transcript",
+      "version": 4
+    },
+    {
+      "id": "transcript:5",
+      "kind": "transcript",
+      "version": 5
+    },
+    {
+      "id": "transcript:6",
+      "kind": "transcript",
+      "version": 6
+    },
+    {
+      "id": "transcript:7",
+      "kind": "transcript",
+      "version": 7
+    },
+    {
+      "id": "transcript:8",
+      "kind": "transcript",
+      "version": 8
+    },
+    {
+      "id": "transcript:9",
+      "kind": "transcript",
+      "version": 9
+    },
+    {
+      "id": "transcript:10",
+      "kind": "transcript",
+      "version": 10
+    },
+    {
+      "id": "transcript:11",
+      "kind": "transcript",
+      "version": 11
+    },
+    {
+      "id": "transcript:12",
+      "kind": "transcript",
+      "version": 12
+    },
+    {
+      "id": "transcript:13",
+      "kind": "transcript",
+      "version": 13
+    },
+    {
+      "id": "transcript:14",
+      "kind": "transcript",
+      "version": 14
+    },
+    {
+      "id": "transcript:15",
+      "kind": "transcript",
+      "version": 15
+    },
+    {
+      "id": "transcript:16",
+      "kind": "transcript",
+      "version": 16
+    },
+    {
+      "id": "transcript:17",
+      "kind": "transcript",
+      "version": 17
+    },
+    {
+      "id": "transcript:18",
+      "kind": "transcript",
+      "version": 18
+    },
+    {
+      "id": "transcript:19",
+      "kind": "transcript",
+      "version": 19
+    },
+    {
+      "id": "transcript:20",
+      "kind": "transcript",
+      "version": 20
+    },
+    {
+      "id": "transcript:21",
+      "kind": "transcript",
+      "version": 21
+    },
+    {
+      "id": "transcript:22",
+      "kind": "transcript",
+      "version": 22
+    },
+    {
+      "id": "transcript:23",
+      "kind": "transcript",
+      "version": 23
+    }
+  ],
+  "ownedHashesVerified": true,
+  "frozenEvidenceVerified": true,
+  "finalScriptEditReviewVerified": true,
+  "exactFinalExportVerified": true,
+  "combinedCapVerified": true,
+  "noNewRetrievalVerified": true,
+  "noDuplicateSubmissions": true,
+  "finalTurnsSha256": "bc20ca560ad6db45d3a7a1220fe6f7c389fbb055671abc04aada0191d0d18811"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "completed_text_checkpoint",
+  "originalUserRequest": "Do a 15 minute run about pharmaceutical process development and chemistry",
+  "topic": "pharmaceutical process development and chemistry",
+  "lengthMinutes": 15,
+  "profileVersion": "fifteen-minute-pilot-v1",
+  "guestPrompt": {
+    "id": "conversation-guest",
+    "version": "1.2.0"
+  },
+  "format": "text-only",
+  "formatReason": "Continue the text-run evaluation of the revised guest prompts; no audio stage is implemented in the V2 runner.",
+  "editorialInterpretation": "A discussion of how pharmaceutical chemistry develops from a laboratory reaction into a reliable manufacturing process. This is a provisional focus for the producer and research, not a predetermined scientific conclusion.",
+  "spendingCeilingUsd": 5,
+  "providerCallsAtAuthorization": 0,
+  "credentialReuse": "Previously authorized; no credential values saved here.",
+  "previousRunAuthorizationApplies": false,
+  "episodeId": "75636e6f-2c23-4c4b-a474-0b9620e546b1",
+  "acceptedAt": "2026-10-16T01:11:00.253Z"
+}

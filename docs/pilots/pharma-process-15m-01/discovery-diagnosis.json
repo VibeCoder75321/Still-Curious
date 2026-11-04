@@ -1,0 +1,5 @@
+{
+  "finish": "rejected",
+  "name": "ZodError",
+  "message": "[\n  {\n    \"code\": \"custom\",\n    \"path\": [\n      \"data\",\n      \"sources\",\n      2,\n      \"relationships\"\n    ],\n    \"message\": \"Source relationships must name another saved source\"\n  }\n]"
+}

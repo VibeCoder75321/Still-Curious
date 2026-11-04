@@ -1,0 +1,10 @@
+{
+  "topic": "How do fireflies make light?",
+  "lengthMinutes": 5,
+  "spendCeilingUsd": 5,
+  "textOnly": true,
+  "audioAuthorized": false,
+  "authorization": "User replied Yes to the proposed topic, $5 maximum and no audio.",
+  "approvedAt": "2026-10-15T18:10:00-04:00",
+  "sourceCommit": "358e1c88da9fbe1a21b16da578ba6189f3ca9efc"
+}

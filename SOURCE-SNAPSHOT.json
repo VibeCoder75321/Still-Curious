@@ -1,0 +1,2348 @@
+{
+  "project": "Still Curious / Podcast App",
+  "site": "https://still-curious-bedtime.workspace-066083.chatgpt.site/",
+  "source_repository": "https://git.chatgpt-team.site/e52a79d6-6b67-4320-bfb3-43c0f99818f5/appgprj_6acfcc84fe10819185eb6bb1b5266d63.git",
+  "source_commit": "7a469043193d22195a3158f8c18423f42491f3af",
+  "saved_site_version": 51,
+  "source_file_count": 466,
+  "included": "Complete tracked source: web app, server, prompts, tests, documentation, scripts, database migrations and assets.",
+  "runtime_setup": "Install dependencies using package.json and pnpm-lock.yaml. API credentials and deployed D1/R2 data are configured separately.",
+  "validation": {
+    "automated_tests_passed": 248,
+    "typescript": "passed",
+    "worker_build": "passed",
+    "new_generated_episode_listening_review": "not performed"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 1077,
+      "sha256": "23e0baa4b49ac37e9d295719a06914dc31fd0ecc35e22d74a2c879b6c123f337"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 95,
+      "sha256": "7686ed18320e3b03173dcaaf2de12c1dbc65914d0e0b93bd79cca373b4e8c0ee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12220,
+      "sha256": "8534894c364aacd9ca791646b9c92a054c7ddd31fbe3b56d6b59082512fd7395"
+    },
+    {
+      "path": "app/api/_episodes.ts",
+      "bytes": 8876,
+      "sha256": "c36b81d94fb4575f75b0667ff958486456350bd2ccd451f1b5e2053247a94872"
+    },
+    {
+      "path": "app/api/background/provision/route.ts",
+      "bytes": 680,
+      "sha256": "fb039ac760587cc854e11d62e0ab12de9d925738966865f598a3f106d753ff54"
+    },
+    {
+      "path": "app/api/background/run/route.ts",
+      "bytes": 600,
+      "sha256": "9c72512920b632413e3397d1f946f9a4a40b3b28a1017b88b6f1a5cbcfd83de3"
+    },
+    {
+      "path": "app/api/capabilities/route.ts",
+      "bytes": 1239,
+      "sha256": "f9e85e265c72b2682d3a9bcc0a6469e737f274fc96253dd434695bcd17b4b3d5"
+    },
+    {
+      "path": "app/api/episodes/[id]/advance/route.ts",
+      "bytes": 5015,
+      "sha256": "94ef78b28d797281dab5b56c993455a4ae6b3f938a01d7ee6ddb49ceaadcb57d"
+    },
+    {
+      "path": "app/api/episodes/[id]/archive/route.ts",
+      "bytes": 3172,
+      "sha256": "2d7ef431d09dab4abce82230dc0ce9015cea9c05efd115b4e109224e3ff04995"
+    },
+    {
+      "path": "app/api/episodes/[id]/audio/route.ts",
+      "bytes": 3517,
+      "sha256": "19ae49f1102bd6d13f54f58192e611bc1d7e5e0628d64c37d85c8aac1c46f8cc"
+    },
+    {
+      "path": "app/api/episodes/[id]/control/route.ts",
+      "bytes": 4865,
+      "sha256": "3785932d823a18266e2ecbe764f6ed10f3171b32e241a691dfaa524f1aaaa31a"
+    },
+    {
+      "path": "app/api/episodes/[id]/research/route.ts",
+      "bytes": 1850,
+      "sha256": "764814a0c91d285c319414282227ce2226a1f77792793389bfaed73c93e97280"
+    },
+    {
+      "path": "app/api/episodes/[id]/route.ts",
+      "bytes": 559,
+      "sha256": "83be2b8d060d1c3e28c0bbf0fbc45c3068bc1989de5c1928408da04f00989d53"
+    },
+    {
+      "path": "app/api/episodes/[id]/transcript/route.ts",
+      "bytes": 1186,
+      "sha256": "42a6b14ec6e712baf0264bfce93da7d8aff37f925b6dc3afdf42822f8de69ff0"
+    },
+    {
+      "path": "app/api/episodes/route.ts",
+      "bytes": 7334,
+      "sha256": "1087a86d9d18f91680414d7ad23bf3fed0ecfb4aa7af258aef2d0d282cbefcc6"
+    },
+    {
+      "path": "app/api/owner/cloudflare/route.ts",
+      "bytes": 313,
+      "sha256": "6c4469dab1dd8fde8deb5e3d379f31d10da1a3dfcd95bb2028792195914e3b51"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "bytes": 2550,
+      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 314,
+      "sha256": "720e727437f77b62c9cfedfd50cd3c8b5b3594c1908527319d2e603be609e24e"
+    },
+    {
+      "path": "app/route.ts",
+      "bytes": 262,
+      "sha256": "ca3d2994b78d97ce37f546ba5c6e39953bcb142ebf646e94ab89851817045b21"
+    },
+    {
+      "path": "app/setup/route.ts",
+      "bytes": 523,
+      "sha256": "aaa58f762d16b1033f5083ef6184c903f96d6e2d0f63b9337bc38b913884fdfe"
+    },
+    {
+      "path": "audio_manifest.example.json",
+      "bytes": 1040,
+      "sha256": "0aacce7b91beae7f07d4aa0df461a613cb4429918bca17eba86c53349da24c78"
+    },
+    {
+      "path": "build/connector-preview-plugin.mjs",
+      "bytes": 7211,
+      "sha256": "a6a9fe2086e302f94a3f91e3c1a68a45bb3aa07d4a79faf01b14732191eb4e80"
+    },
+    {
+      "path": "build/connector-preview-worker.mjs",
+      "bytes": 594,
+      "sha256": "c1b6b2c420cb67d9e28f8f4ae440f578c0dfd4cb840a12cfe4b58076629a17ba"
+    },
+    {
+      "path": "build/sites-vite-plugin.LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "bytes": 7185,
+      "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834"
+    },
+    {
+      "path": "build/sites-worker.ts",
+      "bytes": 1483,
+      "sha256": "d5725107b385012a0e7d776946f426a34d03bec7014912a6058158f469fcf1d4"
+    },
+    {
+      "path": "client/index.html",
+      "bytes": 7767,
+      "sha256": "31ef21594209ed8dd8a7fa9d6ae6ec88a3f096295258e04e54d4e062387eccdd"
+    },
+    {
+      "path": "client/setup.html",
+      "bytes": 2614,
+      "sha256": "f4b4530f3aec040e0d734ccd8dcc72da855fce12c5f042298214d12f4df05c74"
+    },
+    {
+      "path": "cloudflare-env.d.ts",
+      "bytes": 787,
+      "sha256": "508bdf09d6cf4ddfac37028be3c115f713be6697ef7fddf6e67ede64322d5553"
+    },
+    {
+      "path": "components/connector-error.tsx",
+      "bytes": 1082,
+      "sha256": "2d0d04559952ce9c9a327cca499f4b99f35d885cccfce375230e116695d3f155"
+    },
+    {
+      "path": "components/ui/accordion.tsx",
+      "bytes": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0"
+    },
+    {
+      "path": "components/ui/alert-dialog.tsx",
+      "bytes": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311"
+    },
+    {
+      "path": "components/ui/alert.tsx",
+      "bytes": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b"
+    },
+    {
+      "path": "components/ui/aspect-ratio.tsx",
+      "bytes": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407"
+    },
+    {
+      "path": "components/ui/attachment.tsx",
+      "bytes": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "bytes": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "bytes": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "bytes": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5"
+    },
+    {
+      "path": "components/ui/bubble.tsx",
+      "bytes": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b"
+    },
+    {
+      "path": "components/ui/button-group.tsx",
+      "bytes": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "bytes": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4"
+    },
+    {
+      "path": "components/ui/calendar.tsx",
+      "bytes": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "bytes": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c"
+    },
+    {
+      "path": "components/ui/carousel.tsx",
+      "bytes": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "bytes": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "bytes": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "bytes": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b"
+    },
+    {
+      "path": "components/ui/combobox.tsx",
+      "bytes": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735"
+    },
+    {
+      "path": "components/ui/command.tsx",
+      "bytes": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a"
+    },
+    {
+      "path": "components/ui/context-menu.tsx",
+      "bytes": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "bytes": 4303,
+      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14"
+    },
+    {
+      "path": "components/ui/direction.tsx",
+      "bytes": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "bytes": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "bytes": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a"
+    },
+    {
+      "path": "components/ui/empty.tsx",
+      "bytes": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0"
+    },
+    {
+      "path": "components/ui/field.tsx",
+      "bytes": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "bytes": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e"
+    },
+    {
+      "path": "components/ui/hover-card.tsx",
+      "bytes": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8"
+    },
+    {
+      "path": "components/ui/input-group.tsx",
+      "bytes": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0"
+    },
+    {
+      "path": "components/ui/input-otp.tsx",
+      "bytes": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "bytes": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db"
+    },
+    {
+      "path": "components/ui/item.tsx",
+      "bytes": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f"
+    },
+    {
+      "path": "components/ui/kbd.tsx",
+      "bytes": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "bytes": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c"
+    },
+    {
+      "path": "components/ui/marker.tsx",
+      "bytes": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0"
+    },
+    {
+      "path": "components/ui/menubar.tsx",
+      "bytes": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb"
+    },
+    {
+      "path": "components/ui/message-scroller.tsx",
+      "bytes": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf"
+    },
+    {
+      "path": "components/ui/message.tsx",
+      "bytes": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185"
+    },
+    {
+      "path": "components/ui/native-select.tsx",
+      "bytes": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c"
+    },
+    {
+      "path": "components/ui/navigation-menu.tsx",
+      "bytes": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044"
+    },
+    {
+      "path": "components/ui/pagination.tsx",
+      "bytes": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1"
+    },
+    {
+      "path": "components/ui/popover.tsx",
+      "bytes": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447"
+    },
+    {
+      "path": "components/ui/progress.tsx",
+      "bytes": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "bytes": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce"
+    },
+    {
+      "path": "components/ui/resizable.tsx",
+      "bytes": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "bytes": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "bytes": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "bytes": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "bytes": 4188,
+      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "bytes": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "bytes": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "bytes": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "bytes": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f"
+    },
+    {
+      "path": "components/ui/spinner.tsx",
+      "bytes": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9"
+    },
+    {
+      "path": "components/ui/switch.tsx",
+      "bytes": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "bytes": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "bytes": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46"
+    },
+    {
+      "path": "components/ui/textarea.tsx",
+      "bytes": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "bytes": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "bytes": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "bytes": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4"
+    },
+    {
+      "path": "contracts/episode-v1.json",
+      "bytes": 3070,
+      "sha256": "5df00e01ae15d6ad5ab3fac2970420317d270f2922592d92af3f0a835b022aed"
+    },
+    {
+      "path": "db/index.ts",
+      "bytes": 423,
+      "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 1340,
+      "sha256": "6b135d07b767c046f2dd3f6d0d3f105306fc3a7e7344074356d83193d5d855a6"
+    },
+    {
+      "path": "docs/dialogue-storytelling-research.md",
+      "bytes": 12377,
+      "sha256": "f5d8d91f3978d1c358498602962ca8d2adc8659734681833ea3b63e8a40390bd"
+    },
+    {
+      "path": "docs/editorial-engagement-update.md",
+      "bytes": 6031,
+      "sha256": "e71a23a8ef5ef3965eac83d71282b820b5474c4f8181611338634e8974195a74"
+    },
+    {
+      "path": "docs/editorial/README.md",
+      "bytes": 3621,
+      "sha256": "45ad73a7cc1095f5cd7366c8a1aece6692782eeb9faf37c366a434e9873457c5"
+    },
+    {
+      "path": "docs/editorial/Still_Curious_Implementation_Task_Pack_v1.docx",
+      "bytes": 50295,
+      "sha256": "d1cfe663b1a697687fbe68e9bf2c6641979fdcee919f4518b35076be7e327c01"
+    },
+    {
+      "path": "docs/editorial/Still_Curious_Podcast_Framework_v2_1.docx",
+      "bytes": 57293,
+      "sha256": "4e6545f9e5a058de8ba9f8165108ca204271bef2cf70785800c1cdc77980581a"
+    },
+    {
+      "path": "docs/editorial/framework-v2.1.md",
+      "bytes": 50365,
+      "sha256": "f2dadf2b43e69fe78fdc498a3cee8bf1b1c600853427aec836cdb8d2f5c26d42"
+    },
+    {
+      "path": "docs/editorial/sources.json",
+      "bytes": 1327,
+      "sha256": "0d2cfb437295d6899b4ff77fa9dfdd414e3d5bb3c1ca6454c4cc5eb9c768b1f4"
+    },
+    {
+      "path": "docs/episode-v2-audio.md",
+      "bytes": 9460,
+      "sha256": "95fc57e04e28a406bbe2990f455f9d4051304cc452bbdda545e83776b216814c"
+    },
+    {
+      "path": "docs/episode-v2-complete-workflow-verification.json",
+      "bytes": 1206,
+      "sha256": "45c3803702d6664ac6e91813815ff9857b79ae8fbcf87c8a09d97a82ccac8829"
+    },
+    {
+      "path": "docs/episode-v2-complete-workflow.md",
+      "bytes": 5487,
+      "sha256": "dfe441d49ea68e91d0832274cbebf91ca963f675f1d7d654355b3ec519fe9dd8"
+    },
+    {
+      "path": "docs/episode-v2-contracts.md",
+      "bytes": 10530,
+      "sha256": "73a0207ed18aa7fe4bbdc0ccdb184401caea1a12d5b88f89392ad0781ec54283"
+    },
+    {
+      "path": "docs/episode-v2-conversation.md",
+      "bytes": 6722,
+      "sha256": "7dfa2fe6dd383a9c08d1a4a691d7b7c9e5f51699c2b49cd113bd044ef082793e"
+    },
+    {
+      "path": "docs/episode-v2-personalities.md",
+      "bytes": 7306,
+      "sha256": "30a6a196c02b833f35cadcf646facb6a6526a9f3ff1f6c5ffb671bdf15abcd90"
+    },
+    {
+      "path": "docs/episode-v2-post-production.md",
+      "bytes": 6658,
+      "sha256": "63936e5d663f4334c1e3c2135a03c94d5f749d371b006d16aa1fc3697800d8dd"
+    },
+    {
+      "path": "docs/episode-v2-private-app.md",
+      "bytes": 3733,
+      "sha256": "085ddfc9fc9ec40d28142f498e41e4783c6697d5fa8283891f333100207a2ae6"
+    },
+    {
+      "path": "docs/episode-v2-producer.md",
+      "bytes": 6969,
+      "sha256": "e34f4806fb0678c64b150392e239a599b780f45c410df740ffc99293e9fa8658"
+    },
+    {
+      "path": "docs/episode-v2-providers.md",
+      "bytes": 9711,
+      "sha256": "1b5ebf60b3c4d2e07bbf74dfc269ed676af52b8206248b2237f144746acd8744"
+    },
+    {
+      "path": "docs/episode-v2-recovery.md",
+      "bytes": 9125,
+      "sha256": "272746ef1897b81b501bc10136d329c3f0e73f1de0a5d38a612966a29d74dca9"
+    },
+    {
+      "path": "docs/episode-v2-research-preparation.md",
+      "bytes": 5183,
+      "sha256": "1a29863345a0068e85d2b9a802f929d31db67cea321c5328153164eb2034970e"
+    },
+    {
+      "path": "docs/episode-v2-roles.md",
+      "bytes": 8390,
+      "sha256": "dc0b8fffe0fb81cbd074f2bcee5962873cc4ddcaf6ab434c2443584cf536786c"
+    },
+    {
+      "path": "docs/generation.md",
+      "bytes": 6448,
+      "sha256": "056ff2e4a5d13d3292602e11d6a1079ad223e0f8245fe4fb5db76645d01bed7b"
+    },
+    {
+      "path": "docs/implementation-v2.md",
+      "bytes": 50869,
+      "sha256": "f43a7814d294c14742a6569b961b5ce485b97b5d4a4f66846e1358bfc8a0329e"
+    },
+    {
+      "path": "docs/listening-library-verification.json",
+      "bytes": 1318,
+      "sha256": "e838343a7d1b0239fd3435e1942235d3fe430e2eb2fcb5603f9108f8b45873a7"
+    },
+    {
+      "path": "docs/listening-library.md",
+      "bytes": 5268,
+      "sha256": "9fb33027946f248cf533cc7d0917059fbf27c7da537a392538870543aa85cf8e"
+    },
+    {
+      "path": "docs/mvp_plan.md",
+      "bytes": 4714,
+      "sha256": "007f0ce72f09897962fef7e89f2272fce2ee462226560ebbed9ff9eb82d999ec"
+    },
+    {
+      "path": "docs/pilots/README.md",
+      "bytes": 6569,
+      "sha256": "63f11590bd14f17c465a045da983c44f53a080dc6c58a1fe2fa1aa7daa5939b8"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/assessment.md",
+      "bytes": 8437,
+      "sha256": "339798c2615602b3f5e1af44ea11483fccd6f2426864488d455bbe2c093c7f5e"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/authorization.json",
+      "bytes": 334,
+      "sha256": "b2f8db090a49ed51bb51593857897461c2f7960785016f5a81582a9814390bfb"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/before-reconciliation.json",
+      "bytes": 38909,
+      "sha256": "7a6761847e2cab1e31ffd3b1307d12626c07fec5482be069feff1591e4a83b66"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/before-storage-recovery.json",
+      "bytes": 287017,
+      "sha256": "a602382f1d5d3cae7f180499df50f806e972a7bd12a9d193eae5a27c4c6e9093"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/diagnostic-http-journal.json",
+      "bytes": 365,
+      "sha256": "dc4003ac93578924d1051dfe7595eeb76740525f643562e2d787e1609f5a700a"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/http-journal.json",
+      "bytes": 66569,
+      "sha256": "ec6a155f4288d7836f08ca82211cfebe1bced1c43768659ebd8d88d3f910734c"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/job.json",
+      "bytes": 413751,
+      "sha256": "fd198d17cdaecf4d35f1791067d1049a7df2ad546841af394a34fee2421c58e4"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/0bd350823b9d9aed9fa5ff949dac1c32e837ed55b0c245b1fa5b68444d4e26d2.json",
+      "bytes": 4279,
+      "sha256": "0bd350823b9d9aed9fa5ff949dac1c32e837ed55b0c245b1fa5b68444d4e26d2"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/0d0dfd4401c8ee40e040ede69b8f11f2cbfe58f223cff43c952891d9775ab220.json",
+      "bytes": 9034,
+      "sha256": "0d0dfd4401c8ee40e040ede69b8f11f2cbfe58f223cff43c952891d9775ab220"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/1bab54856869150ea78d491698d75305b928fcdd73439816562cbf21c0621f3a.json",
+      "bytes": 2881,
+      "sha256": "1bab54856869150ea78d491698d75305b928fcdd73439816562cbf21c0621f3a"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/259fb6cb3cef6cd42af89326aecad0c5ad39f89598c4bd9c2e3d38add4d8a53f.json",
+      "bytes": 3253,
+      "sha256": "259fb6cb3cef6cd42af89326aecad0c5ad39f89598c4bd9c2e3d38add4d8a53f"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/74be48882765b212cd46a813f5fc8dcd4a48a582453b3126529c030db0c6a402.json",
+      "bytes": 6368,
+      "sha256": "74be48882765b212cd46a813f5fc8dcd4a48a582453b3126529c030db0c6a402"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/872adfd79b0ef9554c1eb93e5594ff93a69faa558e4d1978da8346e51cb99ea6.json",
+      "bytes": 7549,
+      "sha256": "872adfd79b0ef9554c1eb93e5594ff93a69faa558e4d1978da8346e51cb99ea6"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/87bbd52c415b80f55844b7fd73fb2196a7d09013e10eb5241b050685e93cd4c9.json",
+      "bytes": 4821,
+      "sha256": "87bbd52c415b80f55844b7fd73fb2196a7d09013e10eb5241b050685e93cd4c9"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/983e402a002bb1aa364102347c9222208ba75c21b9fa256b5b94028463471b5e.json",
+      "bytes": 8184,
+      "sha256": "983e402a002bb1aa364102347c9222208ba75c21b9fa256b5b94028463471b5e"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/objects/episodes/local-measured-pilot/1a21f9f8-e688-47cf-bc7c-43ed9ba24380/artifacts/9d2a340d925c294a84fd152b8b19892063588627c65fee6c7a418b2e7300f10c.json",
+      "bytes": 5925,
+      "sha256": "9d2a340d925c294a84fd152b8b19892063588627c65fee6c7a418b2e7300f10c"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/pilot-summary.json",
+      "bytes": 1970,
+      "sha256": "d073b03537345702f809be3f6427a0da6e136ea5c0723663ba3887b8f89c65a1"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/recovery-notes.md",
+      "bytes": 3544,
+      "sha256": "d99d62fd2530b74005e97a3c2d9c6a9722842e5d364cbd8695ad6e4bb2f91386"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/research.json",
+      "bytes": 54741,
+      "sha256": "ab1565da87e1afc3647672f8d61bfddc19b3780cba89a67c579ec13989a834e8"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/run.sqlite",
+      "bytes": 589824,
+      "sha256": "8d4e87763c4fb4252c486e94f0443295de05df1cc27d016969d1780e26798e11"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/runner-error.json",
+      "bytes": 110,
+      "sha256": "e8c3b841792caf4b02d1a62702b638758e392763288fe25c28a1aba0a96660c6"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/transcript.json",
+      "bytes": 16884,
+      "sha256": "43f07a58e26414251b2b832fe0ea02a5f579b667da3e4ce734f8373c781195e9"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/transcript.md",
+      "bytes": 4316,
+      "sha256": "7c1d0adebe65a56568f887669197abe566e058d5c2f9d290fe3c693c3b92e9bf"
+    },
+    {
+      "path": "docs/pilots/fireflies-01/usage-report.json",
+      "bytes": 11288,
+      "sha256": "23a03920d7f2da1c7338001256f942350232126c80eacc008a7eb50ec7575dcc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/README.md",
+      "bytes": 4529,
+      "sha256": "d290f6a49b91cec24b19152bcb055692169d11d536713a11f7c46b609ca3f82d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/abandonment.json",
+      "bytes": 424,
+      "sha256": "c4d27cd2bd19496417ae844c2fa97d36eb7a61a3f3b8552fcd23d777557b5810"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/artifact-verification.json",
+      "bytes": 4244,
+      "sha256": "73f6a68f1983d98bd4e5fa87e08c799694bac9a5ee8ddcf1599562232100f074"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/assessment.md",
+      "bytes": 8302,
+      "sha256": "4172e2e057633f6b92f089678dc9347993481ab7a6fe0aa4e153be81673a887f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/at-interruption-job.json",
+      "bytes": 79787,
+      "sha256": "0d6b6d84f6827b2eac877450ca6ad478bb31b3c5434da1f4852db182f335a7ad"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/at-interruption.sqlite",
+      "bytes": 126976,
+      "sha256": "2db3ab58de7cb4d1c60e4c1a250c34d035eb4b653382434d1ecc33619940f6a7"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/authorization.json",
+      "bytes": 726,
+      "sha256": "6599cc4e35490c02f7b7e95dc3be5fb116fe433906f1b7a6f6fc82844e5e4bb0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/before-abandonment-job.json",
+      "bytes": 79957,
+      "sha256": "04c1196abec2dc02055cab18b9d16376acfeb5d4d24a3243b64cc25d5e3d2606"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/before-abandonment.sqlite",
+      "bytes": 131072,
+      "sha256": "7c56a5680e7710cad655d814e7f9b7264e2cf268387be36ab3e8b5f810b5ffb3"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/before-selflink-reconciliation-job.json",
+      "bytes": 139493,
+      "sha256": "172a06c0bc50ee6372d5b4d0e0b397d8a3ffeb20bd9a6b7b5b8d93d34fb98ff1"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/corrections.md",
+      "bytes": 3700,
+      "sha256": "53597978bf039ad49b31f436d74e642b3bbd1ab0365941f4fec00df528ce4dfc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/discovery-diagnosis.json",
+      "bytes": 278,
+      "sha256": "5dd8896e5a77a8defd8ac96fb225e2e6dde49cce800b7abf849621fdceed5f68"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/discovery-diagnostic-http.json",
+      "bytes": 75,
+      "sha256": "66a172914abe2076a9c31054e30199d4f175ad47efc20a1f1a86c9ac6abda036"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/held-discovery-output.json",
+      "bytes": 10712,
+      "sha256": "83b4c1bced17d23889fb8f304235aa56174900b16618531ee7ac4d3dacd124b9"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/http-journal.json",
+      "bytes": 142316,
+      "sha256": "e8cc6db74a161091ef82bd45ec5053b7f8ff9822ae108d8c0ff2e951de7bb2cf"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/interruption-report.json",
+      "bytes": 1282,
+      "sha256": "74140593d3b4826449e0e8aa1deb3fe80f2b319a73e01f35698441599cf5b0a4"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/job.json",
+      "bytes": 434169,
+      "sha256": "2f2b6151921a5cc4585a1fd555c863f1ab2d4d21ecdabcfdc3a6cb679c22cee3"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/1ce23b96e4b7194c34b949a8ec5500874efc34016ba844420963e1a545cb24f4.json",
+      "bytes": 13983,
+      "sha256": "1ce23b96e4b7194c34b949a8ec5500874efc34016ba844420963e1a545cb24f4"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/288f33dfd8a5e15312c8326daad8c2a76dea00acd0f15daf9267e14852d2a99f.json",
+      "bytes": 19973,
+      "sha256": "288f33dfd8a5e15312c8326daad8c2a76dea00acd0f15daf9267e14852d2a99f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/324de83d6295efd32a831d129bd6aadf114d0864d6493521ba4db7cfe3ebc6a8.json",
+      "bytes": 4778,
+      "sha256": "324de83d6295efd32a831d129bd6aadf114d0864d6493521ba4db7cfe3ebc6a8"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/380e3cc773119db5b295d2ce7900023c8a955bb3351c4b8f2bec4c782f15b826.json",
+      "bytes": 9149,
+      "sha256": "380e3cc773119db5b295d2ce7900023c8a955bb3351c4b8f2bec4c782f15b826"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/419527417c2883ad6e7f9e07d67cec9c3527d4fc12bbc87aef4c5b3c8c5572f4.json",
+      "bytes": 3486,
+      "sha256": "419527417c2883ad6e7f9e07d67cec9c3527d4fc12bbc87aef4c5b3c8c5572f4"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/44fcadb3b21bde562b731084b3bb5813cfbf32c15751083af271f67b352ea084.json",
+      "bytes": 6792,
+      "sha256": "44fcadb3b21bde562b731084b3bb5813cfbf32c15751083af271f67b352ea084"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/5b891ed77f9c4268c5f49004c3de60c080374c9a3b5f3a18448a6ce0c2248f17.json",
+      "bytes": 11508,
+      "sha256": "5b891ed77f9c4268c5f49004c3de60c080374c9a3b5f3a18448a6ce0c2248f17"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/7c566e1742c3816282fea1bdb5c674f475ad20ebf4e1489f1e1609896b1f6ad4.json",
+      "bytes": 16392,
+      "sha256": "7c566e1742c3816282fea1bdb5c674f475ad20ebf4e1489f1e1609896b1f6ad4"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/8c21c1e350d68dcc47c65a2422abbfa79e3bce4ec878e55b6daa9aa11498d711.json",
+      "bytes": 12651,
+      "sha256": "8c21c1e350d68dcc47c65a2422abbfa79e3bce4ec878e55b6daa9aa11498d711"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/9fcecd90a426e2c356c59a5953470f568d7bbfb76546c86e3f1f4f08cba99d6f.json",
+      "bytes": 17536,
+      "sha256": "9fcecd90a426e2c356c59a5953470f568d7bbfb76546c86e3f1f4f08cba99d6f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/aeb403c95a8b887912529eb4f857c7f92da8df415555347d1d475e8698a00992.json",
+      "bytes": 7896,
+      "sha256": "aeb403c95a8b887912529eb4f857c7f92da8df415555347d1d475e8698a00992"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/c5d4e0990277026a93c60506ad4aa8fb38484ab2cef02c4d165da9d1b1d13ebf.json",
+      "bytes": 5817,
+      "sha256": "c5d4e0990277026a93c60506ad4aa8fb38484ab2cef02c4d165da9d1b1d13ebf"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/e3967baf0069335198b1482cb87a508c6d9283c05d695c91dd348dbb1b315ec6.json",
+      "bytes": 18445,
+      "sha256": "e3967baf0069335198b1482cb87a508c6d9283c05d695c91dd348dbb1b315ec6"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/fcb974cb83a0391109709052d8cae9f620860b4212fdef6ffe20501b830af137.json",
+      "bytes": 10350,
+      "sha256": "fcb974cb83a0391109709052d8cae9f620860b4212fdef6ffe20501b830af137"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/objects/episodes/local-measured-pilot/75636e6f-2c23-4c4b-a474-0b9620e546b1/artifacts/ff44bd150a3dff1d3f1d917899dceb7e390a20abcc176f56ca2785aa780d8231.json",
+      "bytes": 15159,
+      "sha256": "ff44bd150a3dff1d3f1d917899dceb7e390a20abcc176f56ca2785aa780d8231"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/pilot-summary.json",
+      "bytes": 6726,
+      "sha256": "87ab7e13cba722812274d72f80e35031436409c0ccf4818b7c88b0dcd8405b38"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/preflight.json",
+      "bytes": 2018,
+      "sha256": "1eb6b1f205b579b3be214f8ce0f8f96fc9c5b7d3ec6a3ad1f68e52fead60a40a"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/recovery-authorization.json",
+      "bytes": 580,
+      "sha256": "d5dec055764e58363d35ae3e7fcb6aedfb8f989b61d7e70c69c515575f39c146"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/recovery-notes.md",
+      "bytes": 5794,
+      "sha256": "e9480a2fe5c63e72ff4ed03b942beb89736322a93488ef7ddc3e98754decdd85"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/request.json",
+      "bytes": 1056,
+      "sha256": "0ec4a20f94be8f071c1a6ac50f588112f10a0deb5c84a9ca5dfeddfffb94326e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/research.json",
+      "bytes": 51699,
+      "sha256": "24846c081d6cf32bf6d9f7f62fac8761795f79fe2c8125a18250c492b0141209"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/run.sqlite",
+      "bytes": 630784,
+      "sha256": "852c97227dcffc6a9f9a1df42e280ae77c71c565b241d142237f938e3a74b7dd"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/runner-isolated.log",
+      "bytes": 17017,
+      "sha256": "91e65366ad38a78df77db51768841bb997bfae33a4d399b5f6b8b08f1024cdd5"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/runner-resumed.log",
+      "bytes": 1440,
+      "sha256": "48f599cc604dcfc27f0433c37b014951bbf1b25837d1035f3ff9dbc131b3936e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/runner.log",
+      "bytes": 13110,
+      "sha256": "07f93608e0399071feddaa48b1874ecd87cce1718e1d570cf21f0b626e1dab95"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/selflink-reconciliation.json",
+      "bytes": 391,
+      "sha256": "d5d91327c3b4ae06f317087d2c0d1c6f2467f02fb696049911bc4db20eb5e863"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/state-isolation.json",
+      "bytes": 764,
+      "sha256": "e41bfc0c5434b96e0a8b5b217a669788f0a9abf2ecc71d178c9a1b56dc3caf33"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/transcript.json",
+      "bytes": 45566,
+      "sha256": "66eee0a1f1a6030f5b683741ce0539787121102548050522927313f93484b84d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/transcript.md",
+      "bytes": 13629,
+      "sha256": "40387680cefeb0a4f3a98772c5c0a678cd5e0fc80f1d6cc433837c69a21b1e87"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-01/usage-report.json",
+      "bytes": 14546,
+      "sha256": "91cef369eb0ee3c77e2be7ced5f7e6b3ac9659ccd2e73096eb5f2163a041b2e5"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/README.md",
+      "bytes": 2664,
+      "sha256": "187525c289c1a3a493e8f759df07b5a25840f0f8735e208dc1a12813e36f3ae2"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/artifact-verification.json",
+      "bytes": 3602,
+      "sha256": "c0adb3a153678bfad97e0b719fe2da50bd3b69ebf4c8ce924748342a7cc67fdc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/assessment.md",
+      "bytes": 9035,
+      "sha256": "ffeb5898f5a30c8e8fd26105864d452c74627c21e10165b26f463adfd2d1f721"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/authorization.json",
+      "bytes": 568,
+      "sha256": "53e69a3dbb03b2c38b5d62adec926ff4f372fb64600d70d3289eb270c54fc676"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/before-producer-transition-recovery.json",
+      "bytes": 41517,
+      "sha256": "b149e31dfb1bd3af84207aa8be0ac399edac008824f7eb2b2c0cf52fb7ee28ef"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/bucket-rebalance.json",
+      "bytes": 269852,
+      "sha256": "353aa55b93c1b422b4d7aa61e2a1d10041579ccb2d77faf163e1f05b76caec54"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/context-limit-recovery.json",
+      "bytes": 225333,
+      "sha256": "2e6c27859be0bd0b5a8b98aa17fdcf1a66ff16381a013706cacdd87ef80b8f6e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/finalize-run.ts",
+      "bytes": 8217,
+      "sha256": "528bb9e086a1909bf378e2555d152b95e06311ae17655a245b350f36ab0176aa"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/http-journal.json",
+      "bytes": 162733,
+      "sha256": "07f5ec1a09bde69be8888bafdb03486b3c1bcb93739eb2dc927bcc3bb0cd9a7f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/job.json",
+      "bytes": 316944,
+      "sha256": "c6a7deae8ff07d5a185b4279063ba9cb2154bb90687e33003fb449859c989a25"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/05abab34c91ec41e52eed4e37ba877d9b289ab695db6c47d8b893e7651799ef6.json",
+      "bytes": 19693,
+      "sha256": "05abab34c91ec41e52eed4e37ba877d9b289ab695db6c47d8b893e7651799ef6"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/2c3ee0fd80434580b0c3bba01204b0dec0c382c273403e8b7dee8377cdda7b01.json",
+      "bytes": 17573,
+      "sha256": "2c3ee0fd80434580b0c3bba01204b0dec0c382c273403e8b7dee8377cdda7b01"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/35f463dff98d5d06ab958a1a52236f4b71388d92b9412eecb306d96b0d77f2c0.json",
+      "bytes": 3307,
+      "sha256": "35f463dff98d5d06ab958a1a52236f4b71388d92b9412eecb306d96b0d77f2c0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/3ea3cf81873060f69a95d7e002fb5e5f78724293914a275833051c2f93e10325.json",
+      "bytes": 18614,
+      "sha256": "3ea3cf81873060f69a95d7e002fb5e5f78724293914a275833051c2f93e10325"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4b202f9544d002f4fdff711de429f7ddef7f74b08a0406100feb641b1d6232da.json",
+      "bytes": 9794,
+      "sha256": "4b202f9544d002f4fdff711de429f7ddef7f74b08a0406100feb641b1d6232da"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4d89a7a6433972bbdaa2bff61248dc835e1840ea3d219c0fe1b2a4cb17d1499d.json",
+      "bytes": 21205,
+      "sha256": "4d89a7a6433972bbdaa2bff61248dc835e1840ea3d219c0fe1b2a4cb17d1499d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4e6480d8da2de2cf67009bdebaec37c63be2538f74b9b4c0c3fd204de342a1a8.json",
+      "bytes": 11658,
+      "sha256": "4e6480d8da2de2cf67009bdebaec37c63be2538f74b9b4c0c3fd204de342a1a8"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4ebafed46c54baa9b7c18338d746ebcfda6f96dbae7aff07c1e6ed2e82c55693.json",
+      "bytes": 20434,
+      "sha256": "4ebafed46c54baa9b7c18338d746ebcfda6f96dbae7aff07c1e6ed2e82c55693"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/540f81e1790194c401cdb66d1ee542236938c3c65bd19f52d27cee817ca497e0.json",
+      "bytes": 10596,
+      "sha256": "540f81e1790194c401cdb66d1ee542236938c3c65bd19f52d27cee817ca497e0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/5a0e762e131b5ec78c66392aea2af130d63181c62f3dd835f54e8e988c769d1e.json",
+      "bytes": 21805,
+      "sha256": "5a0e762e131b5ec78c66392aea2af130d63181c62f3dd835f54e8e988c769d1e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/6ac9c103182d09515eb82578914e09d2e90384e5f9d90335d00e2b923ac0fadc.json",
+      "bytes": 21219,
+      "sha256": "6ac9c103182d09515eb82578914e09d2e90384e5f9d90335d00e2b923ac0fadc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/8138dd9ada53ebb189ae8489dee29462f52307809244e3a1f77a37e05f638a1a.json",
+      "bytes": 5023,
+      "sha256": "8138dd9ada53ebb189ae8489dee29462f52307809244e3a1f77a37e05f638a1a"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/946c93516ff0af83aa84a392b2492f356bd8829bb75b08ffc4718499a30863a0.json",
+      "bytes": 6171,
+      "sha256": "946c93516ff0af83aa84a392b2492f356bd8829bb75b08ffc4718499a30863a0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/a233bcbba1c4a1962b34dddb4e6f48e5d9eb60136fd9b0d7ab392c8b810d1454.json",
+      "bytes": 7870,
+      "sha256": "a233bcbba1c4a1962b34dddb4e6f48e5d9eb60136fd9b0d7ab392c8b810d1454"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b09f0d6fbabd75fd9e09219e631f19066f608c38f627e41651124606c9a8e37d.json",
+      "bytes": 6938,
+      "sha256": "b09f0d6fbabd75fd9e09219e631f19066f608c38f627e41651124606c9a8e37d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b0a338c4719c61f0056e6fa0579cc9941ead6a7a0d3e52685623907befc3c099.json",
+      "bytes": 4214,
+      "sha256": "b0a338c4719c61f0056e6fa0579cc9941ead6a7a0d3e52685623907befc3c099"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b9127f6a341d16dbf9017020f7e7b810ae3bff2d578a84377cb56ba7fff5906f.json",
+      "bytes": 13562,
+      "sha256": "b9127f6a341d16dbf9017020f7e7b810ae3bff2d578a84377cb56ba7fff5906f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/be6952be275a3cd635000a0635c23694f60e3cd0ce1d002426988d81edf6f7bf.json",
+      "bytes": 15589,
+      "sha256": "be6952be275a3cd635000a0635c23694f60e3cd0ce1d002426988d81edf6f7bf"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/c3e0cfb61afc34a0bbc4d2a346e56942122f2b4bece01b64c68f0e691124e91f.json",
+      "bytes": 8687,
+      "sha256": "c3e0cfb61afc34a0bbc4d2a346e56942122f2b4bece01b64c68f0e691124e91f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/c709eb10423cc3d8fee05b54713d7550a81bb28a521befc3389c3e4b6a9715cc.json",
+      "bytes": 12603,
+      "sha256": "c709eb10423cc3d8fee05b54713d7550a81bb28a521befc3389c3e4b6a9715cc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/ce38c79f81a139f481ec2f1f020619fc5ed9e3a97caeb8529f41a78e903b793f.json",
+      "bytes": 14579,
+      "sha256": "ce38c79f81a139f481ec2f1f020619fc5ed9e3a97caeb8529f41a78e903b793f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/e0c0544575f43d3f55fa23c08ddb3a5a5abf4b25c3619e02bcbef916a520ac54.json",
+      "bytes": 16533,
+      "sha256": "e0c0544575f43d3f55fa23c08ddb3a5a5abf4b25c3619e02bcbef916a520ac54"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/eb8fbccecbeeec2fd5b86420e047a5eaa47e481fdf083bd3992c369f240330d9.json",
+      "bytes": 20344,
+      "sha256": "eb8fbccecbeeec2fd5b86420e047a5eaa47e481fdf083bd3992c369f240330d9"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/pharma-reuse-02-commission-recovered.log",
+      "bytes": 346,
+      "sha256": "e6b33006594a34c5ea97f542bdaea00097bd8f86ef7ace532011faaccfb47116"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/pharma-reuse-02-commission-resume.log",
+      "bytes": 371,
+      "sha256": "5979758a69cca58ec3280dfbf5fbce7cdcb8d40f73222b34b074469e5f018b9c"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/pharma-reuse-02-commission.log",
+      "bytes": 861,
+      "sha256": "154e4be1cb4084277b840b78a84143250248b1cf9f03077c42f2ae11adf39ed1"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/pilot-summary.json",
+      "bytes": 4465,
+      "sha256": "8db823a60034f0a75253ab6d1cffeb7def5b3791b85e510918efb8eb030364fd"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/prepare-run.ts",
+      "bytes": 14142,
+      "sha256": "79f41e1478f64459174f4051c7820ee18ad51677ffbe0ee0117e6e38df3800fd"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/research-reuse-origin.json",
+      "bytes": 1069,
+      "sha256": "434cce43913dab34460674baded7553e8e24f91679ffbcce4fd13b0420dbea54"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/research-reuse-transition.json",
+      "bytes": 263,
+      "sha256": "495eb9f20bae0289b24cc9e986e6079d6774860a140fcfd90447ab80eed24dbb"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/research.json",
+      "bytes": 62989,
+      "sha256": "5de92c6ce030cc5830e886f249c0819945cf596614574a101c451c5f29edafb6"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/run.sqlite",
+      "bytes": 458752,
+      "sha256": "62c171ffd95d1c82ab6d138f13fe3da8071bac4f3768fc508758d92e7f420280"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/transcript.json",
+      "bytes": 50751,
+      "sha256": "c0b585a8f677a9402a74f34ab10ca494610eea93e5ae421674bb13e5b5aded04"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/transcript.md",
+      "bytes": 14604,
+      "sha256": "784b8e394010c7353d08b0429b0888a200011187aa32ded76c4a746d84b11858"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/usage-report.json",
+      "bytes": 12666,
+      "sha256": "2fd64cd9971648d4a6121a748405c6ec10c55d782a43d68da93b7eb43dfd97e2"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/zero-call-setup-correction.json",
+      "bytes": 232,
+      "sha256": "7384801b65788d700fbf2e3526bbfbb056c52e113febdccf91da551bfe0d733d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-15m-02/zero-call-setup-error.json",
+      "bytes": 39622,
+      "sha256": "0d676ee1c05cfb3bc8b1a217cca131d9bfda4bf2965b94a42efeaddfed990456"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/README.md",
+      "bytes": 6623,
+      "sha256": "a69aa617b470a30eba560b29af5d93b7aae1612d5b9a3b8cfb457790988b2a51"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/audition-verification.json",
+      "bytes": 2237,
+      "sha256": "581e5d7ba1d43e3d5bdb2791e61e649d2b992a8f2a0470bbeacc7e06239a1942"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/funding-and-permissions.json",
+      "bytes": 3498,
+      "sha256": "c043787ee7c94ef7f641f20628229c407e1268b3df052bf1dfc69ad78ab443fb"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/pharma-process-audition.mp3",
+      "bytes": 4891375,
+      "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/preflight.json",
+      "bytes": 4587,
+      "sha256": "934eb065f6d853a4aa5349cdbebc42bf454e795589fb4c8fbaca453b8a6af4c5"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/audition-summary.json",
+      "bytes": 4767,
+      "sha256": "730d04f2d6875ff1bb174439dbb4fcdafc3529f5a35c7cd278123eadc683559a"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/authorization.json",
+      "bytes": 811,
+      "sha256": "920ee7c3be22000f19594112739e7255b2a53020e2337110a073c6184e932693"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/balance-after.json",
+      "bytes": 388,
+      "sha256": "2556b54814bf05afd7027f52a7c9761fce1252c8c5a466eca3f4d07d291258f9"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/balance-before.json",
+      "bytes": 140,
+      "sha256": "94bbef3e7ef9c0dd7c08d10b4fdf7dcf41b920098605632599bad9b1d93bcf90"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/balance-settled.json",
+      "bytes": 369,
+      "sha256": "147b6499ae3e6d0be6047d94821753d18f55bd5bbf83e5047526a9887a46a7d4"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/configuration.json",
+      "bytes": 655,
+      "sha256": "aa98ada7726e62f617b2d8ee61ecb389cd30499d1ca8d93485970a0d9ce1591b"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/http-journal.json",
+      "bytes": 5158,
+      "sha256": "17be8ac1cd5479bbc492d18f84c9544df22cb3fe067c64f121e520106d39397e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/job.json",
+      "bytes": 343377,
+      "sha256": "1f714eade04ff5b997de68870f73bfff311f64cfa06f61166ba4356056034cea"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/last-preflight-balance.json",
+      "bytes": 140,
+      "sha256": "94bbef3e7ef9c0dd7c08d10b4fdf7dcf41b920098605632599bad9b1d93bcf90"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/meter-reconciliation.json",
+      "bytes": 1065,
+      "sha256": "5b74fc17b2f96eb2ec21df798e55454a4f6e6eb15cac1e35c4f73f63ec7023f0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/05abab34c91ec41e52eed4e37ba877d9b289ab695db6c47d8b893e7651799ef6.json",
+      "bytes": 19693,
+      "sha256": "05abab34c91ec41e52eed4e37ba877d9b289ab695db6c47d8b893e7651799ef6"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/2c3ee0fd80434580b0c3bba01204b0dec0c382c273403e8b7dee8377cdda7b01.json",
+      "bytes": 17573,
+      "sha256": "2c3ee0fd80434580b0c3bba01204b0dec0c382c273403e8b7dee8377cdda7b01"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/35f463dff98d5d06ab958a1a52236f4b71388d92b9412eecb306d96b0d77f2c0.json",
+      "bytes": 3307,
+      "sha256": "35f463dff98d5d06ab958a1a52236f4b71388d92b9412eecb306d96b0d77f2c0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/3ea3cf81873060f69a95d7e002fb5e5f78724293914a275833051c2f93e10325.json",
+      "bytes": 18614,
+      "sha256": "3ea3cf81873060f69a95d7e002fb5e5f78724293914a275833051c2f93e10325"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4b202f9544d002f4fdff711de429f7ddef7f74b08a0406100feb641b1d6232da.json",
+      "bytes": 9794,
+      "sha256": "4b202f9544d002f4fdff711de429f7ddef7f74b08a0406100feb641b1d6232da"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4d89a7a6433972bbdaa2bff61248dc835e1840ea3d219c0fe1b2a4cb17d1499d.json",
+      "bytes": 21205,
+      "sha256": "4d89a7a6433972bbdaa2bff61248dc835e1840ea3d219c0fe1b2a4cb17d1499d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4e6480d8da2de2cf67009bdebaec37c63be2538f74b9b4c0c3fd204de342a1a8.json",
+      "bytes": 11658,
+      "sha256": "4e6480d8da2de2cf67009bdebaec37c63be2538f74b9b4c0c3fd204de342a1a8"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/4ebafed46c54baa9b7c18338d746ebcfda6f96dbae7aff07c1e6ed2e82c55693.json",
+      "bytes": 20434,
+      "sha256": "4ebafed46c54baa9b7c18338d746ebcfda6f96dbae7aff07c1e6ed2e82c55693"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/540f81e1790194c401cdb66d1ee542236938c3c65bd19f52d27cee817ca497e0.json",
+      "bytes": 10596,
+      "sha256": "540f81e1790194c401cdb66d1ee542236938c3c65bd19f52d27cee817ca497e0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/5a0e762e131b5ec78c66392aea2af130d63181c62f3dd835f54e8e988c769d1e.json",
+      "bytes": 21805,
+      "sha256": "5a0e762e131b5ec78c66392aea2af130d63181c62f3dd835f54e8e988c769d1e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/6ac9c103182d09515eb82578914e09d2e90384e5f9d90335d00e2b923ac0fadc.json",
+      "bytes": 21219,
+      "sha256": "6ac9c103182d09515eb82578914e09d2e90384e5f9d90335d00e2b923ac0fadc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/8138dd9ada53ebb189ae8489dee29462f52307809244e3a1f77a37e05f638a1a.json",
+      "bytes": 5023,
+      "sha256": "8138dd9ada53ebb189ae8489dee29462f52307809244e3a1f77a37e05f638a1a"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/946c93516ff0af83aa84a392b2492f356bd8829bb75b08ffc4718499a30863a0.json",
+      "bytes": 6171,
+      "sha256": "946c93516ff0af83aa84a392b2492f356bd8829bb75b08ffc4718499a30863a0"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/a233bcbba1c4a1962b34dddb4e6f48e5d9eb60136fd9b0d7ab392c8b810d1454.json",
+      "bytes": 7870,
+      "sha256": "a233bcbba1c4a1962b34dddb4e6f48e5d9eb60136fd9b0d7ab392c8b810d1454"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b09f0d6fbabd75fd9e09219e631f19066f608c38f627e41651124606c9a8e37d.json",
+      "bytes": 6938,
+      "sha256": "b09f0d6fbabd75fd9e09219e631f19066f608c38f627e41651124606c9a8e37d"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b0a338c4719c61f0056e6fa0579cc9941ead6a7a0d3e52685623907befc3c099.json",
+      "bytes": 4214,
+      "sha256": "b0a338c4719c61f0056e6fa0579cc9941ead6a7a0d3e52685623907befc3c099"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/b9127f6a341d16dbf9017020f7e7b810ae3bff2d578a84377cb56ba7fff5906f.json",
+      "bytes": 13562,
+      "sha256": "b9127f6a341d16dbf9017020f7e7b810ae3bff2d578a84377cb56ba7fff5906f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/be6952be275a3cd635000a0635c23694f60e3cd0ce1d002426988d81edf6f7bf.json",
+      "bytes": 15589,
+      "sha256": "be6952be275a3cd635000a0635c23694f60e3cd0ce1d002426988d81edf6f7bf"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/c3e0cfb61afc34a0bbc4d2a346e56942122f2b4bece01b64c68f0e691124e91f.json",
+      "bytes": 8687,
+      "sha256": "c3e0cfb61afc34a0bbc4d2a346e56942122f2b4bece01b64c68f0e691124e91f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/c709eb10423cc3d8fee05b54713d7550a81bb28a521befc3389c3e4b6a9715cc.json",
+      "bytes": 12603,
+      "sha256": "c709eb10423cc3d8fee05b54713d7550a81bb28a521befc3389c3e4b6a9715cc"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/ce38c79f81a139f481ec2f1f020619fc5ed9e3a97caeb8529f41a78e903b793f.json",
+      "bytes": 14579,
+      "sha256": "ce38c79f81a139f481ec2f1f020619fc5ed9e3a97caeb8529f41a78e903b793f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/e0c0544575f43d3f55fa23c08ddb3a5a5abf4b25c3619e02bcbef916a520ac54.json",
+      "bytes": 16533,
+      "sha256": "e0c0544575f43d3f55fa23c08ddb3a5a5abf4b25c3619e02bcbef916a520ac54"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/artifacts/eb8fbccecbeeec2fd5b86420e047a5eaa47e481fdf083bd3992c369f240330d9.json",
+      "bytes": 20344,
+      "sha256": "eb8fbccecbeeec2fd5b86420e047a5eaa47e481fdf083bd3992c369f240330d9"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/audition.mp3",
+      "bytes": 4891375,
+      "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-01.mp3",
+      "bytes": 1882531,
+      "sha256": "7118de01bbba9ebb736842037674d7949f7d34af76f6f4b0a32ed0e34f7e81bd"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-01.mp3.json",
+      "bytes": 672,
+      "sha256": "19b18cd0b883860acbf4d9a8d5c9dcc9303dcf0a6a494a52e547605be21c9787"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-02.mp3",
+      "bytes": 1622978,
+      "sha256": "d72c4c0cdcd637f9f4293594854c765deff0b7c9acc7c1f08375643e42e2dfca"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-02.mp3.json",
+      "bytes": 675,
+      "sha256": "efea7918e978eadb15727aa2a49af40f3988e88825a8f6835fb279d281987734"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-03.mp3",
+      "bytes": 1387249,
+      "sha256": "6020c72f62d78b7708b743b5c8f8ee28ecb12b89d80fd8556eed23161e297ad8"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/objects/episodes/local-measured-pilot/61a8b4b4-638e-4792-a90d-80fb35881e62/audio/43c4fd390f3be1cc73e1bb08086b5fef46418945c64c847c4c2ab8eb8fa95b5a/46015a12-423e-49d8-9d2b-54d06630b77f/section-03.mp3.json",
+      "bytes": 671,
+      "sha256": "db7337d7c0d28cc2cb9dc15d363608bd576b903b9c1c0fa93f37497d3f2d5070"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/pre-meter-correction-job.json",
+      "bytes": 343270,
+      "sha256": "cfd7b52a07d91a281201c8da52a3d4b8217b4ba6f6ce05eda92144c0362d632f"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/pre-meter-correction-summary.json",
+      "bytes": 4467,
+      "sha256": "72caa6b418305001d46ce36a496acf05bf4c9401eab3edcfd725a00af252e516"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/provider-verification.json",
+      "bytes": 1898,
+      "sha256": "992eba9f59482a89fd838bb6a507967587154e26657c196149ae2a77bc56e0bf"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/quota-preflight.json",
+      "bytes": 355,
+      "sha256": "05f2328857348cf230593d89de74bfdee15dc580b9d7f6bb8783c8c31025a915"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/run/unused-configuration-1792159990334.json",
+      "bytes": 448,
+      "sha256": "d88da43151977db3f74a268d6ec144587d6ef02a714524c5c3a5b84cab251f2e"
+    },
+    {
+      "path": "docs/pilots/pharma-process-audio-01/verification.json",
+      "bytes": 1798,
+      "sha256": "616759bb2e1a28cc8b33b712817bdc570082f16cf48ed82f13befb20a990c7a4"
+    },
+    {
+      "path": "docs/pilots/task14-preflight.json",
+      "bytes": 1883,
+      "sha256": "0667dba5ef8ca3c26646dad22a716786660306ecb070d0d9532cfbb39882bebc"
+    },
+    {
+      "path": "docs/proposed_pipeline.md",
+      "bytes": 13698,
+      "sha256": "e52530933765b532be44a48f3a00c4f1c28398db01e713ab34ef5f46e2dad8bf"
+    },
+    {
+      "path": "docs/server-scheduling-and-invite-allowances.md",
+      "bytes": 4759,
+      "sha256": "9c0624649dec489c9f3a2659ee1b188231e439b774e950ce061773c0c821a838"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+    },
+    {
+      "path": "drizzle/0000_faulty_proudstar.sql",
+      "bytes": 379,
+      "sha256": "603662295e7b66f670048007b97ba804027183c5e4a24374abfc627a25eabbd8"
+    },
+    {
+      "path": "drizzle/0001_episode_allowances.sql",
+      "bytes": 645,
+      "sha256": "be27204ffa41e29391fb9706d4cabe974a6f4acf92cd297c38d34372383bb8ae"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 2363,
+      "sha256": "d7be0d2aff2771d2acb150d28821ead567402c60c819422c0063a89a8b5aa0e4"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 4882,
+      "sha256": "cb751b7a9f7dac811783c52f28f05f1507c0884fb80ed206fd4e40bf9969b168"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 352,
+      "sha256": "abd938f49b6c10c0a0d5e5071483e6eba5a08b7160df3487a2d984dedf910d07"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 846,
+      "sha256": "f22a254df7d934bbf9be499d3c969a13abb7f7f64c03f5967d0095cad81dfe06"
+    },
+    {
+      "path": "fixtures/wayfinding-audition.json",
+      "bytes": 4793,
+      "sha256": "adc6d18327a96ac666001bbcddbcb2478689ff203c75c168dd82ef9d4f5f23b4"
+    },
+    {
+      "path": "hooks/use-mobile.ts",
+      "bytes": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
+    },
+    {
+      "path": "lib/background-driver.ts",
+      "bytes": 3459,
+      "sha256": "e0b96d08d687c721cd10db0b9d88fe9bcec5411b6bc307e2fdc30f37a63e6b04"
+    },
+    {
+      "path": "lib/cloudflare-setup.ts",
+      "bytes": 7946,
+      "sha256": "0b566f654249fa460d80ef0853811681090c441a1beb4b47388a3538d668e454"
+    },
+    {
+      "path": "lib/connector-context.ts",
+      "bytes": 612,
+      "sha256": "bbddff68689cb0f6926fecd4b8b96f12f2054277c296e97b0df07d4ad5ece24e"
+    },
+    {
+      "path": "lib/connector-contract.mts",
+      "bytes": 5362,
+      "sha256": "e1a7b24a8793af34b595690d9b1300c897c7321c14f215cedf58ad95799d7c3e"
+    },
+    {
+      "path": "lib/connector-errors.mts",
+      "bytes": 2717,
+      "sha256": "a22edf13d6873ae832c4a2a0d579fc666c73ec996ef0722d39172649d38f0871"
+    },
+    {
+      "path": "lib/connector-preview.d.ts",
+      "bytes": 433,
+      "sha256": "abd69a94f7f61f1359063bb557574faae35e8ff5a028cc4c04b9ee248ef52642"
+    },
+    {
+      "path": "lib/connectors.ts",
+      "bytes": 416,
+      "sha256": "1c93d747e384c8e17e3e3dd5361b24412babf5eba2a11d2ae7a75f4e0924112c"
+    },
+    {
+      "path": "lib/dialogue.ts",
+      "bytes": 4223,
+      "sha256": "f21da4ad6004168792a1d9d4c85223aa4f648d7c3d293523ddb33bb66d8b6ebd"
+    },
+    {
+      "path": "lib/episode-service.ts",
+      "bytes": 43068,
+      "sha256": "410db43ddfc955556d636c4577b6f32ea2548e10bda3588f7d47edf56346cf69"
+    },
+    {
+      "path": "lib/episode-v2/advance-episode.ts",
+      "bytes": 1761,
+      "sha256": "ffac313dd101ad427f7916367a5731ae7f0f5a41ff176735a3762129607f901e"
+    },
+    {
+      "path": "lib/episode-v2/app-controls.ts",
+      "bytes": 6816,
+      "sha256": "e0a9ca939a988113e7042815a13db3fb5386a2e28de91d682825cee483c48ee4"
+    },
+    {
+      "path": "lib/episode-v2/app-policy.ts",
+      "bytes": 1088,
+      "sha256": "26bbe2f12b1de09aca096bd3ebef4aa71a376cc2df55dd0316859375782a9968"
+    },
+    {
+      "path": "lib/episode-v2/audio-state.ts",
+      "bytes": 4083,
+      "sha256": "159daccd4df4554fe4c2fd40ae421f8b318b6ea58d7775bc7740ddf3467393f9"
+    },
+    {
+      "path": "lib/episode-v2/audio.ts",
+      "bytes": 26113,
+      "sha256": "3040e0277b878be49fbc8be7e3385f96b425e04205c8acde706c92a7a49b17f9"
+    },
+    {
+      "path": "lib/episode-v2/coherent-personality.ts",
+      "bytes": 10164,
+      "sha256": "e31175cc1dc6f3d9c1cb226614de924d5a371defbf9d2236f604bc8b69f41aac"
+    },
+    {
+      "path": "lib/episode-v2/config.ts",
+      "bytes": 5092,
+      "sha256": "38fdf26bde0321bf905dfa992bc9c42c9fe54fc1d9662a7252c9c87d2fb1ada0"
+    },
+    {
+      "path": "lib/episode-v2/contracts.ts",
+      "bytes": 40019,
+      "sha256": "9aadf6e818b8c402601b4fe636bd5200341e4e4978b59d3851be824832d3b8ef"
+    },
+    {
+      "path": "lib/episode-v2/conversation-observations.ts",
+      "bytes": 1455,
+      "sha256": "9bf556c242f66bd353684a959112b60c926dbd823421542dedcc9915eedcd604"
+    },
+    {
+      "path": "lib/episode-v2/conversation-state.ts",
+      "bytes": 13390,
+      "sha256": "c7f1d6b7c44e481114aca9c03038b30e86f2beb254e7a14ac1c70db84f935c4f"
+    },
+    {
+      "path": "lib/episode-v2/conversation.ts",
+      "bytes": 7008,
+      "sha256": "9ef86604a60a76f5df0ca1d02daa2274e1be9eb8bb31703239d78ae11c2ad4b6"
+    },
+    {
+      "path": "lib/episode-v2/discussion-design.ts",
+      "bytes": 11045,
+      "sha256": "ecab90798755df26a2302128f8368b02a2b43479a2dfea14d607aae6e7f1a9ab"
+    },
+    {
+      "path": "lib/episode-v2/evidence-foundation.ts",
+      "bytes": 6270,
+      "sha256": "62d3fdde267368b45f82826b2323c5aae9a96d338f1af1d06352432584919dcd"
+    },
+    {
+      "path": "lib/episode-v2/exports.ts",
+      "bytes": 3446,
+      "sha256": "2f45e6b95d71b031fdc76d02b9cfafe4be54f48e7f0b8f96f6cc430c58acd33b"
+    },
+    {
+      "path": "lib/episode-v2/invite-budget.ts",
+      "bytes": 3676,
+      "sha256": "89a68953fd6b19a18d0a7f621a3382f787281f7ca1a855ade2751a0ab4657068"
+    },
+    {
+      "path": "lib/episode-v2/library-history.ts",
+      "bytes": 736,
+      "sha256": "58ad7b876975574f40b41843e9a4f2f88eefc75b3b09dcfc35ef519d39f4f99c"
+    },
+    {
+      "path": "lib/episode-v2/model-policy.ts",
+      "bytes": 5862,
+      "sha256": "1cda79853ac22b15a87be788936d18ec8930283c39e172a2e1e5021af39ccf45"
+    },
+    {
+      "path": "lib/episode-v2/pause-message.ts",
+      "bytes": 2458,
+      "sha256": "f5c42f1b179057112fda1d0574fa8a2e98a6ffee5090897986c004137aec437c"
+    },
+    {
+      "path": "lib/episode-v2/persistence.ts",
+      "bytes": 7569,
+      "sha256": "f16fab28bb8be43daeaf9ac865db7ff40087af71ba36f1efa5821abafeab68df"
+    },
+    {
+      "path": "lib/episode-v2/personality-context.ts",
+      "bytes": 1355,
+      "sha256": "953781de180c8a2141f4bd04f7122ceb1c1efa4415b87414fe1e7a38ad2f8340"
+    },
+    {
+      "path": "lib/episode-v2/personality-text.ts",
+      "bytes": 7783,
+      "sha256": "ede453eb159e4d803c0db8da0ec85419ab0b1a41858c5a79af77db5757a63c2e"
+    },
+    {
+      "path": "lib/episode-v2/personality.ts",
+      "bytes": 8898,
+      "sha256": "cd0a81db9c4db189e112b558afbf5a005179bdbf8d17327fc17741191d4a470c"
+    },
+    {
+      "path": "lib/episode-v2/pilot-report.ts",
+      "bytes": 4211,
+      "sha256": "f8d20de68f7f34574ab03397a44670ec5e4eb947ce86876b614936b67d3fb8f7"
+    },
+    {
+      "path": "lib/episode-v2/post-production.ts",
+      "bytes": 6578,
+      "sha256": "02ffc17b5365720b3a4e2811e8dd80ded23bf7fade9991f661f2f03c85382def"
+    },
+    {
+      "path": "lib/episode-v2/prompts/casting.ts",
+      "bytes": 12896,
+      "sha256": "e3e4fbdc58e5f12eb9c5eab8ae9b6d4667a9a46fb3d62fcb9cc8c41de3a81e54"
+    },
+    {
+      "path": "lib/episode-v2/prompts/compatibility.ts",
+      "bytes": 640,
+      "sha256": "1456e33c7bbdf016bf85578bc3307ecac0fe229e0926c82fa272597f59f9a22c"
+    },
+    {
+      "path": "lib/episode-v2/prompts/contribution-request.ts",
+      "bytes": 2521,
+      "sha256": "0aba627a40d5a53c277a4d782667738b9a631fea3452853fd2e0e6df90493ec9"
+    },
+    {
+      "path": "lib/episode-v2/prompts/editing.ts",
+      "bytes": 5027,
+      "sha256": "e247756ebca47c9551fa2c48549b81ffe3eab6cc42b8a483cdb45c394e6773ca"
+    },
+    {
+      "path": "lib/episode-v2/prompts/evidence.ts",
+      "bytes": 10791,
+      "sha256": "8c5ac674e6979bd9fd2fd9a3840d0d0ef3308095a115cdecdd36ef928b229792"
+    },
+    {
+      "path": "lib/episode-v2/prompts/guest-preparation.ts",
+      "bytes": 6348,
+      "sha256": "4d1b5be1ca5a72c957dda46e4f4bf460c72f75f10f79e3219c87989a1791fb09"
+    },
+    {
+      "path": "lib/episode-v2/prompts/guest.ts",
+      "bytes": 6950,
+      "sha256": "44df368001115d0ab829c6989e8a8bad1943d5f706cf211d7d0e8e79b3598e5a"
+    },
+    {
+      "path": "lib/episode-v2/prompts/host-preparation.ts",
+      "bytes": 5352,
+      "sha256": "2570ae9a99fb0c2e0c3e902a035cc9b4e850927e87ebe149a74c7397abdba8b8"
+    },
+    {
+      "path": "lib/episode-v2/prompts/host.ts",
+      "bytes": 8422,
+      "sha256": "f3013c8e44999947f76cd62a22ba488255093241fde6fa0e084e957507240695"
+    },
+    {
+      "path": "lib/episode-v2/prompts/local-repair.ts",
+      "bytes": 5375,
+      "sha256": "962a02681db5661ce85b29635fcce7289935c91a471a158196d89d232d0e7006"
+    },
+    {
+      "path": "lib/episode-v2/prompts/personality-casting.ts",
+      "bytes": 3401,
+      "sha256": "5adc4b995f51f865215180a146d976656fd15dee60270028fcdf7e4c5cec4efc"
+    },
+    {
+      "path": "lib/episode-v2/prompts/personality-guest.ts",
+      "bytes": 2504,
+      "sha256": "b4842a0f0ca9c9cccd4cd2fa7374648d95c51ebcea3db08ec8a78823b83d9851"
+    },
+    {
+      "path": "lib/episode-v2/prompts/producer.ts",
+      "bytes": 17111,
+      "sha256": "26d30fc8ea2e7289f07b9914cf48506a0ffb811dedb9e52d955fdff02e83beed"
+    },
+    {
+      "path": "lib/episode-v2/prompts/research.ts",
+      "bytes": 8940,
+      "sha256": "a7bbc9d9a9c90cf3e9cfaf1c921e90f2d668d01420924d32d877bfcc8eb859a8"
+    },
+    {
+      "path": "lib/episode-v2/prompts/review.ts",
+      "bytes": 8240,
+      "sha256": "641df35e503be8db9af38c1507f6c18a3e35d2bee007ac9b1ccb23f0cea36df4"
+    },
+    {
+      "path": "lib/episode-v2/providers.ts",
+      "bytes": 18368,
+      "sha256": "b4bc33b0af9e1bc6aba3b0138ce9865fc76a7037dd12e472757222ef1b0e23ea"
+    },
+    {
+      "path": "lib/episode-v2/research-storage.ts",
+      "bytes": 13573,
+      "sha256": "239ff3c74f2512678929b751970e18bfccf46701bdbfbb492f9c26969e2c10b2"
+    },
+    {
+      "path": "lib/episode-v2/retire-attempts.ts",
+      "bytes": 921,
+      "sha256": "6e16047963829eb5ed9e6520a74f25ca15b93055b080cb6d803aa77a0247538c"
+    },
+    {
+      "path": "lib/episode-v2/roles/context.ts",
+      "bytes": 9155,
+      "sha256": "b202dfd85355e4583e917a0b44239eef82aa025f3d67fd1f8363f5923181466e"
+    },
+    {
+      "path": "lib/episode-v2/roles/contracts.ts",
+      "bytes": 4953,
+      "sha256": "7dc608f94b9e9be8875fa3c0d3727136e4e12c89966eb2e72f919d9b76190957"
+    },
+    {
+      "path": "lib/episode-v2/roles/contribution-request.ts",
+      "bytes": 1492,
+      "sha256": "366a67351dc49404c8a0439eb155163c59cf255a3abc12ca4930a2ea5bcf171f"
+    },
+    {
+      "path": "lib/episode-v2/roles/guest.ts",
+      "bytes": 1173,
+      "sha256": "d753b158ad25d1eafb91a77f35e7a5909648c2218bc580cc6d62da48243129c1"
+    },
+    {
+      "path": "lib/episode-v2/roles/host.ts",
+      "bytes": 1363,
+      "sha256": "3078f3464cb0cc810b9c9d14b12b83416e3b02effcfff783683a5c8ac98349ec"
+    },
+    {
+      "path": "lib/episode-v2/runner.ts",
+      "bytes": 12060,
+      "sha256": "28701961a015bb4aaa1cbb11e61a79cecf66e2fefe5ca96c788788435ae44774"
+    },
+    {
+      "path": "lib/episode-v2/scheduler.ts",
+      "bytes": 3180,
+      "sha256": "fe36c3d00b073e80b49e909ff95fc2cc0a4a7cf5eda7835e6bdf60c987b6cc42"
+    },
+    {
+      "path": "lib/episode-v2/source-abandonment.ts",
+      "bytes": 3685,
+      "sha256": "ce6e051899a6b2d2871db40ddbeb1cc6fdbe586c8d767702be8da3340d8e30b8"
+    },
+    {
+      "path": "lib/episode-v2/stage-helpers.ts",
+      "bytes": 2690,
+      "sha256": "82c6901c1a9d8d367dc43d43e63f6ab847a7a1abc92df8478d48a2b01289cd61"
+    },
+    {
+      "path": "lib/episode-v2/stages/casting.ts",
+      "bytes": 4506,
+      "sha256": "49624d4ab074e6686cca04efe0fc5b88ad73120d47436f4b9783574619bb33a1"
+    },
+    {
+      "path": "lib/episode-v2/stages/editing.ts",
+      "bytes": 3320,
+      "sha256": "b8d3a2c7b4781cef4be881ae2e9b0a1a8571df0d322c7363163b4bc26d57ee26"
+    },
+    {
+      "path": "lib/episode-v2/stages/evidence.ts",
+      "bytes": 3996,
+      "sha256": "9cf92b7c6859575fbd62b0ca6e35a1d1daef697736d47c57e779c83ec26c57cf"
+    },
+    {
+      "path": "lib/episode-v2/stages/index.ts",
+      "bytes": 1870,
+      "sha256": "878d77c2a119ccd1407866072c2df55612a5e3cc8fb7c8cf0ce606a2cdc5688a"
+    },
+    {
+      "path": "lib/episode-v2/stages/local-repair.ts",
+      "bytes": 7862,
+      "sha256": "feb0d16936e9c40074f0c0e833312f575cd409832afd17660b9f5e2995a9b2a0"
+    },
+    {
+      "path": "lib/episode-v2/stages/preparation.ts",
+      "bytes": 16089,
+      "sha256": "9c50dca31e37e4ca44eebc86ad331056d624b1531763a40b57a59f7fb4805a8f"
+    },
+    {
+      "path": "lib/episode-v2/stages/producer.ts",
+      "bytes": 4065,
+      "sha256": "3631c8500c951798610203f396ffe7cffc478fdb751dc7f9fac04e78ca8d44a6"
+    },
+    {
+      "path": "lib/episode-v2/stages/review-lookup.ts",
+      "bytes": 5036,
+      "sha256": "84eb3bb2920a7414048bcaa0d3da8d41acf868a1fa986c5db28e4501ab04d715"
+    },
+    {
+      "path": "lib/episode-v2/stages/review.ts",
+      "bytes": 8171,
+      "sha256": "7c23bbec2c40d666a1e33a1f27a11431982831d8eb64d3874061f5332d769ac6"
+    },
+    {
+      "path": "lib/episode-v2/stages/source-discovery.ts",
+      "bytes": 3038,
+      "sha256": "2a91c45c8d2b6994253e84b76c876c920bd4a001e4cdafaa1a2d4beca48ac4b1"
+    },
+    {
+      "path": "lib/episode-v2/stages/source-reading.ts",
+      "bytes": 2762,
+      "sha256": "ce3da38ed8285a7ea2e2a76abcfbd9b815e4ec26ce0c90874acc238d7ba48895"
+    },
+    {
+      "path": "lib/episode-v2/usage.ts",
+      "bytes": 9944,
+      "sha256": "1fc62c0aa6b4437b17c487a950524c82697b4a7c8975bfa6f444e471981311b9"
+    },
+    {
+      "path": "lib/mp3.ts",
+      "bytes": 4429,
+      "sha256": "9c0ae73a9eeef85109be51601667c42c5a4a410854fd87610e367ad3adec9234"
+    },
+    {
+      "path": "lib/utils.ts",
+      "bytes": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 133,
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2139,
+      "sha256": "9dc3b3fb45e75d8125571ca78fd170a62bbc0f57521dcd2e53bc84a5a435c377"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 345021,
+      "sha256": "095ba6f301ba3997da2c251dfc4b805c220624bdf0921d905eaceee0d1fb29c9"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 736,
+      "sha256": "4a69dc93a75ff4a33f54c2853d5317c8e7374faab592f3472b5164257bff8066"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 30173,
+      "sha256": "797bd35e03ac036e3686384e41123c66b879ec5b11a4c910a73eb861b04a19c0"
+    },
+    {
+      "path": "public/audio/dialogue-preview.mp3",
+      "bytes": 501594,
+      "sha256": "e09e4bf537e648bb0d708a513fc3288ec6f67e30560aad7cf7120999f04a84bd"
+    },
+    {
+      "path": "public/audio/pharmaceutical-opening.mp3",
+      "bytes": 4891375,
+      "sha256": "1d275e3ec840e222e60a94912fef409949655ec7854355b11581fd7e857ca24c"
+    },
+    {
+      "path": "public/library.js",
+      "bytes": 3118,
+      "sha256": "f2832863726a8e82444190218105db5f6664ffc777cdf3c5d997bd8c7a627888"
+    },
+    {
+      "path": "public/setup.css",
+      "bytes": 1271,
+      "sha256": "eaececb2463ba03157fb7b6225332c1160fc1086fb2e58ea973adee33e7d2d80"
+    },
+    {
+      "path": "public/setup.js",
+      "bytes": 2035,
+      "sha256": "6f0ec893d92f548d7a73c52b3dea689e683a3cf4d5383e3d71d74eb3854d39bb"
+    },
+    {
+      "path": "public/styles.css",
+      "bytes": 10883,
+      "sha256": "de6580c988cf5f15864342d30620a2aecfbeec685f72005d3ca39bbe33cd1b80"
+    },
+    {
+      "path": "scripts/audio-preflight.ts",
+      "bytes": 4871,
+      "sha256": "122438e75f54f1d47def165e5f07bbdcdfaa6c5beedd8e09fe8d86ff78db691a"
+    },
+    {
+      "path": "scripts/build-verified.sh",
+      "bytes": 661,
+      "sha256": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68"
+    },
+    {
+      "path": "scripts/connector-preview/connector-preview-session.mjs",
+      "bytes": 6855,
+      "sha256": "57224ad185a25115a14fccc68d3217e55b199260c3dd98a2c807beffec1a0a9b"
+    },
+    {
+      "path": "scripts/connector-preview/host-binding.mjs",
+      "bytes": 7793,
+      "sha256": "9e44ab6864133a5c82f834a5904ebb7d6104cb783c24efba3c0fe1a161182cea"
+    },
+    {
+      "path": "scripts/connector-preview/protocol.mjs",
+      "bytes": 1781,
+      "sha256": "111e062ebf08d3f180130f5bc3dcb3c1414c1d7be3c032c9d675a61c0c7513a8"
+    },
+    {
+      "path": "scripts/execution-profile.mjs",
+      "bytes": 624,
+      "sha256": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630"
+    },
+    {
+      "path": "scripts/install-ci.mjs",
+      "bytes": 1685,
+      "sha256": "4a5a92d60a08d0ba54effd8373da2da06284312c55b767287c68a0bec7200da7"
+    },
+    {
+      "path": "scripts/install-ci.sh",
+      "bytes": 6783,
+      "sha256": "10d8764a61be50351dc3496e13588270de7956f0aa5f1189c49cabb2d89fe5c0"
+    },
+    {
+      "path": "scripts/install-pnpm.sh",
+      "bytes": 9015,
+      "sha256": "a684c02c2b493dfbf262a66252a5cd36f81ca995a4024761728662ae63aa40c0"
+    },
+    {
+      "path": "scripts/npm-install.mjs",
+      "bytes": 7025,
+      "sha256": "9715c6a32d1d4a0289ef6376a0e819c3b6a6416b8a9877733d9fb4339ce626b6"
+    },
+    {
+      "path": "scripts/pilot-http.ts",
+      "bytes": 662,
+      "sha256": "74b74a359e5dda42b87991eb13f8c7e9e0caaf7ea67aba2686b34696d1bcc951"
+    },
+    {
+      "path": "scripts/pilot-storage.ts",
+      "bytes": 1238,
+      "sha256": "1850a07783b8efbc6b1096d6ff421c9e3e78abcfad1d18e358e12f8dbba9df92"
+    },
+    {
+      "path": "scripts/pnpm-install.mjs",
+      "bytes": 10633,
+      "sha256": "a83164e344c1947053def83b546be8115deaa827314bbaead7afe6b6451c5cdf"
+    },
+    {
+      "path": "scripts/run-audio-audition.ts",
+      "bytes": 16203,
+      "sha256": "76c4e8c56a2a1528dc84c0a343064826ca7773360394dd8357009539fca87f00"
+    },
+    {
+      "path": "scripts/run-framework.mjs",
+      "bytes": 993,
+      "sha256": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca"
+    },
+    {
+      "path": "scripts/run-text-pilot.ts",
+      "bytes": 9339,
+      "sha256": "ed0ec470bad23cb5fc252853cfbc10e972926e3fd3e1fc4b369929aec6145239"
+    },
+    {
+      "path": "scripts/sites-env.mjs",
+      "bytes": 906,
+      "sha256": "5de99d6806b01f0ee0b941af3684d75dcf1afbbcff22cb95bfa2e584c5dafa88"
+    },
+    {
+      "path": "scripts/sites-env.sh",
+      "bytes": 1530,
+      "sha256": "df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 53,
+      "sha256": "1f1b149f7db06b4d9c4006b0f0ba180c3339290d3d7da3d771f1880ec55a6106"
+    },
+    {
+      "path": "src/assemble_audio.py",
+      "bytes": 10326,
+      "sha256": "3649851db228fb6099a06b1fbb881310e7c04f3bda112c3edc91e5f92037f3d2"
+    },
+    {
+      "path": "src/elevenlabs_tts.py",
+      "bytes": 13669,
+      "sha256": "714978c66343ac055f10c71bff22d2e9c6481dcf18c63ae6a768dc31a4e1ef7d"
+    },
+    {
+      "path": "src/episode_pipeline.py",
+      "bytes": 18058,
+      "sha256": "e8119425a5fa909c1ca7eb1a9334c1cbfe98178109bcf2d49905be3745d447ad"
+    },
+    {
+      "path": "src/episode_prompts.py",
+      "bytes": 3738,
+      "sha256": "d3acf692343090e805274158f71c6a63aebaf2e9900cc32125635c7f9ab7ccbf"
+    },
+    {
+      "path": "src/validate_episode.py",
+      "bytes": 9789,
+      "sha256": "0c7f39af0623753050a8bbe20153aa2e4972ee3e6aaa729c8487068ddb77132b"
+    },
+    {
+      "path": "tests/audio-audition-cli.test.ts",
+      "bytes": 3220,
+      "sha256": "329348dd0e513921f39f25200e55441246546e21af6ee70ac198cd9bc961d10e"
+    },
+    {
+      "path": "tests/background-driver.test.ts",
+      "bytes": 2047,
+      "sha256": "5263d487c7b3538c4024bc86577157731f4d0c0ad512d85c49c05352447072ed"
+    },
+    {
+      "path": "tests/cloudflare-setup.test.ts",
+      "bytes": 6330,
+      "sha256": "11a3690f43e746648345473286ceaaeabbb07b2357368d1df0f6054d4d9afd99"
+    },
+    {
+      "path": "tests/dialogue.test.ts",
+      "bytes": 12991,
+      "sha256": "b82aafb57c5fdea4577ecd5f2d152648062597a6d112f9fca859a0f7555fa5e9"
+    },
+    {
+      "path": "tests/episode-v2-archive.test.ts",
+      "bytes": 5303,
+      "sha256": "1da6ebdce74d71b3eaf8e5d8f7d13257bcbf39a1903a68ef801bd855a208bdbf"
+    },
+    {
+      "path": "tests/episode-v2-audio-routes.test.ts",
+      "bytes": 13928,
+      "sha256": "6a74cc5284b60dee552dcaca8ce203f41d3019e4754f64548384c1a7f300917c"
+    },
+    {
+      "path": "tests/episode-v2-audio.test.ts",
+      "bytes": 19284,
+      "sha256": "3d1084d119d5da4ada9bd1ee92754c7c6c66136b965b3a03af6211434851d0ee"
+    },
+    {
+      "path": "tests/episode-v2-casting.test.ts",
+      "bytes": 13108,
+      "sha256": "f6689138d44cbb8dbbfaa77fb3cf7d7f14c397e2fd3337b576cbdbf335b0cf08"
+    },
+    {
+      "path": "tests/episode-v2-contracts.test.ts",
+      "bytes": 18456,
+      "sha256": "a251b3727bf8688d393a05e0870e50faa0552e347c183f952c9dc660db1f5e93"
+    },
+    {
+      "path": "tests/episode-v2-conversation.test.ts",
+      "bytes": 23389,
+      "sha256": "fd021f10de80936739699e11a2aa13d7b50db5d1382cbac42a41053015c8b2bc"
+    },
+    {
+      "path": "tests/episode-v2-discussion-design.test.ts",
+      "bytes": 11949,
+      "sha256": "ea3f665d6c9fded27641a64308ad071aef51cb172928429fbcf16ddcd44ac5b9"
+    },
+    {
+      "path": "tests/episode-v2-duration.test.ts",
+      "bytes": 6396,
+      "sha256": "7d84600f64a05ca2bc33931367a7b4d7cbfd9a1ef19a01095c49245a21ff60d5"
+    },
+    {
+      "path": "tests/episode-v2-editorial.test.ts",
+      "bytes": 3180,
+      "sha256": "d28d15ae89be120fbebfe97d5f07449e80f6883e98d6fe370947f6d86b63fc67"
+    },
+    {
+      "path": "tests/episode-v2-evidence.test.ts",
+      "bytes": 13062,
+      "sha256": "ef977db168ec10b5cd7ad618649ef7d89150da84857f5228dce2f1c6c7ab6825"
+    },
+    {
+      "path": "tests/episode-v2-invite-budget.test.ts",
+      "bytes": 4359,
+      "sha256": "b2aecef97291dac639549d280999babc08757342434f84bbdd25ed518377dc74"
+    },
+    {
+      "path": "tests/episode-v2-pause-message.test.ts",
+      "bytes": 2669,
+      "sha256": "c883632f2a02365c09c54017aed3846c0ddeb6499c6737c462f1c9c827d5ce11"
+    },
+    {
+      "path": "tests/episode-v2-personality.test.ts",
+      "bytes": 9194,
+      "sha256": "14a1f980b0dec14d0cff41772f8f5886ca2b2396ce1ecb2a3ee402db0d40c526"
+    },
+    {
+      "path": "tests/episode-v2-pilot.test.ts",
+      "bytes": 7826,
+      "sha256": "bac7e7c696bf5e73fe09f9db3c891e89da905ddd5dadafbadffede41cacd0544"
+    },
+    {
+      "path": "tests/episode-v2-pipeline.test.ts",
+      "bytes": 8091,
+      "sha256": "16396f21e3095872fa06741c4683f2ac6984e4a970619d03d04e9cac7c2c59d3"
+    },
+    {
+      "path": "tests/episode-v2-post-production.test.ts",
+      "bytes": 28239,
+      "sha256": "4c5a1ea660f67eb266c75ee10190b63f65407e1ed378b2e4d911a96e5df72a6f"
+    },
+    {
+      "path": "tests/episode-v2-preparation.test.ts",
+      "bytes": 16758,
+      "sha256": "e5163b4e7636fe3d2b594b7643efe06b64a3604f42e3dc0533257d3678bda25b"
+    },
+    {
+      "path": "tests/episode-v2-producer.test.ts",
+      "bytes": 13874,
+      "sha256": "61254d587f53852df26ab36940def80fdb65ff767f091e384ead0c95448f8d92"
+    },
+    {
+      "path": "tests/episode-v2-providers.test.ts",
+      "bytes": 18969,
+      "sha256": "2112e8e2b79f0fc10697118c64af6831b5deeb6e48cedb78172d9473022501b3"
+    },
+    {
+      "path": "tests/episode-v2-recovery.test.ts",
+      "bytes": 20250,
+      "sha256": "6e044570bcf054520d7e890a0838c726c9b58790f1d2bdcc2a1d420dc5d30254"
+    },
+    {
+      "path": "tests/episode-v2-research.test.ts",
+      "bytes": 19296,
+      "sha256": "756896bb324817b4721084b1e7029ba6a580e40689374d26e2012633e99794ec"
+    },
+    {
+      "path": "tests/episode-v2-retire-attempts.test.ts",
+      "bytes": 1715,
+      "sha256": "b47955473761366ca3ea4a6ddb39bb79342b12e7c88140ee9521f2ae32d4edf3"
+    },
+    {
+      "path": "tests/episode-v2-roles.test.ts",
+      "bytes": 13031,
+      "sha256": "b1643227d52e09f53d292a41e8740ad72453dff7fa807924bca1b51fcf044f7e"
+    },
+    {
+      "path": "tests/episode-v2-routes.test.ts",
+      "bytes": 22965,
+      "sha256": "db9b11d00184a725db021b1e4593bd4f4de7464fa45943e69e39f129d23b662b"
+    },
+    {
+      "path": "tests/episode-v2-scheduler.test.ts",
+      "bytes": 2785,
+      "sha256": "07b6196edee45af934129c34d810fabbe0dc1c8c80dda5a50ef7d43854e6deca"
+    },
+    {
+      "path": "tests/episode-v2-ui.test.ts",
+      "bytes": 24446,
+      "sha256": "145fde9646e3ccd4d83a66c30cb6343e471e7d1a405fb61f12dbd4df37e71e89"
+    },
+    {
+      "path": "tests/fixtures/audio-cli-preload.mjs",
+      "bytes": 1048,
+      "sha256": "9d97b2d625ed45757a0a907b416c91d8f00c75c6b6d388047e01b153fe0506b9"
+    },
+    {
+      "path": "tests/fixtures/audio.ts",
+      "bytes": 3891,
+      "sha256": "3a27e89d11115667d8010daff04706a77b4717ed85c5d56e4c6fa2bb01d9f32d"
+    },
+    {
+      "path": "tests/fixtures/casting.ts",
+      "bytes": 3707,
+      "sha256": "9b67697def1a50b0034ab35992759007f9cfc194639404233e62c5c6f1bc950d"
+    },
+    {
+      "path": "tests/fixtures/conversation.ts",
+      "bytes": 5100,
+      "sha256": "593b0bdccf6d8f23f19a9b1215416fa56153b0e037bdb4f2406b77dbca27adf4"
+    },
+    {
+      "path": "tests/fixtures/discussion-design.ts",
+      "bytes": 2482,
+      "sha256": "981aac47493fbbac67ffc8606ca56f29c91c3882a82c071687fd9933df0fdaf8"
+    },
+    {
+      "path": "tests/fixtures/evidence.ts",
+      "bytes": 9764,
+      "sha256": "18b2af030d14e8c9e9ccf96cae1519a6bab2123ce6955c06c5555d2f0803c94d"
+    },
+    {
+      "path": "tests/fixtures/personality-v1.6-sample.json",
+      "bytes": 15009,
+      "sha256": "9081e5866db8f9083f6a4b88a6c7d5ce61e60937ac1e03e5d0575bd8448ba565"
+    },
+    {
+      "path": "tests/fixtures/post-production.ts",
+      "bytes": 4381,
+      "sha256": "c67a5897f8864760c9e8c4792017f1442882df7c77bbaa8e2aefb174e2809b83"
+    },
+    {
+      "path": "tests/fixtures/preparation.ts",
+      "bytes": 5958,
+      "sha256": "df9894760e5f0838615fa3a9b94052452749f9eb1fcf98a6821fa5caab2c346c"
+    },
+    {
+      "path": "tests/fixtures/producer.ts",
+      "bytes": 8603,
+      "sha256": "67a79b58f8216aef68058777c0a000cc24ec98bde540740f39ec42436ced438d"
+    },
+    {
+      "path": "tests/fixtures/research.ts",
+      "bytes": 4411,
+      "sha256": "a8923b25d96a178859383e4cf458ac2b55ca7d242bdb5c3b9ca3a47cdac7cf20"
+    },
+    {
+      "path": "tests/fixtures/route-harness.ts",
+      "bytes": 3631,
+      "sha256": "7c86b26b4df71b8f210a0907440ef7404dbb8ac476240264bd396632a69919d1"
+    },
+    {
+      "path": "tests/fixtures/route-loader.mjs",
+      "bytes": 940,
+      "sha256": "5fefb1b3979bda550c9b47f29764d985c10f7fef1f6abab7f0a234fe88aa23de"
+    },
+    {
+      "path": "tests/fixtures/speaking.ts",
+      "bytes": 4917,
+      "sha256": "16351029023e9304d90ed2ea948c34d767e76db0d94e51e7ca45852e45bd0f5d"
+    },
+    {
+      "path": "tests/server-pipeline.test.ts",
+      "bytes": 26748,
+      "sha256": "67358a4caa22a4651b9080848c2b29d76fed2006d4da310dbad903c904c1592b"
+    },
+    {
+      "path": "tests/test_assembly.py",
+      "bytes": 5088,
+      "sha256": "459e3bf7b7aa87a64ec90a1f9a5a675cad6e5c8b30f3b4376c2c8b1c2db42fd4"
+    },
+    {
+      "path": "tests/test_audition_ui.cjs",
+      "bytes": 6896,
+      "sha256": "e630b232312b779e93ea66b44b9a57b2a30c9781abb13f7c221c71d7f2b515c2"
+    },
+    {
+      "path": "tests/test_elevenlabs_tts.py",
+      "bytes": 7996,
+      "sha256": "d87dddc8058a5349d391dd151cb3bf44bd030ecad237100735a2593126b77b28"
+    },
+    {
+      "path": "tests/test_episode_pipeline.py",
+      "bytes": 5468,
+      "sha256": "6ab8d5112fb5be3b187796e7915887344e1fbb6b6b16934ef909f9dce8bc065d"
+    },
+    {
+      "path": "tests/test_script_import.cjs",
+      "bytes": 6229,
+      "sha256": "4612008254717a8758b5a1422637d7b2e5c86aeffed2116075b09b51133699e2"
+    },
+    {
+      "path": "tests/test_speech_preview.cjs",
+      "bytes": 10683,
+      "sha256": "5a3fd90934bdb036794cfc4f3bd5cb1797fbd8361b0e5a806c16465f47604930"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "bytes": 4068,
+      "sha256": "21634fb2123f95121d761095e0157aaa240e8ce3a3dd589523d1a86409e3b7f4"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 840,
+      "sha256": "f7c210dae3131c2065932c936590af601e5984b0bcae2e5074ad743314bd1b8b"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 3153,
+      "sha256": "3e564d41bef7bb9372d9ea1d41bd8d7efc9f39853d66a567ab4f3a253c4df923"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "episodeId": "1a21f9f8-e688-47cf-bc7c-43ed9ba24380",
+  "title": "How Fireflies Make Light",
+  "pipelineVersion": 2,
+  "textReady": true,
+  "speakers": [
+    {
+      "id": "host",
+      "name": "Adela Wren"
+    },
+    {
+      "id": "expert1",
+      "name": "Mira Venn"
+    },
+    {
+      "id": "expert2",
+      "name": "Tomas Rell"
+    },
+    {
+      "id": "expert3",
+      "name": "Leena Sorel"
+    }
+  ],
+  "acceptedTranscript": {
+    "version": 9,
+    "turns": [
+      {
+        "id": "turn-1",
+        "speaker": "host",
+        "text": "How does a firefly make its own light—not just reflect light from somewhere else? Our three fictional specialists are Mira Venn, an enzyme biochemist; Tomas Rell, who studies insect cells; and Leena Sorel, whose field is molecular light emission. Tomas, let’s begin inside the insect: what are the light-producing cells, and how do they give us a starting point?"
+      },
+      {
+        "id": "turn-2",
+        "speaker": "expert2",
+        "text": "The light-producing cells are called photocytes, and they form part of a specialised tissue—the light organ. In the adult firefly Aquatica leii, for example, the organ has a distinct light-producing layer containing these cells.\n\nThere’s also a useful link to the chemistry. A separate microscopy study used antibody-based labels to locate luciferase—the enzyme involved in light production—in tiny granules within photocytes. So we’re not just looking at tissue that happens to glow; we can locate some of its molecular machinery.\n\nThat tells us where the enzyme is found. It doesn’t yet explain how a chemical reaction produces light."
+      },
+      {
+        "id": "turn-3",
+        "speaker": "host",
+        "text": "Mira, we’ve located the enzyme in those cells. What does it help happen? Walk us from the reacting molecule to light, keeping the jobs of luciferin, luciferase, ATP and oxygen distinct."
+      },
+      {
+        "id": "turn-4",
+        "speaker": "expert1",
+        "text": "Start with luciferin: that’s the molecule being chemically changed. Luciferase—the similar-sounding name—is an enzyme, a catalyst that helps those changes happen.\n\nIn the pathway described by biochemical reviews, ATP first helps activate luciferin. ATP is a molecule cells use to power chemical work; here its role is to prepare luciferin for the next reaction. Activation isn’t yet the light.\n\nThe activated luciferin then reacts with oxygen. That chemistry produces a different molecule, oxyluciferin, in an excited state—meaning it has extra energy. When it returns to a lower-energy state, it releases a photon, a small packet of light.\n\nSo luciferase enables the reaction; it isn’t itself a little glowing bulb. The light comes from the reaction’s excited product losing energy. That’s how chemistry generates light rather than merely reflecting light falling on the insect."
+      },
+      {
+        "id": "turn-5",
+        "speaker": "host",
+        "text": "Leena, let’s pause at that last step. When we say a molecule is ‘excited’ and then releases a packet of light, what is actually changing? Can you give us a physical picture without equations?"
+      },
+      {
+        "id": "turn-6",
+        "speaker": "expert3",
+        "text": "“Excited” here means a higher-energy electronic state—a change in the energy arrangement of the molecule’s electrons. It doesn’t simply mean the molecule is hotter or moving faster.\n\nPicture two steps, representing energy rather than physical height. The chemistry leaves oxyluciferin on the upper step. When it makes the transition to the lower one, it can release the energy difference as a photon—a packet of light that travels away.\n\nThat’s the bridge from an invisible chemical reaction to visible light. The reaction creates the excited molecule; the molecule’s downward change in energy produces the photon.\n\nThat describes the light-emitting route, though, not a guarantee that every reaction event makes light. The reviewed pathway also includes a branch that produces none."
+      },
+      {
+        "id": "turn-7",
+        "speaker": "host",
+        "text": "Mira, you’ve described the pathway from biochemical reviews. What would a controlled experiment need to show to test those molecular roles—and why isn’t finding luciferase inside a cell enough? Let’s distinguish a possible test from an experiment we’ve actually described."
+      },
+      {
+        "id": "turn-8",
+        "speaker": "expert1",
+        "text": "A possible test would use a defined reaction mixture containing luciferin, luciferase, ATP and oxygen, under suitable controlled conditions. First establish that it produces measurable light; then omit one component at a time, keeping everything else matched.\n\nIf omitting ATP stopped the light, and adding it back restored it, that would support ATP being required under those conditions. It wouldn’t yet prove the activation step. To distinguish the steps, you’d need chemical measurements of intermediates and products as well as light.\n\nThat’s a hypothetical design, not an experiment we’re reporting here. Our pathway comes from biochemical reviews.\n\nThe microscopy answers a different question: where can we detect luciferase? An antibody label doesn’t show that the enzyme is active, or establish the sequence of reactions. So it connects the molecular machinery to the light-producing cells without independently proving how that machinery makes light."
+      },
+      {
+        "id": "turn-9",
+        "speaker": "host",
+        "text": "So the firefly makes light through chemistry in specialised cells. ATP helps activate luciferin; reaction with oxygen produces excited oxyluciferin, which releases light as its energy falls. Luciferase is the catalyst, not the glowing molecule. We’ve distinguished that review-supported pathway from microscopy locating the enzyme—not a demonstration of every chemical step. Mira, Tomas and Leena, thank you. And thank you for listening."
+      }
+    ]
+  },
+  "editedTranscript": {
+    "version": 1,
+    "turns": [
+      {
+        "id": "turn-1",
+        "speaker": "host",
+        "text": "How does a firefly make its own light—not just reflect light from somewhere else? Our three fictional specialists are Mira Venn, an enzyme biochemist; Tomas Rell, who studies insect cells; and Leena Sorel, whose field is molecular light emission. Tomas, let’s begin inside the insect: what are the light-producing cells, and how do they give us a starting point?"
+      },
+      {
+        "id": "turn-2",
+        "speaker": "expert2",
+        "text": "The light-producing cells are called photocytes, and they form part of a specialised tissue—the light organ. In the adult firefly Aquatica leii, for example, the organ has a distinct light-producing layer containing these cells.\n\nThere’s also a useful link to the chemistry. A separate microscopy study used antibody-based labels to locate luciferase—the enzyme involved in light production—in tiny granules within photocytes.\n\nThat tells us where the enzyme is found. It doesn’t yet explain how a chemical reaction produces light."
+      },
+      {
+        "id": "turn-3",
+        "speaker": "host",
+        "text": "Mira, we’ve located the enzyme in those cells. What does it help happen? Walk us from the reacting molecule to light, keeping the jobs of luciferin, luciferase, ATP and oxygen distinct."
+      },
+      {
+        "id": "turn-4",
+        "speaker": "expert1",
+        "text": "Start with luciferin: that’s the molecule being chemically changed. Luciferase—the similar-sounding name—is an enzyme, a catalyst that helps those changes happen.\n\nIn the pathway described by biochemical reviews, ATP first helps activate luciferin. ATP is a molecule cells use to power chemical work; here its role is to prepare luciferin for the next reaction. Activation isn’t yet the light.\n\nThe activated luciferin then reacts with oxygen. That chemistry produces a different molecule, oxyluciferin, in an excited state—meaning it has extra energy. When it returns to a lower-energy state, it releases a photon, a small packet of light.\n\nSo luciferase enables the reaction; it isn’t itself a little glowing bulb."
+      },
+      {
+        "id": "turn-5",
+        "speaker": "host",
+        "text": "Leena, let’s pause at that last step. When we say a molecule is ‘excited’ and then releases a packet of light, what is actually changing? Can you give us a physical picture without equations?"
+      },
+      {
+        "id": "turn-6",
+        "speaker": "expert3",
+        "text": "“Excited” here means a higher-energy electronic state—a change in the energy arrangement of the molecule’s electrons. It doesn’t simply mean the molecule is hotter or moving faster.\n\nPicture two steps, representing energy rather than physical height. The chemistry leaves oxyluciferin on the upper step. When it makes the transition to the lower one, it can release the energy difference as a photon—a packet of light that travels away.\n\nThat describes the light-emitting route, though, not a guarantee that every reaction event makes light. The reviewed pathway also includes a branch that produces none."
+      },
+      {
+        "id": "turn-7",
+        "speaker": "host",
+        "text": "Mira, you’ve described the pathway from biochemical reviews. What would a controlled experiment need to show to test those molecular roles—and why isn’t finding luciferase inside a cell enough?"
+      },
+      {
+        "id": "turn-8",
+        "speaker": "expert1",
+        "text": "A possible test would use a defined reaction mixture containing luciferin, luciferase, ATP and oxygen, under suitable controlled conditions. First establish that it produces measurable light; then omit one component at a time, keeping everything else matched.\n\nIf omitting ATP stopped the light, and adding it back restored it, that would support ATP being required under those conditions. It wouldn’t yet prove the activation step. To distinguish the steps, you’d need chemical measurements of intermediates and products as well as light.\n\nThat’s a hypothetical design, not a reported experiment.\n\nThe labels show where luciferase is detected—not whether it’s active or how the reaction proceeds."
+      },
+      {
+        "id": "turn-9",
+        "speaker": "host",
+        "text": "So the firefly makes light through chemistry in specialised cells. ATP helps activate luciferin; reaction with oxygen produces excited oxyluciferin, which releases light as its energy falls. Luciferase is the catalyst, not the glowing molecule. We’ve distinguished that review-supported pathway from microscopy locating the enzyme—not a demonstration of every chemical step. Mira, Tomas and Leena, thank you. And thank you for listening."
+      }
+    ]
+  },
+  "review": {
+    "version": 1,
+    "outcome": "acceptable",
+    "summary": "The episode can proceed. It gives a clear, broadly sound explanation from specialised light-producing cells through ATP-dependent activation and oxygen chemistry to photon emission. The molecular roles and energy-state analogy are accurate at this level, and the evidential qualifications preserve rather than obscure the central answer.",
+    "notes": [
+      "The omission-and-restoration example is explicitly hypothetical, so it does not invent an experimental result or historical anecdote.",
+      "The original promise to explain how researchers established the chemical steps is only partly fulfilled. The episode transparently offers a review-supported mechanism and separate localisation evidence; this is a scope limitation, not a material factual problem.",
+      "The discussion avoids unsupported efficiency figures, zero-heat claims and universal organelle-level assertions."
+    ],
+    "issues": []
+  },
+  "finalScript": {
+    "version": 1,
+    "turns": [
+      {
+        "id": "turn-1",
+        "speaker": "host",
+        "text": "How does a firefly make its own light—not just reflect light from somewhere else? Our three fictional specialists are Mira Venn, an enzyme biochemist; Tomas Rell, who studies insect cells; and Leena Sorel, whose field is molecular light emission. Tomas, let’s begin inside the insect: what are the light-producing cells, and how do they give us a starting point?"
+      },
+      {
+        "id": "turn-2",
+        "speaker": "expert2",
+        "text": "The light-producing cells are called photocytes, and they form part of a specialised tissue—the light organ. In the adult firefly Aquatica leii, for example, the organ has a distinct light-producing layer containing these cells.\n\nThere’s also a useful link to the chemistry. A separate microscopy study used antibody-based labels to locate luciferase—the enzyme involved in light production—in tiny granules within photocytes.\n\nThat tells us where the enzyme is found. It doesn’t yet explain how a chemical reaction produces light."
+      },
+      {
+        "id": "turn-3",
+        "speaker": "host",
+        "text": "Mira, we’ve located the enzyme in those cells. What does it help happen? Walk us from the reacting molecule to light, keeping the jobs of luciferin, luciferase, ATP and oxygen distinct."
+      },
+      {
+        "id": "turn-4",
+        "speaker": "expert1",
+        "text": "Start with luciferin: that’s the molecule being chemically changed. Luciferase—the similar-sounding name—is an enzyme, a catalyst that helps those changes happen.\n\nIn the pathway described by biochemical reviews, ATP first helps activate luciferin. ATP is a molecule cells use to power chemical work; here its role is to prepare luciferin for the next reaction. Activation isn’t yet the light.\n\nThe activated luciferin then reacts with oxygen. That chemistry produces a different molecule, oxyluciferin, in an excited state—meaning it has extra energy. When it returns to a lower-energy state, it releases a photon, a small packet of light.\n\nSo luciferase enables the reaction; it isn’t itself a little glowing bulb."
+      },
+      {
+        "id": "turn-5",
+        "speaker": "host",
+        "text": "Leena, let’s pause at that last step. When we say a molecule is ‘excited’ and then releases a packet of light, what is actually changing? Can you give us a physical picture without equations?"
+      },
+      {
+        "id": "turn-6",
+        "speaker": "expert3",
+        "text": "“Excited” here means a higher-energy electronic state—a change in the energy arrangement of the molecule’s electrons. It doesn’t simply mean the molecule is hotter or moving faster.\n\nPicture two steps, representing energy rather than physical height. The chemistry leaves oxyluciferin on the upper step. When it makes the transition to the lower one, it can release the energy difference as a photon—a packet of light that travels away.\n\nThat describes the light-emitting route, though, not a guarantee that every reaction event makes light. The reviewed pathway also includes a branch that produces none."
+      },
+      {
+        "id": "turn-7",
+        "speaker": "host",
+        "text": "Mira, you’ve described the pathway from biochemical reviews. What would a controlled experiment need to show to test those molecular roles—and why isn’t finding luciferase inside a cell enough?"
+      },
+      {
+        "id": "turn-8",
+        "speaker": "expert1",
+        "text": "A possible test would use a defined reaction mixture containing luciferin, luciferase, ATP and oxygen, under suitable controlled conditions. First establish that it produces measurable light; then omit one component at a time, keeping everything else matched.\n\nIf omitting ATP stopped the light, and adding it back restored it, that would support ATP being required under those conditions. It wouldn’t yet prove the activation step. To distinguish the steps, you’d need chemical measurements of intermediates and products as well as light.\n\nThat’s a hypothetical design, not a reported experiment.\n\nThe labels show where luciferase is detected—not whether it’s active or how the reaction proceeds."
+      },
+      {
+        "id": "turn-9",
+        "speaker": "host",
+        "text": "So the firefly makes light through chemistry in specialised cells. ATP helps activate luciferin; reaction with oxygen produces excited oxyluciferin, which releases light as its energy falls. Luciferase is the catalyst, not the glowing molecule. We’ve distinguished that review-supported pathway from microscopy locating the enzyme—not a demonstration of every chemical step. Mira, Tomas and Leena, thank you. And thank you for listening."
+      }
+    ],
+    "editVersion": 1,
+    "reviewVersion": 1,
+    "reviewOutcome": "acceptable"
+  }
+}
