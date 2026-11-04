@@ -58,3 +58,13 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Local Xcode builds, personal workspace state and signing material.
+/ios/build/
+**/xcuserdata/
+*.xcuserstate
+*.ipa
+*.dSYM/
+*.p8
+*.p12
+*.mobileprovision

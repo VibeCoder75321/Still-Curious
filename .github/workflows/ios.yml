@@ -1,0 +1,28 @@
+name: iPhone build
+on:
+  workflow_dispatch:
+  push:
+    paths: ['ios/**', 'public/audio/**', '.github/workflows/ios.yml']
+  pull_request:
+    paths: ['ios/**', 'public/audio/**', '.github/workflows/ios.yml']
+permissions:
+  contents: read
+jobs:
+  simulator:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate property lists
+        run: plutil -lint ios/StillCurious/Info.plist ios/StillCurious/PrivacyInfo.xcprivacy
+      - name: Check generated project
+        run: |
+          python3 ios/scripts/generate_project.py
+          git diff --exit-code -- ios/StillCurious.xcodeproj
+      - name: Build unsigned iPhone simulator app
+        run: >-
+          xcodebuild -project ios/StillCurious.xcodeproj
+          -scheme StillCurious -configuration Debug
+          -sdk iphonesimulator -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath "$RUNNER_TEMP/StillCuriousBuild"
+          CODE_SIGNING_ALLOWED=NO build

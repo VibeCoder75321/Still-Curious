@@ -1,0 +1,43 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 60; objects = {
+1E0382AAA118750CB7460495 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/AppConfiguration.swift"; sourceTree = SOURCE_ROOT; };
+F09FF644D8EAA961A1246722 = {isa = PBXBuildFile; fileRef = 1E0382AAA118750CB7460495; };
+4D25B198964B1B8BEBF2290C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Billing/SubscriptionStore.swift"; sourceTree = SOURCE_ROOT; };
+D7E9E3F684E6ACA826635C5A = {isa = PBXBuildFile; fileRef = 4D25B198964B1B8BEBF2290C; };
+53299B2689DE2A8777CCDE45 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Billing/SubscriptionView.swift"; sourceTree = SOURCE_ROOT; };
+5FC84AE065BDCD6A7D5A43F6 = {isa = PBXBuildFile; fileRef = 53299B2689DE2A8777CCDE45; };
+C1FDE257266EA235E1B94375 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Models/Episode.swift"; sourceTree = SOURCE_ROOT; };
+48FAA1EABDCE8765837E40BD = {isa = PBXBuildFile; fileRef = C1FDE257266EA235E1B94375; };
+B4E6F0374462B785C9C59091 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Playback/AudioPlayer.swift"; sourceTree = SOURCE_ROOT; };
+55D33E935A8180B54931832D = {isa = PBXBuildFile; fileRef = B4E6F0374462B785C9C59091; };
+BBD0FF8DD2E8B2E49E449442 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/StillCuriousApp.swift"; sourceTree = SOURCE_ROOT; };
+B88E1C0A407B4AEAC6AEF0EB = {isa = PBXBuildFile; fileRef = BBD0FF8DD2E8B2E49E449442; };
+698EFE3FF01FF2A9EDA69DAC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Views/LibraryView.swift"; sourceTree = SOURCE_ROOT; };
+9C66E885E82249681F050018 = {isa = PBXBuildFile; fileRef = 698EFE3FF01FF2A9EDA69DAC; };
+86E8E30174CF491CB514E8C8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StillCurious/Views/PlayerView.swift"; sourceTree = SOURCE_ROOT; };
+77C6EAA5C240059BBC82C7A3 = {isa = PBXBuildFile; fileRef = 86E8E30174CF491CB514E8C8; };
+E973958AA31BFBCDBD3C4261 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "StillCurious/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+83B90937DB085F337A1D215B = {isa = PBXBuildFile; fileRef = E973958AA31BFBCDBD3C4261; };
+AD660E385F792F08E8D5A9F7 = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "StillCurious/PrivacyInfo.xcprivacy"; sourceTree = SOURCE_ROOT; };
+0FBC420BA3D7E917AEB54046 = {isa = PBXBuildFile; fileRef = AD660E385F792F08E8D5A9F7; };
+73ABA891BFFFF4AAC59F7857 = {isa = PBXFileReference; lastKnownFileType = text.json; path = "StillCurious/Resources/library.json"; sourceTree = SOURCE_ROOT; };
+24FA38A0FB56594BDB508D64 = {isa = PBXBuildFile; fileRef = 73ABA891BFFFF4AAC59F7857; };
+524899243D2E9DC98059B724 = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "../public/audio/dialogue-preview.mp3"; sourceTree = SOURCE_ROOT; };
+B64423C4ADB2CD2AA3742948 = {isa = PBXBuildFile; fileRef = 524899243D2E9DC98059B724; };
+418BDDC1596ACC941736DF6A = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "../public/audio/pharmaceutical-opening.mp3"; sourceTree = SOURCE_ROOT; };
+8AB8FE51614C8D6029AEF5D0 = {isa = PBXBuildFile; fileRef = 418BDDC1596ACC941736DF6A; };
+A8792157CB4F27FB949C035F = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StillCurious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+0A3E27B8CA818264D75C8D81 = {isa = PBXGroup; children = (A8792157CB4F27FB949C035F,); name = Products; sourceTree = "<group>"; };
+0035FE99EA2940F7FA633A58 = {isa = PBXGroup; children = (1E0382AAA118750CB7460495,4D25B198964B1B8BEBF2290C,53299B2689DE2A8777CCDE45,C1FDE257266EA235E1B94375,B4E6F0374462B785C9C59091,BBD0FF8DD2E8B2E49E449442,698EFE3FF01FF2A9EDA69DAC,86E8E30174CF491CB514E8C8,E973958AA31BFBCDBD3C4261,AD660E385F792F08E8D5A9F7,73ABA891BFFFF4AAC59F7857,524899243D2E9DC98059B724,418BDDC1596ACC941736DF6A,0A3E27B8CA818264D75C8D81,); sourceTree = "<group>"; };
+CAF85B0888D78F1F83771A07 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F09FF644D8EAA961A1246722,D7E9E3F684E6ACA826635C5A,5FC84AE065BDCD6A7D5A43F6,48FAA1EABDCE8765837E40BD,55D33E935A8180B54931832D,B88E1C0A407B4AEAC6AEF0EB,9C66E885E82249681F050018,77C6EAA5C240059BBC82C7A3,); runOnlyForDeploymentPostprocessing = 0; };
+E89B30AA1DC30A6AD8C34610 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (83B90937DB085F337A1D215B,0FBC420BA3D7E917AEB54046,24FA38A0FB56594BDB508D64,B64423C4ADB2CD2AA3742948,8AB8FE51614C8D6029AEF5D0,); runOnlyForDeploymentPostprocessing = 0; };
+CAFD6B725820BD8EFB592E21 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+73EBF6644258C120893E685D = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; DEBUG_INFORMATION_FORMAT = "dwarf"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = "5.0";}; name = Debug; };
+0B0C687DF8B6B8DC790B519C = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = "5.0";}; name = Release; };
+4AA05EC3301949773ED0AC0A = {isa = XCConfigurationList; buildConfigurations = (73EBF6644258C120893E685D,0B0C687DF8B6B8DC790B519C,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+6C7EFF6369083C8E1F2B1994 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "StillCurious/Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = "1.0"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.StillCurious"; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = "YES"; TARGETED_DEVICE_FAMILY = "1";}; name = Debug; };
+DD75E2CB1C510A828AC72D96 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "StillCurious/Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = "1.0"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.StillCurious"; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = "YES"; TARGETED_DEVICE_FAMILY = "1";}; name = Release; };
+1D9DA57D20EFD583398AC15A = {isa = XCConfigurationList; buildConfigurations = (6C7EFF6369083C8E1F2B1994,DD75E2CB1C510A828AC72D96,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+34A04005BCAF206EEC990BD9 = {isa = PBXNativeTarget; buildConfigurationList = 1D9DA57D20EFD583398AC15A; buildPhases = (CAF85B0888D78F1F83771A07,CAFD6B725820BD8EFB592E21,E89B30AA1DC30A6AD8C34610,); buildRules = (); dependencies = (); name = StillCurious; productName = StillCurious; productReference = A8792157CB4F27FB949C035F; productType = "com.apple.product-type.application"; };
+244210E48437B6556980A702 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600; }; buildConfigurationList = 4AA05EC3301949773ED0AC0A; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,); mainGroup = 0035FE99EA2940F7FA633A58; productRefGroup = 0A3E27B8CA818264D75C8D81; projectDirPath = ""; projectRoot = ""; targets = (34A04005BCAF206EEC990BD9,); };
+}; rootObject = 244210E48437B6556980A702; }

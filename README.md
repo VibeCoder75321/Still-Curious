@@ -1,5 +1,9 @@
 # Still Curious
 
+## iPhone version
+
+The native iPhone foundation is in [`ios/`](ios/README.md), including a SwiftUI listening library, native audio player and StoreKit subscription infrastructure. Paid episode creation and mobile sign-in are not connected yet, and the build has not been submitted to Apple. See the [paid App Store release plan](docs/app-store/release-plan.md) for enrollment, backend, privacy and device-validation requirements.
+
 ## Current source and entry points
 
 This is the complete source repository for [Still Curious](https://still-curious-bedtime.workspace-066083.chatgpt.site/). It includes the web app, generation service, prompts, durable storage, tests, assets and earlier Python experiments.
